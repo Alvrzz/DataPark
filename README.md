@@ -1,2 +1,2 @@
-# Projeto-Grupo-4---Previs-o-de-Dados
-Projeto Grupo 4 - Previsão de Dados
+#Projeto de estudo do grupo 4 Entra21.
+## O projeto se trata de uma previsão de dados de um zoologico.
