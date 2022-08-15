@@ -1,5 +1,6 @@
 import requests
 import datetime
+from tkinter import * # Visualizacão grafica do aplicativo.
 
 # link para abrir open_weather: https://openweathermap.org/
 
