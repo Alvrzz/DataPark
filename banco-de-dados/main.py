@@ -2,11 +2,8 @@ import sqlite3
 import pandas as pd 
 
 
-
 cnx = sqlite3.connect('dbparque.sqlite3')
 cur = cnx.cursor()
-
-
 
 
 cur.execute("""
@@ -35,11 +32,10 @@ cur.execute("""
     CREATE TABLE CLIENTES(
         CLIENTE_ID INTEGER PRIMARY KEY AUTOINCREMENT,
         CLIENTE_DATA TEXT NOT NULL,
-        CLIENTE_NOME TEXT NOT NULL, 
         CLIENTE_CPF TEXT NOT NULL,
+        CLIENTE_NOME TEXT NOT NULL,
         CLIENTE_IDADE INTEGER NOT NULL,
-        CLIENTE_UF TEXT NOT NULL,
-        CLIENTE_CIDADE TEXT NOT NULL
+        CLIENTE_CIDADE_ID INTEGER NOT NULL
     );
 """)
 
@@ -102,6 +98,21 @@ for index, row in df.iterrows():
     cur.execute(sql,val)
 cnx.commit()
 
+
+
+
+
+
+#Tabela Clientes
+url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTFNqcurVDuPNbJsRUJOPdg7klahlJHW_djlCs5wBDS64Y_ZAo9G4s7upXIm_-Uld95zvMJdscf59hg/pub?gid=902654424&single=true&output=csv'
+colunas = list(['Id','Data', 'CPF', 'Nome', 'Idade', 'Cidade_id'])
+df = pd.read_csv(url_or_file, index_col=0, header=0, usecols=colunas)
+#print(df)
+sql=("INSERT INTO CLIENTES (CLIENTE_DATA, CLIENTE_CPF, CLIENTE_NOME, CLIENTE_IDADE, CLIENTE_CIDADE_ID) VALUES (?,?,?,?,?) ")
+for index, row in df.iterrows():
+    val=(row.Data, row.CPF, row.Nome, row.Idade, row.Cidade_id)    
+    cur.execute(sql,val)
+cnx.commit()
 
 
 cur.close
