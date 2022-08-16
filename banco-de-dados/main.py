@@ -56,32 +56,47 @@ cur.execute("""
         );
 """)
 
-# cur.execute("""
-#     DROP TABLE IF EXISTS ATRACOES; 
-# """)
+cur.execute("""
+    DROP TABLE IF EXISTS ATRACOES; 
+""")
 
-# cur.execute("""    
-#     CREATE TABLE ATRACOES (
-#             ATRACAO_ID INTEGER PRIMARY KEY AUTOINCREMENT,
-#             ATRACAO_NOME TEXT NOT NULL
-#     );
-# """)
+cur.execute("""    
+    CREATE TABLE ATRACOES (
+            ATRACAO_ID INTEGER PRIMARY KEY AUTOINCREMENT,
+            ATRACAO_NOME TEXT NOT NULL
+    );
+""")
 
 
-
+#Tabela Funcionarios
 url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTq6H-BIadfoWHZMG6-1s3qu2B5SGtMEBlLxe9lJtAkKlhKFI4AXznlPutq_DHZOQDFU5XITuClfhU4/pub?gid=529254615&single=true&output=csv'
 colunas = list(['id','data','nome','atracao_id'])
 df = pd.read_csv(url_or_file, index_col=0, header=0, usecols=colunas)
 
 # print(df)
 
-
 sql=("INSERT INTO FUNCIONARIOS (FUNCIONARIO_DATA, FUNCIONARIO_NOME, FUNCIONARIO_ATRACOES_ID) VALUES (?,?,?) ")
 for index, row in df.iterrows():
     val=(row.data, row.nome, row.atracao_id)    
     cur.execute(sql,val)
-
 cnx.commit()
+
+#Tabela Atracoes
+url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSsZFUGTJc-4IJpbjFdUSbLm3Hwr4ORxTjipytWCsehG-KbuRJJ3F5oL2jcUz0Sb8XAZkPEFXMv5iM3/pub?gid=2140856499&single=true&output=csv'
+colunas = list(['id','nome'])
+df = pd.read_csv(url_or_file, index_col=0, header=0, usecols=colunas)
+
+# print(df)
+
+
+# sql=("INSERT INTO ATRACOES (ATRACAO_NOME) VALUES (?) ")
+# for index, row in df.iterrows():
+#     val=(row.nome)    
+#     cur.execute(sql,val)
+
+# cnx.commit()
+
+
 
 cur.close
 
