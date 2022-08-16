@@ -63,17 +63,30 @@ cur.execute("""
     );
 """)
 
+cur.execute("""
+    DROP TABLE IF EXISTS ATRACOES; 
+""")
+
+cur.execute("""    
+    CREATE TABLE CIDADES (
+            CIDADE_ID INTEGER PRIMARY KEY AUTOINCREMENT,
+            CIDADE_UF TEXT NOT NULL,
+            CIDADE_NOME TEXT NO NULL
+    );
+""")
+
+
 
 #Tabela Funcionarios
-url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTq6H-BIadfoWHZMG6-1s3qu2B5SGtMEBlLxe9lJtAkKlhKFI4AXznlPutq_DHZOQDFU5XITuClfhU4/pub?gid=529254615&single=true&output=csv'
+url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRPs43CE0ejjDVZ3fyEuuZ83pNeZPfF69Z3wVcGO41NydqQbmzBGH9WwzT9ht4IswElmjawq-gW8G92/pub?gid=164424013&single=true&output=csv'
 colunas = list(['id','data','nome','atracao_id'])
 df = pd.read_csv(url_or_file, index_col=0, header=0, usecols=colunas)
 # print(df)
-sql=("INSERT INTO FUNCIONARIOS (FUNCIONARIO_DATA, FUNCIONARIO_NOME, FUNCIONARIO_ATRACOES_ID) VALUES (?,?,?) ")
-for index, row in df.iterrows():
-    val=(row.data, row.nome, row.atracao_id)    
-    cur.execute(sql,val)
-cnx.commit()
+# sql=("INSERT INTO FUNCIONARIOS (FUNCIONARIO_DATA, FUNCIONARIO_NOME, FUNCIONARIO_ATRACOES_ID) VALUES (?,?,?) ")
+# for index, row in df.iterrows():
+#     val=(row.data, row.nome, row.atracao_id)    
+#     cur.execute(sql,val)
+# cnx.commit()
 
 #Tabela Atracoes
 url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSsZFUGTJc-4IJpbjFdUSbLm3Hwr4ORxTjipytWCsehG-KbuRJJ3F5oL2jcUz0Sb8XAZkPEFXMv5iM3/pub?gid=1056840368&single=true&output=csv'
@@ -88,19 +101,15 @@ df = pd.read_csv(url_or_file, index_col=0, header=0, usecols=colunas)
 
 
 #Tabela Clima
-url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRLpVtG3J9mmBRMVFoxHtIM3yG9pGh4vd8ynUr72Fi28CWt6bQhHaWhZNio7VsrDNoBB974e0LQiOYC/pub?gid=504172621&single=true&output=csv'
+url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTjH6P-tb9WAqEZUeGAGCAhmLANbm3qZ4-6dKfT7aTbZlq8Zh8aO6i-9egMOLKIjdicBMTavZob0ISe/pub?gid=1327518476&single=true&output=csv'
 colunas = list(['Id','Data', 'Chuva', 'Tempmin', 'Tempmax'])
 df = pd.read_csv(url_or_file, index_col=0, header=0, usecols=colunas)
 # print(df)
-sql=("INSERT INTO CLIMA (CLIMA_DATA, CLIMA_CHUVAMM, CLIMA_TEMPMIN, CLIMA_TEMPMAX) VALUES (?,?,?,?) ")
-for index, row in df.iterrows():
-    val=(row.Data, row.Chuva, row.Tempmin, row.Tempmax)    
-    cur.execute(sql,val)
-cnx.commit()
-
-
-
-
+# sql=("INSERT INTO CLIMA (CLIMA_DATA, CLIMA_CHUVAMM, CLIMA_TEMPMIN, CLIMA_TEMPMAX) VALUES (?,?,?,?) ")
+# for index, row in df.iterrows():
+#     val=(row.Data, row.Chuva, row.Tempmin, row.Tempmax)    
+#     cur.execute(sql,val)
+# cnx.commit()
 
 
 #Tabela Clientes
@@ -108,9 +117,21 @@ url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTFNqcurVDuPNbJsR
 colunas = list(['Id','Data', 'CPF', 'Nome', 'Idade', 'Cidade_id'])
 df = pd.read_csv(url_or_file, index_col=0, header=0, usecols=colunas)
 #print(df)
-sql=("INSERT INTO CLIENTES (CLIENTE_DATA, CLIENTE_CPF, CLIENTE_NOME, CLIENTE_IDADE, CLIENTE_CIDADE_ID) VALUES (?,?,?,?,?) ")
+# sql=("INSERT INTO CLIENTES (CLIENTE_DATA, CLIENTE_CPF, CLIENTE_NOME, CLIENTE_IDADE, CLIENTE_CIDADE_ID) VALUES (?,?,?,?,?) ")
+# for index, row in df.iterrows():
+#     val=(row.Data, row.CPF, row.Nome, row.Idade, row.Cidade_id)    
+#     cur.execute(sql,val)
+# cnx.commit()
+
+
+#Tabela Cidades
+url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSqpxiXuROqjtAI24wP7WSLvg6YlwOHKfQASvXZ3I-zRmxCW6Q2oDx_IG8uT0rdIBUxomunDyURxW-G/pub?gid=385229407&single=true&output=csv'
+colunas = list(['ID','UF', 'Município'])
+df = pd.read_csv(url_or_file, index_col=0, header=0, usecols=colunas)
+#print(df)
+sql=("INSERT INTO CIDADES (CIDADE_UF, CIDADE_NOME) VALUES (?,?) ")
 for index, row in df.iterrows():
-    val=(row.Data, row.CPF, row.Nome, row.Idade, row.Cidade_id)    
+    val=(row.UF, row.Município)    
     cur.execute(sql,val)
 cnx.commit()
 
