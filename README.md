@@ -1,7 +1,7 @@
 # 📊Projeto Grupo 4 - Analise de Dados - Entra21📊
 **Time**: 
 
-- **Luan** (ScrumMaster , Tratamento e Analise),
+- **Luan** (Scrum Master , Tratamento e Analise),
 
 - **William** (Ação), 
 
