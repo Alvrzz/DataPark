@@ -1,4 +1,4 @@
-
+import matplotlib.pyplot as plt
 from bs4 import BeautifulSoup as bs
 import requests
 
@@ -64,16 +64,23 @@ if __name__ == "__main__":
     # get data
     data = get_weather_data(URL)
     # print data
-    print("Tempo em:", data["region"])
+    """print("Tempo em:", data["region"])
     print("Hoje:", data["dayhour"])
     print(f"Temperatura agora: {data['temp_now']}°C")
     print("Descrição:", data['weather_now'])
     print("Precipitacão:", data["precipitation"])
     print("Umidade:", data["humidity"])
-    print("Vento:", data["wind"])
-    print("Proximos dias:")
+    print("Vento:", data["wind"]) 
+    print("Proximos dias:") """
     for dayweather in data["next_days"]:
-        print("="*40, dayweather["name"], "="*40)
+        """ print("="*40, dayweather["name"], "="*40)
         print("Descrição:", dayweather["weather"])
         print(f"Temperatura Maxima: {dayweather['max_temp']}°C")
-        print(f"Temperatura Minima: {dayweather['min_temp']}°C")
+        print(f"Temperatura Minima: {dayweather['min_temp']}°C") """
+        plt.scatter(x = dayweather['name'], y = dayweather['max_temp'])
+        
+
+plt.suptitle("Previsão de Tempo em Blumenau")
+plt.title("Clima nos próximos 6 dias")
+plt.style.use('classic')
+plt.show()
