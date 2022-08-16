@@ -57,12 +57,13 @@ cur.execute("""
 cur.execute("""    
     CREATE TABLE ATRACOES (
             ATRACAO_ID INTEGER PRIMARY KEY AUTOINCREMENT,
-            ATRACAO_NOME TEXT NOT NULL
+            ATRACAO_NOME TEXT NOT NULL,
+            ATRACAO_SETOR TEXT NOT NULL
     );
 """)
 
 cur.execute("""
-    DROP TABLE IF EXISTS ATRACOES; 
+    DROP TABLE IF EXISTS CIDADES; 
 """)
 
 cur.execute("""    
@@ -84,14 +85,14 @@ for index, row in df.iterrows():
 cnx.commit()
 
 #Tabela Atracoes
-url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSsZFUGTJc-4IJpbjFdUSbLm3Hwr4ORxTjipytWCsehG-KbuRJJ3F5oL2jcUz0Sb8XAZkPEFXMv5iM3/pub?gid=1056840368&single=true&output=csv'
-colunas = list(['id','nome'])
+url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTy5XJYo9_ZlY8f7lkYcVWPQ-eIOlxR9Phd5f3B0icUHBSs-GrztXYliPbB_skhVlcZXe3BoNkkh94Z/pub?gid=2053312388&single=true&output=csv'
+colunas = list(['ID','NOME','SETOR'])
 df = pd.read_csv(url_or_file, index_col=0, header=0, usecols=colunas)
-# sql=("INSERT INTO ATRACOES (ATRACAO_NOME) VALUES (?) ")
-# for index, row in df.iterrows():
-#     val=(row.nome)    
-#     cur.execute(sql,val)
-# cnx.commit()
+sql=("INSERT INTO ATRACOES (ATRACAO_NOME, ATRACAO_SETOR) VALUES (?,?) ")
+for index, row in df.iterrows():
+    val=(row.NOME, row.SETOR)    
+    cur.execute(sql,val)
+cnx.commit()
 
 #Tabela Clima
 url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTjH6P-tb9WAqEZUeGAGCAhmLANbm3qZ4-6dKfT7aTbZlq8Zh8aO6i-9egMOLKIjdicBMTavZob0ISe/pub?gid=1327518476&single=true&output=csv'
