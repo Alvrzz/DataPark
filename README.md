@@ -3,15 +3,15 @@
 
 - **Luan** (Scrum Master , Tratamento e Analise),
 
-- **William** (Ação), 
+- **William Justino** (Ação), 
 
-- **Jean** (Banco de dados),
+- **Jean Caelos Bernabé De Oliveira** (Banco de dados),
 
-- **Gabriel** (Banco de dados), 
+- **Gabriel Mello** (Banco de dados), 
 
-- **Gustavo** (Tratamento e Analise), 
+- **Gustavo Rodrigues Da Silva** (Tratamento e Analise), 
 
-- **Lucas** (Ação) 
+- **Lucas Locks** (Ação) 
 
 ### **Sobre:**
 
