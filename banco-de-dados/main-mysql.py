@@ -10,9 +10,6 @@ cnx = mysql.connector.connect(
 
 cur = cnx.cursor()
 
-cur.execute("""
-    DROP TABLE IF EXISTS CIDADES; 
-""")
 
 cur.execute("""
     DROP TABLE IF EXISTS CLIMA; 
