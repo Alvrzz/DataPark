@@ -74,7 +74,7 @@ cur.execute("""
     );
 """)
 
-#Tabela Funcionarios
+# #Tabela Funcionarios
 url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRPs43CE0ejjDVZ3fyEuuZ83pNeZPfF69Z3wVcGO41NydqQbmzBGH9WwzT9ht4IswElmjawq-gW8G92/pub?gid=164424013&single=true&output=csv'
 colunas = list(['id','data','nome','atracao_id'])
 df = pd.read_csv(url_or_file, index_col=0, header=0, usecols=colunas)
@@ -84,7 +84,7 @@ for index, row in df.iterrows():
     cur.execute(sql,val)
 cnx.commit()
 
-#Tabela Atracoes
+# #Tabela Atracoes
 url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTy5XJYo9_ZlY8f7lkYcVWPQ-eIOlxR9Phd5f3B0icUHBSs-GrztXYliPbB_skhVlcZXe3BoNkkh94Z/pub?gid=2053312388&single=true&output=csv'
 colunas = list(['ID','NOME','SETOR'])
 df = pd.read_csv(url_or_file, index_col=0, header=0, usecols=colunas)
@@ -94,7 +94,7 @@ for index, row in df.iterrows():
     cur.execute(sql,val)
 cnx.commit()
 
-#Tabela Clima
+# #Tabela Clima
 url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTjH6P-tb9WAqEZUeGAGCAhmLANbm3qZ4-6dKfT7aTbZlq8Zh8aO6i-9egMOLKIjdicBMTavZob0ISe/pub?gid=1327518476&single=true&output=csv'
 colunas = list(['Id','Data', 'Chuva', 'Tempmin', 'Tempmax'])
 df = pd.read_csv(url_or_file, index_col=0, header=0, usecols=colunas)
@@ -104,7 +104,7 @@ for index, row in df.iterrows():
     cur.execute(sql,val)
 cnx.commit()
 
-#Tabela Clientes
+# #Tabela Clientes
 url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTFNqcurVDuPNbJsRUJOPdg7klahlJHW_djlCs5wBDS64Y_ZAo9G4s7upXIm_-Uld95zvMJdscf59hg/pub?gid=902654424&single=true&output=csv'
 colunas = list(['Id','Data', 'CPF', 'Nome', 'Idade', 'Cidade_id'])
 df = pd.read_csv(url_or_file, index_col=0, header=0, usecols=colunas)
@@ -114,7 +114,7 @@ for index, row in df.iterrows():
     cur.execute(sql,val)
 cnx.commit()
 
-#Tabela Cidades
+# #Tabela Cidades
 url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSqpxiXuROqjtAI24wP7WSLvg6YlwOHKfQASvXZ3I-zRmxCW6Q2oDx_IG8uT0rdIBUxomunDyURxW-G/pub?gid=385229407&single=true&output=csv'
 colunas = list(['ID','UF', 'Município'])
 df = pd.read_csv(url_or_file, index_col=0, header=0, usecols=colunas)
