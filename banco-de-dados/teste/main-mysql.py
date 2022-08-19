@@ -39,50 +39,64 @@ cur.execute("""
     );
 """)
 
-tamanho=10
+
 
 #  Tabela de Cidades
 url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSp3N0iSajaKoFaRiiTOV1Qxm1Y6-_B1IKJsKaqjiBhJbNIrjER4Kr2YtDHn8xNsFvWhQiGBK-Q5MQN/pub?gid=0&single=true&output=csv'
 colunas = list(['id','UF','Município'])
-
-df = pd.read_csv(
+cont = pd.read_csv(
     url_or_file, 
-    index_col=0, header=0,
-#    skiprows=range(1,1+tamanho),     
-    nrows=tamanho, 
+    index_col=0, header=0,   
     usecols=colunas
                 )
 
-# print(type(df))
-# print(df.shape)
+tamanho=5
+cont = (len(cont))
+print(cont)
+inicio = 1
 
-numero_cidades = list((df.shape))[0]
+while inicio < cont:
 
-sql=("INSERT INTO CIDADES (CIDADE_UF,CIDADE_NOME) VALUES (%s, %s) ")
-for index, row in df.iterrows():
-    val=(row.UF, row.Município)    
-    cur.execute(sql,val)
+    df = pd.read_csv(
+        url_or_file, 
+        index_col=0, header=0,
+#        skiprows=(inicio),     
+        nrows=tamanho, 
+        usecols=colunas)
+    print(inicio)
+inicio = inicio + tamanho
 
-cnx.commit()
+
+    # numero_cidades = list((df.shape))[0]
+
+    # sql=("INSERT INTO CIDADES (CIDADE_UF,CIDADE_NOME) VALUES (%s, %s) ")
+    # for index, row in df.iterrows():
+    #     val=(row.UF, row.Município)    
+    #     cur.execute(sql,val)
+
+    # cnx.commit()
+
+
+
 
 # Tabela de Pessoas
 
-url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQrw2IJT8L_iuyYyZRehzDK89pNRRQUEVvUl1KxEJ8U182AEkUMIyWtGtQf3SHG8rxsEoni_-cqr4yo/pub?gid=945554847&single=true&output=csv'
+# url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQrw2IJT8L_iuyYyZRehzDK89pNRRQUEVvUl1KxEJ8U182AEkUMIyWtGtQf3SHG8rxsEoni_-cqr4yo/pub?gid=945554847&single=true&output=csv'
 
-colunas = list(['id','first_name'])
-df = pd.read_csv(url_or_file, index_col=0, header=0, nrows=tamanho, usecols=colunas)
+# colunas = list(['id','first_name'])
+# df = pd.read_csv(url_or_file, index_col=0, header=0, nrows=tamanho, usecols=colunas)
 # a = list((df.shape))[0] 
 
 
-sql=("INSERT INTO PESSOAS (PESSOA_NOME,PESSOA_IDADE,PESSOA_CIDADE_ID) VALUES (%s, %s, %s) ")
-for index,row in df.iterrows():
-    nome = row.first_name
-    idade = random.randrange(0,120)
-    cidade_id = random.randrange(1,numero_cidades)          
-    # print(nome,idade,cidade_id)
-    val=(nome,idade,cidade_id)
-    cur.execute(sql,val)
-cnx.commit()
+# sql=("INSERT INTO PESSOAS (PESSOA_NOME,PESSOA_IDADE,PESSOA_CIDADE_ID) VALUES (%s, %s, %s) ")
+# for index,row in df.iterrows():
+#     nome = row.first_name
+#     idade = random.randrange(0,120)
+#     cidade_id = random.randrange(1,numero_cidades)          
+#     # print(nome,idade,cidade_id)
+#     val=(nome,idade,cidade_id)
+#     cur.execute(sql,val)
+# cnx.commit()
 cur.close
 
 
