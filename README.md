@@ -85,3 +85,47 @@ Atracoes
 atracao_id pk int
 atracao_nome string
 
+
+### **Parâmetros banco simulado:**
+
+
+- Tabela Atracoes:
+
+  - Cadastro simples de 18 atrações do parque para alocação de funcionários, bem como localização das mesmas.
+
+
+- Tabela Cidades: 
+
+  - Cadastro de todas as cidades brasileiras, bem como UF à que pertencem.
+
+
+- Tabela Cima: 
+
+  - Cadastro de dados históricos fictícios dos anos de 2019,2020,2021, dia a dia, registrando quanto choveu em mm (milímetros), temperatura mínima e máxima de cada dia.
+  - Foram feitas as seguintes considerações:
+    - Chuva num range randômico de 0 a 30, sendo 0 nenhuma chuva e 30 um dia bastante chuvoso.
+    - Para temperaturas máximas e mínimas, trabalhamos com duas faixas de range, uma para meses mais quentes (nov_abr), e outra para os frios (mai_out).
+
+
+- Tabela Funcionarios:
+
+  -  Cadastro de todos os funcionários que trabalharam em cada dia, no mesmo período da pesquisa, bem como alocação por setor.
+  -  Considerado 5 pessoas por setor do parque, sendo 18 setores, no período de 1096 dias.
+
+- Tabela clientes:
+
+  - Cadastro de todos os clientes que visitaram o parque no mesmo período da pesquisa, considerando:
+    -  50% dos visitantes originalmente do estado de Santa Catarina, e os demais, distribuídos de forma randômica entre todos os estados.
+    -  Nos meses de calor (nov_abr) consideramos uma visitação original de 600 pessoas por dia, e 400 pessoas por dia para os meses mais frios. 
+    -  Todo sábado domingo, e feriado, essa visitação dobrou.
+    -  A partir daqui, toda a base foi tratada para recalcular a visitação de cada dia, considerando o fator chuva (mm). Nos dias com pluviometria próxima de zero, afetando menos, e conforme esse índice aumentou e se aproximou de 30, chegando a zerar a visitação do parque nesse dia.
+  - Essa tabela conta ainda com o campo Cidade_id, para que se possa fazer busca de origem do visitante, o campo Cliente_idade, para disponibilizar dados sobre a faixa etária dos visitantes, e também o campo Cliente_CPF, gerado aleatoriamente.
+
+
+
+
+
+
+
+
+
