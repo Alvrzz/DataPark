@@ -1,7 +1,7 @@
-import mysql.connector, pandas as pd, random, sqlite3
+import mysql.connector, pandas as pd, random,
 
 
-cnx = sqlite3.connect('exer200pt2.sqlite3')
+c
 
 # cnx = mysql.connector.connect(
 #     host = '3.89.36.150',
