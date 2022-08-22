@@ -1,0 +1,5571 @@
+ID,UF,Município
+1,RO,Alta Floresta D´oeste
+2,RO,Ariquemes
+3,RO,Cabixi
+4,RO,Cacoal
+5,RO,Cerejeiras
+6,RO,Colorado do Oeste
+7,RO,Corumbiara
+8,RO,Costa Marques
+9,RO,Espigão D´oeste
+10,RO,Guajará-mirim
+11,RO,Jaru
+12,RO,Ji-paraná
+13,RO,Machadinho D´oeste
+14,RO,Nova Brasilândia D´oeste
+15,RO,Ouro Preto do Oeste
+16,RO,Pimenta Bueno
+17,RO,Porto Velho
+18,RO,Presidente Médici
+19,RO,Rio Crespo
+20,RO,Rolim de Moura
+21,RO,Santa Luzia D´oeste
+22,RO,Vilhena
+23,RO,São Miguel do Guaporé
+24,RO,Nova Mamoré
+25,RO,Alvorada D´oeste
+26,RO,Alto Alegre Dos Parecis
+27,RO,Alto Paraíso
+28,RO,Buritis
+29,RO,Novo Horizonte do Oeste
+30,RO,Cacaulândia
+31,RO,Campo Novo de Rondônia
+32,RO,Candeias do Jamari
+33,RO,Castanheiras
+34,RO,Chupinguaia
+35,RO,Cujubim
+36,RO,Governador Jorge Teixeira
+37,RO,Itapuã do Oeste
+38,RO,Ministro Andreazza
+39,RO,Mirante da Serra
+40,RO,Monte Negro
+41,RO,Nova União
+42,RO,Parecis
+43,RO,Pimenteiras do Oeste
+44,RO,Primavera de Rondônia
+45,RO,São Felipe D´oeste
+46,RO,São Francisco do Guaporé
+47,RO,Seringueiras
+48,RO,Teixeirópolis
+49,RO,Theobroma
+50,RO,Urupá
+51,RO,Vale do Anari
+52,RO,Vale do Paraíso
+53,AC,Acrelândia
+54,AC,Assis Brasil
+55,AC,Brasiléia
+56,AC,Bujari
+57,AC,Capixaba
+58,AC,Cruzeiro do Sul
+59,AC,Epitaciolândia
+60,AC,Feijó
+61,AC,Jordão
+62,AC,Mâncio Lima
+63,AC,Manoel Urbano
+64,AC,Marechal Thaumaturgo
+65,AC,Plácido de Castro
+66,AC,Porto Walter
+67,AC,Rio Branco
+68,AC,Rodrigues Alves
+69,AC,Santa Rosa do Purus
+70,AC,Senador Guiomard
+71,AC,Sena Madureira
+72,AC,Tarauacá
+73,AC,Xapuri
+74,AC,Porto Acre
+75,AM,Alvarães
+76,AM,Amaturá
+77,AM,Anamã
+78,AM,Anori
+79,AM,Apuí
+80,AM,Atalaia do Norte
+81,AM,Autazes
+82,AM,Barcelos
+83,AM,Barreirinha
+84,AM,Benjamin Constant
+85,AM,Beruri
+86,AM,Boa Vista do Ramos
+87,AM,Boca do Acre
+88,AM,Borba
+89,AM,Caapiranga
+90,AM,Canutama
+91,AM,Carauari
+92,AM,Careiro
+93,AM,Careiro da Várzea
+94,AM,Coari
+95,AM,Codajás
+96,AM,Eirunepé
+97,AM,Envira
+98,AM,Fonte Boa
+99,AM,Guajará
+100,AM,Humaitá
+101,AM,Ipixuna
+102,AM,Iranduba
+103,AM,Itacoatiara
+104,AM,Itamarati
+105,AM,Itapiranga
+106,AM,Japurá
+107,AM,Juruá
+108,AM,Jutaí
+109,AM,Lábrea
+110,AM,Manacapuru
+111,AM,Manaquiri
+112,AM,Manaus
+113,AM,Manicoré
+114,AM,Maraã
+115,AM,Maués
+116,AM,Nhamundá
+117,AM,Nova Olinda do Norte
+118,AM,Novo Airão
+119,AM,Novo Aripuanã
+120,AM,Parintins
+121,AM,Pauini
+122,AM,Presidente Figueiredo
+123,AM,Rio Preto da Eva
+124,AM,Santa Isabel do Rio Negro
+125,AM,Santo Antônio do Içá
+126,AM,São Gabriel da Cachoeira
+127,AM,São Paulo de Olivença
+128,AM,São Sebastião do Uatumã
+129,AM,Silves
+130,AM,Tabatinga
+131,AM,Tapauá
+132,AM,Tefé
+133,AM,Tonantins
+134,AM,Uarini
+135,AM,Urucará
+136,AM,Urucurituba
+137,RR,Amajari
+138,RR,Alto Alegre
+139,RR,Boa Vista
+140,RR,Bonfim
+141,RR,Cantá
+142,RR,Caracaraí
+143,RR,Caroebe
+144,RR,Iracema
+145,RR,Mucajaí
+146,RR,Normandia
+147,RR,Pacaraima
+148,RR,Rorainópolis
+149,RR,São João da Baliza
+150,RR,São Luiz
+151,RR,Uiramutã
+152,PA,Abaetetuba
+153,PA,Abel Figueiredo
+154,PA,Acará
+155,PA,Afuá
+156,PA,Água Azul do Norte
+157,PA,Alenquer
+158,PA,Almeirim
+159,PA,Altamira
+160,PA,Anajás
+161,PA,Ananindeua
+162,PA,Anapu
+163,PA,Augusto Corrêa
+164,PA,Aurora do Pará
+165,PA,Aveiro
+166,PA,Bagre
+167,PA,Baião
+168,PA,Bannach
+169,PA,Barcarena
+170,PA,Belém
+171,PA,Belterra
+172,PA,Benevides
+173,PA,Bom Jesus do Tocantins
+174,PA,Bonito
+175,PA,Bragança
+176,PA,Brasil Novo
+177,PA,Brejo Grande do Araguaia
+178,PA,Breu Branco
+179,PA,Breves
+180,PA,Bujaru
+181,PA,Cachoeira do Piriá
+182,PA,Cachoeira do Arari
+183,PA,Cametá
+184,PA,Canaã Dos Carajás
+185,PA,Capanema
+186,PA,Capitão Poço
+187,PA,Castanhal
+188,PA,Chaves
+189,PA,Colares
+190,PA,Conceição do Araguaia
+191,PA,Concórdia do Pará
+192,PA,Cumaru do Norte
+193,PA,Curionópolis
+194,PA,Curralinho
+195,PA,Curuá
+196,PA,Curuçá
+197,PA,Dom Eliseu
+198,PA,Eldorado Dos Carajás
+199,PA,Faro
+200,PA,Floresta do Araguaia
+201,PA,Garrafão do Norte
+202,PA,Goianésia do Pará
+203,PA,Gurupá
+204,PA,Igarapé-açu
+205,PA,Igarapé-miri
+206,PA,Inhangapi
+207,PA,Ipixuna do Pará
+208,PA,Irituia
+209,PA,Itaituba
+210,PA,Itupiranga
+211,PA,Jacareacanga
+212,PA,Jacundá
+213,PA,Juruti
+214,PA,Limoeiro do Ajuru
+215,PA,Mãe do Rio
+216,PA,Magalhães Barata
+217,PA,Marabá
+218,PA,Maracanã
+219,PA,Marapanim
+220,PA,Marituba
+221,PA,Medicilândia
+222,PA,Melgaço
+223,PA,Mocajuba
+224,PA,Moju
+225,PA,Mojuí dos Campos
+226,PA,Monte Alegre
+227,PA,Muaná
+228,PA,Nova Esperança do Piriá
+229,PA,Nova Ipixuna
+230,PA,Nova Timboteua
+231,PA,Novo Progresso
+232,PA,Novo Repartimento
+233,PA,Óbidos
+234,PA,Oeiras do Pará
+235,PA,Oriximiná
+236,PA,Ourém
+237,PA,Ourilândia do Norte
+238,PA,Pacajá
+239,PA,Palestina do Pará
+240,PA,Paragominas
+241,PA,Parauapebas
+242,PA,Pau D´arco
+243,PA,Peixe-boi
+244,PA,Piçarra
+245,PA,Placas
+246,PA,Ponta de Pedras
+247,PA,Portel
+248,PA,Porto de Moz
+249,PA,Prainha
+250,PA,Primavera
+251,PA,Quatipuru
+252,PA,Redenção
+253,PA,Rio Maria
+254,PA,Rondon do Pará
+255,PA,Rurópolis
+256,PA,Salinópolis
+257,PA,Salvaterra
+258,PA,Santa Bárbara do Pará
+259,PA,Santa Cruz do Arari
+260,PA,Santa Isabel do Pará
+261,PA,Santa Luzia do Pará
+262,PA,Santa Maria Das Barreiras
+263,PA,Santa Maria do Pará
+264,PA,Santana do Araguaia
+265,PA,Santarém
+266,PA,Santarém Novo
+267,PA,Santo Antônio do Tauá
+268,PA,São Caetano de Odivelas
+269,PA,São Domingos do Araguaia
+270,PA,São Domingos do Capim
+271,PA,São Félix do Xingu
+272,PA,São Francisco do Pará
+273,PA,São Geraldo do Araguaia
+274,PA,São João da Ponta
+275,PA,São João de Pirabas
+276,PA,São João do Araguaia
+277,PA,São Miguel do Guamá
+278,PA,São Sebastião da Boa Vista
+279,PA,Sapucaia
+280,PA,Senador José Porfírio
+281,PA,Soure
+282,PA,Tailândia
+283,PA,Terra Alta
+284,PA,Terra Santa
+285,PA,Tomé-açu
+286,PA,Tracuateua
+287,PA,Trairão
+288,PA,Tucumã
+289,PA,Tucuruí
+290,PA,Ulianópolis
+291,PA,Uruará
+292,PA,Vigia
+293,PA,Viseu
+294,PA,Vitória do Xingu
+295,PA,Xinguara
+296,AP,Serra do Navio
+297,AP,Amapá
+298,AP,Pedra Branca do Amapari
+299,AP,Calçoene
+300,AP,Cutias
+301,AP,Ferreira Gomes
+302,AP,Itaubal
+303,AP,Laranjal do Jari
+304,AP,Macapá
+305,AP,Mazagão
+306,AP,Oiapoque
+307,AP,Porto Grande
+308,AP,Pracuúba
+309,AP,Santana
+310,AP,Tartarugalzinho
+311,AP,Vitória do Jari
+312,TO,Abreulândia
+313,TO,Aguiarnópolis
+314,TO,Aliança do Tocantins
+315,TO,Almas
+316,TO,Alvorada
+317,TO,Ananás
+318,TO,Angico
+319,TO,Aparecida do Rio Negro
+320,TO,Aragominas
+321,TO,Araguacema
+322,TO,Araguaçu
+323,TO,Araguaína
+324,TO,Araguanã
+325,TO,Araguatins
+326,TO,Arapoema
+327,TO,Arraias
+328,TO,Augustinópolis
+329,TO,Aurora do Tocantins
+330,TO,Axixá do Tocantins
+331,TO,Babaçulândia
+332,TO,Bandeirantes do Tocantins
+333,TO,Barra do Ouro
+334,TO,Barrolândia
+335,TO,Bernardo Sayão
+336,TO,Bom Jesus do Tocantins
+337,TO,Brasilândia do Tocantins
+338,TO,Brejinho de Nazaré
+339,TO,Buriti do Tocantins
+340,TO,Cachoeirinha
+341,TO,Campos Lindos
+342,TO,Cariri do Tocantins
+343,TO,Carmolândia
+344,TO,Carrasco Bonito
+345,TO,Caseara
+346,TO,Centenário
+347,TO,Chapada de Areia
+348,TO,Chapada da Natividade
+349,TO,Colinas do Tocantins
+350,TO,Combinado
+351,TO,Conceição do Tocantins
+352,TO,Couto de Magalhães
+353,TO,Cristalândia
+354,TO,Crixás do Tocantins
+355,TO,Darcinópolis
+356,TO,Dianópolis
+357,TO,Divinópolis do Tocantins
+358,TO,Dois Irmãos do Tocantins
+359,TO,Dueré
+360,TO,Esperantina
+361,TO,Fátima
+362,TO,Figueirópolis
+363,TO,Filadélfia
+364,TO,Formoso do Araguaia
+365,TO,Fortaleza do Tabocão
+366,TO,Goianorte
+367,TO,Goiatins
+368,TO,Guaraí
+369,TO,Gurupi
+370,TO,Ipueiras
+371,TO,Itacajá
+372,TO,Itaguatins
+373,TO,Itapiratins
+374,TO,Itaporã do Tocantins
+375,TO,Jaú do Tocantins
+376,TO,Juarina
+377,TO,Lagoa da Confusão
+378,TO,Lagoa do Tocantins
+379,TO,Lajeado
+380,TO,Lavandeira
+381,TO,Lizarda
+382,TO,Luzinópolis
+383,TO,Marianópolis do Tocantins
+384,TO,Mateiros
+385,TO,Maurilândia do Tocantins
+386,TO,Miracema do Tocantins
+387,TO,Miranorte
+388,TO,Monte do Carmo
+389,TO,Monte Santo do Tocantins
+390,TO,Palmeiras do Tocantins
+391,TO,Muricilândia
+392,TO,Natividade
+393,TO,Nazaré
+394,TO,Nova Olinda
+395,TO,Nova Rosalândia
+396,TO,Novo Acordo
+397,TO,Novo Alegre
+398,TO,Novo Jardim
+399,TO,Oliveira de Fátima
+400,TO,Palmeirante
+401,TO,Palmeirópolis
+402,TO,Paraíso do Tocantins
+403,TO,Paranã
+404,TO,Pau D´arco
+405,TO,Pedro Afonso
+406,TO,Peixe
+407,TO,Pequizeiro
+408,TO,Colméia
+409,TO,Pindorama do Tocantins
+410,TO,Piraquê
+411,TO,Pium
+412,TO,Ponte Alta do Bom Jesus
+413,TO,Ponte Alta do Tocantins
+414,TO,Porto Alegre do Tocantins
+415,TO,Porto Nacional
+416,TO,Praia Norte
+417,TO,Presidente Kennedy
+418,TO,Pugmil
+419,TO,Recursolândia
+420,TO,Riachinho
+421,TO,Rio da Conceição
+422,TO,Rio Dos Bois
+423,TO,Rio Sono
+424,TO,Sampaio
+425,TO,Sandolândia
+426,TO,Santa fé do Araguaia
+427,TO,Santa Maria do Tocantins
+428,TO,Santa Rita do Tocantins
+429,TO,Santa Rosa do Tocantins
+430,TO,Santa Tereza do Tocantins
+431,TO,Santa Terezinha do Tocantins
+432,TO,São Bento do Tocantins
+433,TO,São Félix do Tocantins
+434,TO,São Miguel do Tocantins
+435,TO,São Salvador do Tocantins
+436,TO,São Sebastião do Tocantins
+437,TO,São Valério da Natividade
+438,TO,Silvanópolis
+439,TO,Sítio Novo do Tocantins
+440,TO,Sucupira
+441,TO,Taguatinga
+442,TO,Taipas do Tocantins
+443,TO,Talismã
+444,TO,Palmas
+445,TO,Tocantínia
+446,TO,Tocantinópolis
+447,TO,Tupirama
+448,TO,Tupiratins
+449,TO,Wanderlândia
+450,TO,Xambioá
+451,MA,Açailândia
+452,MA,Afonso Cunha
+453,MA,Água Doce do Maranhão
+454,MA,Alcântara
+455,MA,Aldeias Altas
+456,MA,Altamira do Maranhão
+457,MA,Alto Alegre do Maranhão
+458,MA,Alto Alegre do Pindaré
+459,MA,Alto Parnaíba
+460,MA,Amapá do Maranhão
+461,MA,Amarante do Maranhão
+462,MA,Anajatuba
+463,MA,Anapurus
+464,MA,Apicum-açu
+465,MA,Araguanã
+466,MA,Araioses
+467,MA,Arame
+468,MA,Arari
+469,MA,Axixá
+470,MA,Bacabal
+471,MA,Bacabeira
+472,MA,Bacuri
+473,MA,Bacurituba
+474,MA,Balsas
+475,MA,Barão de Grajaú
+476,MA,Barra do Corda
+477,MA,Barreirinhas
+478,MA,Belágua
+479,MA,Bela Vista do Maranhão
+480,MA,Benedito Leite
+481,MA,Bequimão
+482,MA,Bernardo do Mearim
+483,MA,Boa Vista do Gurupi
+484,MA,Bom Jardim
+485,MA,Bom Jesus Das Selvas
+486,MA,Bom Lugar
+487,MA,Brejo
+488,MA,Brejo de Areia
+489,MA,Buriti
+490,MA,Buriti Bravo
+491,MA,Buriticupu
+492,MA,Buritirana
+493,MA,Cachoeira Grande
+494,MA,Cajapió
+495,MA,Cajari
+496,MA,Campestre do Maranhão
+497,MA,Cândido Mendes
+498,MA,Cantanhede
+499,MA,Capinzal do Norte
+500,MA,Carolina
+501,MA,Carutapera
+502,MA,Caxias
+503,MA,Cedral
+504,MA,Central do Maranhão
+505,MA,Centro do Guilherme
+506,MA,Centro Novo do Maranhão
+507,MA,Chapadinha
+508,MA,Cidelândia
+509,MA,Codó
+510,MA,Coelho Neto
+511,MA,Colinas
+512,MA,Conceição do Lago-açu
+513,MA,Coroatá
+514,MA,Cururupu
+515,MA,Davinópolis
+516,MA,Dom Pedro
+517,MA,Duque Bacelar
+518,MA,Esperantinópolis
+519,MA,Estreito
+520,MA,Feira Nova do Maranhão
+521,MA,Fernando Falcão
+522,MA,Formosa da Serra Negra
+523,MA,Fortaleza Dos Nogueiras
+524,MA,Fortuna
+525,MA,Godofredo Viana
+526,MA,Gonçalves Dias
+527,MA,Governador Archer
+528,MA,Governador Edison Lobão
+529,MA,Governador Eugênio Barros
+530,MA,Governador Luiz Rocha
+531,MA,Governador Newton Bello
+532,MA,Governador Nunes Freire
+533,MA,Graça Aranha
+534,MA,Grajaú
+535,MA,Guimarães
+536,MA,Humberto de Campos
+537,MA,Icatu
+538,MA,Igarapé do Meio
+539,MA,Igarapé Grande
+540,MA,Imperatriz
+541,MA,Itaipava do Grajaú
+542,MA,Itapecuru Mirim
+543,MA,Itinga do Maranhão
+544,MA,Jatobá
+545,MA,Jenipapo Dos Vieiras
+546,MA,João Lisboa
+547,MA,Joselândia
+548,MA,Junco do Maranhão
+549,MA,Lago da Pedra
+550,MA,Lago do Junco
+551,MA,Lago Verde
+552,MA,Lagoa do Mato
+553,MA,Lago Dos Rodrigues
+554,MA,Lagoa Grande do Maranhão
+555,MA,Lajeado Novo
+556,MA,Lima Campos
+557,MA,Loreto
+558,MA,Luís Domingues
+559,MA,Magalhães de Almeida
+560,MA,Maracaçumé
+561,MA,Marajá do Sena
+562,MA,Maranhãozinho
+563,MA,Mata Roma
+564,MA,Matinha
+565,MA,Matões
+566,MA,Matões do Norte
+567,MA,Milagres do Maranhão
+568,MA,Mirador
+569,MA,Miranda do Norte
+570,MA,Mirinzal
+571,MA,Monção
+572,MA,Montes Altos
+573,MA,Morros
+574,MA,Nina Rodrigues
+575,MA,Nova Colinas
+576,MA,Nova Iorque
+577,MA,Nova Olinda do Maranhão
+578,MA,Olho D´água Das Cunhãs
+579,MA,Olinda Nova do Maranhão
+580,MA,Paço do Lumiar
+581,MA,Palmeirândia
+582,MA,Paraibano
+583,MA,Parnarama
+584,MA,Passagem Franca
+585,MA,Pastos Bons
+586,MA,Paulino Neves
+587,MA,Paulo Ramos
+588,MA,Pedreiras
+589,MA,Pedro do Rosário
+590,MA,Penalva
+591,MA,Peri Mirim
+592,MA,Peritoró
+593,MA,Pindaré-mirim
+594,MA,Pinheiro
+595,MA,Pio Xii
+596,MA,Pirapemas
+597,MA,Poção de Pedras
+598,MA,Porto Franco
+599,MA,Porto Rico do Maranhão
+600,MA,Presidente Dutra
+601,MA,Presidente Juscelino
+602,MA,Presidente Médici
+603,MA,Presidente Sarney
+604,MA,Presidente Vargas
+605,MA,Primeira Cruz
+606,MA,Raposa
+607,MA,Riachão
+608,MA,Ribamar Fiquene
+609,MA,Rosário
+610,MA,Sambaíba
+611,MA,Santa Filomena do Maranhão
+612,MA,Santa Helena
+613,MA,Santa Inês
+614,MA,Santa Luzia
+615,MA,Santa Luzia do Paruá
+616,MA,Santa Quitéria do Maranhão
+617,MA,Santa Rita
+618,MA,Santana do Maranhão
+619,MA,Santo Amaro do Maranhão
+620,MA,Santo Antônio Dos Lopes
+621,MA,São Benedito do Rio Preto
+622,MA,São Bento
+623,MA,São Bernardo
+624,MA,São Domingos do Azeitão
+625,MA,São Domingos do Maranhão
+626,MA,São Félix de Balsas
+627,MA,São Francisco do Brejão
+628,MA,São Francisco do Maranhão
+629,MA,São João Batista
+630,MA,São João do Carú
+631,MA,São João do Paraíso
+632,MA,São João do Soter
+633,MA,São João Dos Patos
+634,MA,São José de Ribamar
+635,MA,São José Dos Basílios
+636,MA,São Luís
+637,MA,São Luís Gonzaga do Maranhão
+638,MA,São Mateus do Maranhão
+639,MA,São Pedro da Água Branca
+640,MA,São Pedro Dos Crentes
+641,MA,São Raimundo Das Mangabeiras
+642,MA,São Raimundo do Doca Bezerra
+643,MA,São Roberto
+644,MA,São Vicente Ferrer
+645,MA,Satubinha
+646,MA,Senador Alexandre Costa
+647,MA,Senador la Rocque
+648,MA,Serrano do Maranhão
+649,MA,Sítio Novo
+650,MA,Sucupira do Norte
+651,MA,Sucupira do Riachão
+652,MA,Tasso Fragoso
+653,MA,Timbiras
+654,MA,Timon
+655,MA,Trizidela do Vale
+656,MA,Tufilândia
+657,MA,Tuntum
+658,MA,Turiaçu
+659,MA,Turilândia
+660,MA,Tutóia
+661,MA,Urbano Santos
+662,MA,Vargem Grande
+663,MA,Viana
+664,MA,Vila Nova Dos Martírios
+665,MA,Vitória do Mearim
+666,MA,Vitorino Freire
+667,MA,zé Doca
+668,PI,Acauã
+669,PI,Agricolândia
+670,PI,Água Branca
+671,PI,Alagoinha do Piauí
+672,PI,Alegrete do Piauí
+673,PI,Alto Longá
+674,PI,Altos
+675,PI,Alvorada do Gurguéia
+676,PI,Amarante
+677,PI,Angical do Piauí
+678,PI,Anísio de Abreu
+679,PI,Antônio Almeida
+680,PI,Aroazes
+681,PI,Aroeiras do Itaim
+682,PI,Arraial
+683,PI,Assunção do Piauí
+684,PI,Avelino Lopes
+685,PI,Baixa Grande do Ribeiro
+686,PI,Barra D´alcântara
+687,PI,Barras
+688,PI,Barreiras do Piauí
+689,PI,Barro Duro
+690,PI,Batalha
+691,PI,Bela Vista do Piauí
+692,PI,Belém do Piauí
+693,PI,Beneditinos
+694,PI,Bertolínia
+695,PI,Betânia do Piauí
+696,PI,Boa Hora
+697,PI,Bocaina
+698,PI,Bom Jesus
+699,PI,Bom Princípio do Piauí
+700,PI,Bonfim do Piauí
+701,PI,Boqueirão do Piauí
+702,PI,Brasileira
+703,PI,Brejo do Piauí
+704,PI,Buriti Dos Lopes
+705,PI,Buriti Dos Montes
+706,PI,Cabeceiras do Piauí
+707,PI,Cajazeiras do Piauí
+708,PI,Cajueiro da Praia
+709,PI,Caldeirão Grande do Piauí
+710,PI,Campinas do Piauí
+711,PI,Campo Alegre do Fidalgo
+712,PI,Campo Grande do Piauí
+713,PI,Campo Largo do Piauí
+714,PI,Campo Maior
+715,PI,Canavieira
+716,PI,Canto do Buriti
+717,PI,Capitão de Campos
+718,PI,Capitão Gervásio Oliveira
+719,PI,Caracol
+720,PI,Caraúbas do Piauí
+721,PI,Caridade do Piauí
+722,PI,Castelo do Piauí
+723,PI,Caxingó
+724,PI,Cocal
+725,PI,Cocal de Telha
+726,PI,Cocal Dos Alves
+727,PI,Coivaras
+728,PI,Colônia do Gurguéia
+729,PI,Colônia do Piauí
+730,PI,Conceição do Canindé
+731,PI,Coronel José Dias
+732,PI,Corrente
+733,PI,Cristalândia do Piauí
+734,PI,Cristino Castro
+735,PI,Curimatá
+736,PI,Currais
+737,PI,Curralinhos
+738,PI,Curral Novo do Piauí
+739,PI,Demerval Lobão
+740,PI,Dirceu Arcoverde
+741,PI,Dom Expedito Lopes
+742,PI,Domingos Mourão
+743,PI,Dom Inocêncio
+744,PI,Elesbão Veloso
+745,PI,Eliseu Martins
+746,PI,Esperantina
+747,PI,Fartura do Piauí
+748,PI,Flores do Piauí
+749,PI,Floresta do Piauí
+750,PI,Floriano
+751,PI,Francinópolis
+752,PI,Francisco Ayres
+753,PI,Francisco Macedo
+754,PI,Francisco Santos
+755,PI,Fronteiras
+756,PI,Geminiano
+757,PI,Gilbués
+758,PI,Guadalupe
+759,PI,Guaribas
+760,PI,Hugo Napoleão
+761,PI,Ilha Grande
+762,PI,Inhuma
+763,PI,Ipiranga do Piauí
+764,PI,Isaías Coelho
+765,PI,Itainópolis
+766,PI,Itaueira
+767,PI,Jacobina do Piauí
+768,PI,Jaicós
+769,PI,Jardim do Mulato
+770,PI,Jatobá do Piauí
+771,PI,Jerumenha
+772,PI,João Costa
+773,PI,Joaquim Pires
+774,PI,Joca Marques
+775,PI,José de Freitas
+776,PI,Juazeiro do Piauí
+777,PI,Júlio Borges
+778,PI,Jurema
+779,PI,Lagoinha do Piauí
+780,PI,Lagoa Alegre
+781,PI,Lagoa do Barro do Piauí
+782,PI,Lagoa de São Francisco
+783,PI,Lagoa do Piauí
+784,PI,Lagoa do Sítio
+785,PI,Landri Sales
+786,PI,Luís Correia
+787,PI,Luzilândia
+788,PI,Madeiro
+789,PI,Manoel Emídio
+790,PI,Marcolândia
+791,PI,Marcos Parente
+792,PI,Massapê do Piauí
+793,PI,Matias Olímpio
+794,PI,Miguel Alves
+795,PI,Miguel Leão
+796,PI,Milton Brandão
+797,PI,Monsenhor Gil
+798,PI,Monsenhor Hipólito
+799,PI,Monte Alegre do Piauí
+800,PI,Morro Cabeça no Tempo
+801,PI,Morro do Chapéu do Piauí
+802,PI,Murici Dos Portelas
+803,PI,Nazaré do Piauí
+804,PI,Nazária
+805,PI,Nossa Senhora de Nazaré
+806,PI,Nossa Senhora Dos Remédios
+807,PI,Novo Oriente do Piauí
+808,PI,Novo Santo Antônio
+809,PI,Oeiras
+810,PI,Olho D´água do Piauí
+811,PI,Padre Marcos
+812,PI,Paes Landim
+813,PI,Pajeú do Piauí
+814,PI,Palmeira do Piauí
+815,PI,Palmeirais
+816,PI,Paquetá
+817,PI,Parnaguá
+818,PI,Parnaíba
+819,PI,Passagem Franca do Piauí
+820,PI,Patos do Piauí
+821,PI,Pau D´arco do Piauí
+822,PI,Paulistana
+823,PI,Pavussu
+824,PI,Pedro ii
+825,PI,Pedro Laurentino
+826,PI,Nova Santa Rita
+827,PI,Picos
+828,PI,Pimenteiras
+829,PI,Pio ix
+830,PI,Piracuruca
+831,PI,Piripiri
+832,PI,Porto
+833,PI,Porto Alegre do Piauí
+834,PI,Prata do Piauí
+835,PI,Queimada Nova
+836,PI,Redenção do Gurguéia
+837,PI,Regeneração
+838,PI,Riacho Frio
+839,PI,Ribeira do Piauí
+840,PI,Ribeiro Gonçalves
+841,PI,Rio Grande do Piauí
+842,PI,Santa Cruz do Piauí
+843,PI,Santa Cruz Dos Milagres
+844,PI,Santa Filomena
+845,PI,Santa Luz
+846,PI,Santana do Piauí
+847,PI,Santa Rosa do Piauí
+848,PI,Santo Antônio de Lisboa
+849,PI,Santo Antônio Dos Milagres
+850,PI,Santo Inácio do Piauí
+851,PI,São Braz do Piauí
+852,PI,São Félix do Piauí
+853,PI,São Francisco de Assis do Piauí
+854,PI,São Francisco do Piauí
+855,PI,São Gonçalo do Gurguéia
+856,PI,São Gonçalo do Piauí
+857,PI,São João da Canabrava
+858,PI,São João da Fronteira
+859,PI,São João da Serra
+860,PI,São João da Varjota
+861,PI,São João do Arraial
+862,PI,São João do Piauí
+863,PI,São José do Divino
+864,PI,São José do Peixe
+865,PI,São José do Piauí
+866,PI,São Julião
+867,PI,São Lourenço do Piauí
+868,PI,São Luis do Piauí
+869,PI,São Miguel da Baixa Grande
+870,PI,São Miguel do Fidalgo
+871,PI,São Miguel do Tapuio
+872,PI,São Pedro do Piauí
+873,PI,São Raimundo Nonato
+874,PI,Sebastião Barros
+875,PI,Sebastião Leal
+876,PI,Sigefredo Pacheco
+877,PI,Simões
+878,PI,Simplício Mendes
+879,PI,Socorro do Piauí
+880,PI,Sussuapara
+881,PI,Tamboril do Piauí
+882,PI,Tanque do Piauí
+883,PI,Teresina
+884,PI,União
+885,PI,Uruçuí
+886,PI,Valença do Piauí
+887,PI,Várzea Branca
+888,PI,Várzea Grande
+889,PI,Vera Mendes
+890,PI,Vila Nova do Piauí
+891,PI,Wall Ferraz
+892,CE,Abaiara
+893,CE,Acarapé
+894,CE,Acaraú
+895,CE,Acopiara
+896,CE,Aiuaba
+897,CE,Alcântaras
+898,CE,Altaneira
+899,CE,Alto Santo
+900,CE,Amontada
+901,CE,Antonina do Norte
+902,CE,Apuiarés
+903,CE,Aquiraz
+904,CE,Aracati
+905,CE,Aracoiaba
+906,CE,Ararendá
+907,CE,Araripe
+908,CE,Aratuba
+909,CE,Arneiroz
+910,CE,Assaré
+911,CE,Aurora
+912,CE,Baixio
+913,CE,Banabuiú
+914,CE,Barbalha
+915,CE,Barreira
+916,CE,Barro
+917,CE,Barroquinha
+918,CE,Baturité
+919,CE,Beberibe
+920,CE,Bela Cruz
+921,CE,Boa Viagem
+922,CE,Brejo Santo
+923,CE,Camocim
+924,CE,Campos Sales
+925,CE,Canindé
+926,CE,Capistrano
+927,CE,Caridade
+928,CE,Cariré
+929,CE,Caririaçu
+930,CE,Cariús
+931,CE,Carnaubal
+932,CE,Cascavel
+933,CE,Catarina
+934,CE,Catunda
+935,CE,Caucaia
+936,CE,Cedro
+937,CE,Chaval
+938,CE,Choró
+939,CE,Chorozinho
+940,CE,Coreaú
+941,CE,Crateús
+942,CE,Crato
+943,CE,Croatá
+944,CE,Cruz
+945,CE,Deputado Irapuan Pinheiro
+946,CE,Ererê
+947,CE,Eusébio
+948,CE,Farias Brito
+949,CE,Forquilha
+950,CE,Fortaleza
+951,CE,Fortim
+952,CE,Frecheirinha
+953,CE,General Sampaio
+954,CE,Graça
+955,CE,Granja
+956,CE,Granjeiro
+957,CE,Groaíras
+958,CE,Guaiúba
+959,CE,Guaraciaba do Norte
+960,CE,Guaramiranga
+961,CE,Hidrolândia
+962,CE,Horizonte
+963,CE,Ibaretama
+964,CE,Ibiapina
+965,CE,Ibicuitinga
+966,CE,Icapuí
+967,CE,Icó
+968,CE,Iguatu
+969,CE,Independência
+970,CE,Ipaporanga
+971,CE,Ipaumirim
+972,CE,Ipu
+973,CE,Ipueiras
+974,CE,Iracema
+975,CE,Irauçuba
+976,CE,Itaiçaba
+977,CE,Itaitinga
+978,CE,Itapagé
+979,CE,Itapipoca
+980,CE,Itapiúna
+981,CE,Itarema
+982,CE,Itatira
+983,CE,Jaguaretama
+984,CE,Jaguaribara
+985,CE,Jaguaribe
+986,CE,Jaguaruana
+987,CE,Jardim
+988,CE,Jati
+989,CE,Jijoca de Jericoacoara
+990,CE,Juazeiro do Norte
+991,CE,Jucás
+992,CE,Lavras da Mangabeira
+993,CE,Limoeiro do Norte
+994,CE,Madalena
+995,CE,Maracanaú
+996,CE,Maranguape
+997,CE,Marco
+998,CE,Martinópole
+999,CE,Massapê
+1000,CE,Mauriti
+1001,CE,Meruoca
+1002,CE,Milagres
+1003,CE,Milhã
+1004,CE,Miraíma
+1005,CE,Missão Velha
+1006,CE,Mombaça
+1007,CE,Monsenhor Tabosa
+1008,CE,Morada Nova
+1009,CE,Moraújo
+1010,CE,Morrinhos
+1011,CE,Mucambo
+1012,CE,Mulungu
+1013,CE,Nova Olinda
+1014,CE,Nova Russas
+1015,CE,Novo Oriente
+1016,CE,Ocara
+1017,CE,Orós
+1018,CE,Pacajus
+1019,CE,Pacatuba
+1020,CE,Pacoti
+1021,CE,Pacujá
+1022,CE,Palhano
+1023,CE,Palmácia
+1024,CE,Paracuru
+1025,CE,Paraipaba
+1026,CE,Parambu
+1027,CE,Paramoti
+1028,CE,Pedra Branca
+1029,CE,Penaforte
+1030,CE,Pentecoste
+1031,CE,Pereiro
+1032,CE,Pindoretama
+1033,CE,Piquet Carneiro
+1034,CE,Pires Ferreira
+1035,CE,Poranga
+1036,CE,Porteiras
+1037,CE,Potengi
+1038,CE,Potiretama
+1039,CE,Quiterianópolis
+1040,CE,Quixadá
+1041,CE,Quixelô
+1042,CE,Quixeramobim
+1043,CE,Quixeré
+1044,CE,Redenção
+1045,CE,Reriutaba
+1046,CE,Russas
+1047,CE,Saboeiro
+1048,CE,Salitre
+1049,CE,Santana do Acaraú
+1050,CE,Santana do Cariri
+1051,CE,Santa Quitéria
+1052,CE,São Benedito
+1053,CE,São Gonçalo do Amarante
+1054,CE,São João do Jaguaribe
+1055,CE,São Luís do Curu
+1056,CE,Senador Pompeu
+1057,CE,Senador sá
+1058,CE,Sobral
+1059,CE,Solonópole
+1060,CE,Tabuleiro do Norte
+1061,CE,Tamboril
+1062,CE,Tarrafas
+1063,CE,Tauá
+1064,CE,Tejuçuoca
+1065,CE,Tianguá
+1066,CE,Trairi
+1067,CE,Tururu
+1068,CE,Ubajara
+1069,CE,Umari
+1070,CE,Umirim
+1071,CE,Uruburetama
+1072,CE,Uruoca
+1073,CE,Varjota
+1074,CE,Várzea Alegre
+1075,CE,Viçosa do Ceará
+1076,RN,Acari
+1077,RN,Açu
+1078,RN,Afonso Bezerra
+1079,RN,Água Nova
+1080,RN,Alexandria
+1081,RN,Almino Afonso
+1082,RN,Alto do Rodrigues
+1083,RN,Angicos
+1084,RN,Antônio Martins
+1085,RN,Apodi
+1086,RN,Areia Branca
+1087,RN,Arês
+1088,RN,Augusto Severo
+1089,RN,Baía Formosa
+1090,RN,Baraúna
+1091,RN,Barcelona
+1092,RN,Bento Fernandes
+1093,RN,Bodó
+1094,RN,Bom Jesus
+1095,RN,Brejinho
+1096,RN,Caiçara do Norte
+1097,RN,Caiçara do Rio do Vento
+1098,RN,Caicó
+1099,RN,Campo Redondo
+1100,RN,Canguaretama
+1101,RN,Caraúbas
+1102,RN,Carnaúba Dos Dantas
+1103,RN,Carnaubais
+1104,RN,Ceará-mirim
+1105,RN,Cerro Corá
+1106,RN,Coronel Ezequiel
+1107,RN,Coronel João Pessoa
+1108,RN,Cruzeta
+1109,RN,Currais Novos
+1110,RN,Doutor Severiano
+1111,RN,Parnamirim
+1112,RN,Encanto
+1113,RN,Equador
+1114,RN,Espírito Santo
+1115,RN,Extremoz
+1116,RN,Felipe Guerra
+1117,RN,Fernando Pedroza
+1118,RN,Florânia
+1119,RN,Francisco Dantas
+1120,RN,Frutuoso Gomes
+1121,RN,Galinhos
+1122,RN,Goianinha
+1123,RN,Governador Dix-sept Rosado
+1124,RN,Grossos
+1125,RN,Guamaré
+1126,RN,Ielmo Marinho
+1127,RN,Ipanguaçu
+1128,RN,Ipueira
+1129,RN,Itajá
+1130,RN,Itaú
+1131,RN,Jaçanã
+1132,RN,Jandaíra
+1133,RN,Janduís
+1134,RN,Januário Cicco
+1135,RN,Japi
+1136,RN,Jardim de Angicos
+1137,RN,Jardim de Piranhas
+1138,RN,Jardim do Seridó
+1139,RN,João Câmara
+1140,RN,João Dias
+1141,RN,José da Penha
+1142,RN,Jucurutu
+1143,RN,Jundiá
+1144,RN,Lagoa D´anta
+1145,RN,Lagoa de Pedras
+1146,RN,Lagoa de Velhos
+1147,RN,Lagoa Nova
+1148,RN,Lagoa Salgada
+1149,RN,Lajes
+1150,RN,Lajes Pintadas
+1151,RN,Lucrécia
+1152,RN,Luís Gomes
+1153,RN,Macaíba
+1154,RN,Macau
+1155,RN,Major Sales
+1156,RN,Marcelino Vieira
+1157,RN,Martins
+1158,RN,Maxaranguape
+1159,RN,Messias Targino
+1160,RN,Montanhas
+1161,RN,Monte Alegre
+1162,RN,Monte Das Gameleiras
+1163,RN,Mossoró
+1164,RN,Natal
+1165,RN,Nísia Floresta
+1166,RN,Nova Cruz
+1167,RN,Olho-d´água do Borges
+1168,RN,Ouro Branco
+1169,RN,Paraná
+1170,RN,Paraú
+1171,RN,Parazinho
+1172,RN,Parelhas
+1173,RN,Rio do Fogo
+1174,RN,Passa e Fica
+1175,RN,Passagem
+1176,RN,Patu
+1177,RN,Santa Maria
+1178,RN,Pau Dos Ferros
+1179,RN,Pedra Grande
+1180,RN,Pedra Preta
+1181,RN,Pedro Avelino
+1182,RN,Pedro Velho
+1183,RN,Pendências
+1184,RN,Pilões
+1185,RN,Poço Branco
+1186,RN,Portalegre
+1187,RN,Porto do Mangue
+1188,RN,Presidente Juscelino
+1189,RN,Pureza
+1190,RN,Rafael Fernandes
+1191,RN,Rafael Godeiro
+1192,RN,Riacho da Cruz
+1193,RN,Riacho de Santana
+1194,RN,Riachuelo
+1195,RN,Rodolfo Fernandes
+1196,RN,Tibau
+1197,RN,Ruy Barbosa
+1198,RN,Santa Cruz
+1199,RN,Santana do Matos
+1200,RN,Santana do Seridó
+1201,RN,Santo Antônio
+1202,RN,São Bento do Norte
+1203,RN,São Bento do Trairí
+1204,RN,São Fernando
+1205,RN,São Francisco do Oeste
+1206,RN,São Gonçalo do Amarante
+1207,RN,São João do Sabugi
+1208,RN,São José de Mipibu
+1209,RN,São José do Campestre
+1210,RN,São José do Seridó
+1211,RN,São Miguel
+1212,RN,São Miguel do Gostoso
+1213,RN,São Paulo do Potengi
+1214,RN,São Pedro
+1215,RN,São Rafael
+1216,RN,São Tomé
+1217,RN,São Vicente
+1218,RN,Senador Elói de Souza
+1219,RN,Senador Georgino Avelino
+1220,RN,Serra de São Bento
+1221,RN,Serra do Mel
+1222,RN,Serra Negra do Norte
+1223,RN,Serrinha
+1224,RN,Serrinha Dos Pintos
+1225,RN,Severiano Melo
+1226,RN,Sítio Novo
+1227,RN,Taboleiro Grande
+1228,RN,Taipu
+1229,RN,Tangará
+1230,RN,Tenente Ananias
+1231,RN,Tenente Laurentino Cruz
+1232,RN,Tibau do Sul
+1233,RN,Timbaúba Dos Batistas
+1234,RN,Touros
+1235,RN,Triunfo Potiguar
+1236,RN,Umarizal
+1237,RN,Upanema
+1238,RN,Várzea
+1239,RN,Venha-ver
+1240,RN,Vera Cruz
+1241,RN,Viçosa
+1242,RN,Vila Flor
+1243,PB,Água Branca
+1244,PB,Aguiar
+1245,PB,Alagoa Grande
+1246,PB,Alagoa Nova
+1247,PB,Alagoinha
+1248,PB,Alcantil
+1249,PB,Algodão de Jandaíra
+1250,PB,Alhandra
+1251,PB,São João do Rio do Peixe
+1252,PB,Amparo
+1253,PB,Aparecida
+1254,PB,Araçagi
+1255,PB,Arara
+1256,PB,Araruna
+1257,PB,Areia
+1258,PB,Areia de Baraúnas
+1259,PB,Areial
+1260,PB,Aroeiras
+1261,PB,Assunção
+1262,PB,Baía da Traição
+1263,PB,Bananeiras
+1264,PB,Baraúna
+1265,PB,Barra de Santana
+1266,PB,Barra de Santa Rosa
+1267,PB,Barra de São Miguel
+1268,PB,Bayeux
+1269,PB,Belém
+1270,PB,Belém do Brejo do Cruz
+1271,PB,Bernardino Batista
+1272,PB,Boa Ventura
+1273,PB,Boa Vista
+1274,PB,Bom Jesus
+1275,PB,Bom Sucesso
+1276,PB,Bonito de Santa fé
+1277,PB,Boqueirão
+1278,PB,Igaracy
+1279,PB,Borborema
+1280,PB,Brejo do Cruz
+1281,PB,Brejo Dos Santos
+1282,PB,Caaporã
+1283,PB,Cabaceiras
+1284,PB,Cabedelo
+1285,PB,Cachoeira Dos Índios
+1286,PB,Cacimba de Areia
+1287,PB,Cacimba de Dentro
+1288,PB,Cacimbas
+1289,PB,Caiçara
+1290,PB,Cajazeiras
+1291,PB,Cajazeirinhas
+1292,PB,Caldas Brandão
+1293,PB,Camalaú
+1294,PB,Campina Grande
+1295,PB,Capim
+1296,PB,Caraúbas
+1297,PB,Carrapateira
+1298,PB,Casserengue
+1299,PB,Catingueira
+1300,PB,Catolé do Rocha
+1301,PB,Caturité
+1302,PB,Conceição
+1303,PB,Condado
+1304,PB,Conde
+1305,PB,Congo
+1306,PB,Coremas
+1307,PB,Coxixola
+1308,PB,Cruz do Espírito Santo
+1309,PB,Cubati
+1310,PB,Cuité
+1311,PB,Cuitegi
+1312,PB,Cuité de Mamanguape
+1313,PB,Curral de Cima
+1314,PB,Curral Velho
+1315,PB,Damião
+1316,PB,Desterro
+1317,PB,Vista Serrana
+1318,PB,Diamante
+1319,PB,Dona Inês
+1320,PB,Duas Estradas
+1321,PB,Emas
+1322,PB,Esperança
+1323,PB,Fagundes
+1324,PB,Frei Martinho
+1325,PB,Gado Bravo
+1326,PB,Guarabira
+1327,PB,Gurinhém
+1328,PB,Gurjão
+1329,PB,Ibiara
+1330,PB,Imaculada
+1331,PB,Ingá
+1332,PB,Itabaiana
+1333,PB,Itaporanga
+1334,PB,Itapororoca
+1335,PB,Itatuba
+1336,PB,Jacaraú
+1337,PB,Jericó
+1338,PB,João Pessoa
+1339,PB,Juarez Távora
+1340,PB,Juazeirinho
+1341,PB,Junco do Seridó
+1342,PB,Juripiranga
+1343,PB,Juru
+1344,PB,Lagoa
+1345,PB,Lagoa de Dentro
+1346,PB,Lagoa Seca
+1347,PB,Lastro
+1348,PB,Livramento
+1349,PB,Logradouro
+1350,PB,Lucena
+1351,PB,Mãe D´água
+1352,PB,Malta
+1353,PB,Mamanguape
+1354,PB,Manaíra
+1355,PB,Marcação
+1356,PB,Mari
+1357,PB,Marizópolis
+1358,PB,Massaranduba
+1359,PB,Mataraca
+1360,PB,Matinhas
+1361,PB,Mato Grosso
+1362,PB,Maturéia
+1363,PB,Mogeiro
+1364,PB,Montadas
+1365,PB,Monte Horebe
+1366,PB,Monteiro
+1367,PB,Mulungu
+1368,PB,Natuba
+1369,PB,Nazarezinho
+1370,PB,Nova Floresta
+1371,PB,Nova Olinda
+1372,PB,Nova Palmeira
+1373,PB,Olho D´água
+1374,PB,Olivedos
+1375,PB,Ouro Velho
+1376,PB,Parari
+1377,PB,Passagem
+1378,PB,Patos
+1379,PB,Paulista
+1380,PB,Pedra Branca
+1381,PB,Pedra Lavrada
+1382,PB,Pedras de Fogo
+1383,PB,Piancó
+1384,PB,Picuí
+1385,PB,Pilar
+1386,PB,Pilões
+1387,PB,Pilõezinhos
+1388,PB,Pirpirituba
+1389,PB,Pitimbu
+1390,PB,Pocinhos
+1391,PB,Poço Dantas
+1392,PB,Poço de José de Moura
+1393,PB,Pombal
+1394,PB,Prata
+1395,PB,Princesa Isabel
+1396,PB,Puxinanã
+1397,PB,Queimadas
+1398,PB,Quixabá
+1399,PB,Remígio
+1400,PB,Pedro Régis
+1401,PB,Riachão
+1402,PB,Riachão do Bacamarte
+1403,PB,Riachão do Poço
+1404,PB,Riacho de Santo Antônio
+1405,PB,Riacho Dos Cavalos
+1406,PB,Rio Tinto
+1407,PB,Salgadinho
+1408,PB,Salgado de São Félix
+1409,PB,Santa Cecília
+1410,PB,Santa Cruz
+1411,PB,Santa Helena
+1412,PB,Santa Inês
+1413,PB,Santa Luzia
+1414,PB,Santana de Mangueira
+1415,PB,Santana Dos Garrotes
+1416,PB,Santarém
+1417,PB,Santa Rita
+1418,PB,Santa Teresinha
+1419,PB,Santo André
+1420,PB,São Bento
+1421,PB,São Bentinho
+1422,PB,São Domingos do Cariri
+1423,PB,São Domingos de Pombal
+1424,PB,São Francisco
+1425,PB,São João do Cariri
+1426,PB,São João do Tigre
+1427,PB,São José da Lagoa Tapada
+1428,PB,São José de Caiana
+1429,PB,São José de Espinharas
+1430,PB,São José Dos Ramos
+1431,PB,São José de Piranhas
+1432,PB,São José de Princesa
+1433,PB,São José do Bonfim
+1434,PB,São José do Brejo do Cruz
+1435,PB,São José do Sabugi
+1436,PB,São José Dos Cordeiros
+1437,PB,São Mamede
+1438,PB,São Miguel de Taipu
+1439,PB,São Sebastião de Lagoa de Roça
+1440,PB,São Sebastião do Umbuzeiro
+1441,PB,Sapé
+1442,PB,Seridó
+1443,PB,Serra Branca
+1444,PB,Serra da Raiz
+1445,PB,Serra Grande
+1446,PB,Serra Redonda
+1447,PB,Serraria
+1448,PB,Sertãozinho
+1449,PB,Sobrado
+1450,PB,Solânea
+1451,PB,Soledade
+1452,PB,Sossêgo
+1453,PB,Sousa
+1454,PB,Sumé
+1455,PB,Campo de Santana
+1456,PB,Taperoá
+1457,PB,Tavares
+1458,PB,Teixeira
+1459,PB,Tenório
+1460,PB,Triunfo
+1461,PB,Uiraúna
+1462,PB,Umbuzeiro
+1463,PB,Várzea
+1464,PB,Vieirópolis
+1465,PB,Zabelê
+1466,PE,Abreu e Lima
+1467,PE,Afogados da Ingazeira
+1468,PE,Afrânio
+1469,PE,Agrestina
+1470,PE,Água Preta
+1471,PE,Águas Belas
+1472,PE,Alagoinha
+1473,PE,Aliança
+1474,PE,Altinho
+1475,PE,Amaraji
+1476,PE,Angelim
+1477,PE,Araçoiaba
+1478,PE,Araripina
+1479,PE,Arcoverde
+1480,PE,Barra de Guabiraba
+1481,PE,Barreiros
+1482,PE,Belém de Maria
+1483,PE,Belém de São Francisco
+1484,PE,Belo Jardim
+1485,PE,Betânia
+1486,PE,Bezerros
+1487,PE,Bodocó
+1488,PE,Bom Conselho
+1489,PE,Bom Jardim
+1490,PE,Bonito
+1491,PE,Brejão
+1492,PE,Brejinho
+1493,PE,Brejo da Madre de Deus
+1494,PE,Buenos Aires
+1495,PE,Buíque
+1496,PE,Cabo de Santo Agostinho
+1497,PE,Cabrobó
+1498,PE,Cachoeirinha
+1499,PE,Caetés
+1500,PE,Calçado
+1501,PE,Calumbi
+1502,PE,Camaragibe
+1503,PE,Camocim de São Félix
+1504,PE,Camutanga
+1505,PE,Canhotinho
+1506,PE,Capoeiras
+1507,PE,Carnaíba
+1508,PE,Carnaubeira da Penha
+1509,PE,Carpina
+1510,PE,Caruaru
+1511,PE,Casinhas
+1512,PE,Catende
+1513,PE,Cedro
+1514,PE,Chã de Alegria
+1515,PE,Chã Grande
+1516,PE,Condado
+1517,PE,Correntes
+1518,PE,Cortês
+1519,PE,Cumaru
+1520,PE,Cupira
+1521,PE,Custódia
+1522,PE,Dormentes
+1523,PE,Escada
+1524,PE,Exu
+1525,PE,Feira Nova
+1526,PE,Fernando de Noronha
+1527,PE,Ferreiros
+1528,PE,Flores
+1529,PE,Floresta
+1530,PE,Frei Miguelinho
+1531,PE,Gameleira
+1532,PE,Garanhuns
+1533,PE,Glória do Goitá
+1534,PE,Goiana
+1535,PE,Granito
+1536,PE,Gravatá
+1537,PE,Iati
+1538,PE,Ibimirim
+1539,PE,Ibirajuba
+1540,PE,Igarassu
+1541,PE,Iguaraci
+1542,PE,Inajá
+1543,PE,Ingazeira
+1544,PE,Ipojuca
+1545,PE,Ipubi
+1546,PE,Itacuruba
+1547,PE,Itaíba
+1548,PE,Ilha de Itamaracá
+1549,PE,Itambé
+1550,PE,Itapetim
+1551,PE,Itapissuma
+1552,PE,Itaquitinga
+1553,PE,Jaboatão Dos Guararapes
+1554,PE,Jaqueira
+1555,PE,Jataúba
+1556,PE,Jatobá
+1557,PE,João Alfredo
+1558,PE,Joaquim Nabuco
+1559,PE,Jucati
+1560,PE,Jupi
+1561,PE,Jurema
+1562,PE,Lagoa do Carro
+1563,PE,Lagoa do Itaenga
+1564,PE,Lagoa do Ouro
+1565,PE,Lagoa Dos Gatos
+1566,PE,Lagoa Grande
+1567,PE,Lajedo
+1568,PE,Limoeiro
+1569,PE,Macaparana
+1570,PE,Machados
+1571,PE,Manari
+1572,PE,Maraial
+1573,PE,Mirandiba
+1574,PE,Moreno
+1575,PE,Nazaré da Mata
+1576,PE,Olinda
+1577,PE,Orobó
+1578,PE,Orocó
+1579,PE,Ouricuri
+1580,PE,Palmares
+1581,PE,Palmeirina
+1582,PE,Panelas
+1583,PE,Paranatama
+1584,PE,Parnamirim
+1585,PE,Passira
+1586,PE,Paudalho
+1587,PE,Paulista
+1588,PE,Pedra
+1589,PE,Pesqueira
+1590,PE,Petrolândia
+1591,PE,Petrolina
+1592,PE,Poção
+1593,PE,Pombos
+1594,PE,Primavera
+1595,PE,Quipapá
+1596,PE,Quixaba
+1597,PE,Recife
+1598,PE,Riacho Das Almas
+1599,PE,Ribeirão
+1600,PE,Rio Formoso
+1601,PE,Sairé
+1602,PE,Salgadinho
+1603,PE,Salgueiro
+1604,PE,Saloá
+1605,PE,Sanharó
+1606,PE,Santa Cruz
+1607,PE,Santa Cruz da Baixa Verde
+1608,PE,Santa Cruz do Capibaribe
+1609,PE,Santa Filomena
+1610,PE,Santa Maria da Boa Vista
+1611,PE,Santa Maria do Cambucá
+1612,PE,Santa Terezinha
+1613,PE,São Benedito do Sul
+1614,PE,São Bento do Una
+1615,PE,São Caitano
+1616,PE,São João
+1617,PE,São Joaquim do Monte
+1618,PE,São José da Coroa Grande
+1619,PE,São José do Belmonte
+1620,PE,São José do Egito
+1621,PE,São Lourenço da Mata
+1622,PE,São Vicente Ferrer
+1623,PE,Serra Talhada
+1624,PE,Serrita
+1625,PE,Sertânia
+1626,PE,Sirinhaém
+1627,PE,Moreilândia
+1628,PE,Solidão
+1629,PE,Surubim
+1630,PE,Tabira
+1631,PE,Tacaimbó
+1632,PE,Tacaratu
+1633,PE,Tamandaré
+1634,PE,Taquaritinga do Norte
+1635,PE,Terezinha
+1636,PE,Terra Nova
+1637,PE,Timbaúba
+1638,PE,Toritama
+1639,PE,Tracunhaém
+1640,PE,Trindade
+1641,PE,Triunfo
+1642,PE,Tupanatinga
+1643,PE,Tuparetama
+1644,PE,Venturosa
+1645,PE,Verdejante
+1646,PE,Vertente do Lério
+1647,PE,Vertentes
+1648,PE,Vicência
+1649,PE,Vitória de Santo Antão
+1650,PE,Xexéu
+1651,AL,Água Branca
+1652,AL,Anadia
+1653,AL,Arapiraca
+1654,AL,Atalaia
+1655,AL,Barra de Santo Antônio
+1656,AL,Barra de São Miguel
+1657,AL,Batalha
+1658,AL,Belém
+1659,AL,Belo Monte
+1660,AL,Boca da Mata
+1661,AL,Branquinha
+1662,AL,Cacimbinhas
+1663,AL,Cajueiro
+1664,AL,Campestre
+1665,AL,Campo Alegre
+1666,AL,Campo Grande
+1667,AL,Canapi
+1668,AL,Capela
+1669,AL,Carneiros
+1670,AL,Chã Preta
+1671,AL,Coité do Nóia
+1672,AL,Colônia Leopoldina
+1673,AL,Coqueiro Seco
+1674,AL,Coruripe
+1675,AL,Craíbas
+1676,AL,Delmiro Gouveia
+1677,AL,Dois Riachos
+1678,AL,Estrela de Alagoas
+1679,AL,Feira Grande
+1680,AL,Feliz Deserto
+1681,AL,Flexeiras
+1682,AL,Girau do Ponciano
+1683,AL,Ibateguara
+1684,AL,Igaci
+1685,AL,Igreja Nova
+1686,AL,Inhapi
+1687,AL,Jacaré Dos Homens
+1688,AL,Jacuípe
+1689,AL,Japaratinga
+1690,AL,Jaramataia
+1691,AL,Jequiá da Praia
+1692,AL,Joaquim Gomes
+1693,AL,Jundiá
+1694,AL,Junqueiro
+1695,AL,Lagoa da Canoa
+1696,AL,Limoeiro de Anadia
+1697,AL,Maceió
+1698,AL,Major Isidoro
+1699,AL,Maragogi
+1700,AL,Maravilha
+1701,AL,Marechal Deodoro
+1702,AL,Maribondo
+1703,AL,Mar Vermelho
+1704,AL,Mata Grande
+1705,AL,Matriz de Camaragibe
+1706,AL,Messias
+1707,AL,Minador do Negrão
+1708,AL,Monteirópolis
+1709,AL,Murici
+1710,AL,Novo Lino
+1711,AL,Olho D´água Das Flores
+1712,AL,Olho D´água do Casado
+1713,AL,Olho D´água Grande
+1714,AL,Olivença
+1715,AL,Ouro Branco
+1716,AL,Palestina
+1717,AL,Palmeira Dos Índios
+1718,AL,Pão de Açúcar
+1719,AL,Pariconha
+1720,AL,Paripueira
+1721,AL,Passo de Camaragibe
+1722,AL,Paulo Jacinto
+1723,AL,Penedo
+1724,AL,Piaçabuçu
+1725,AL,Pilar
+1726,AL,Pindoba
+1727,AL,Piranhas
+1728,AL,Poço Das Trincheiras
+1729,AL,Porto Calvo
+1730,AL,Porto de Pedras
+1731,AL,Porto Real do Colégio
+1732,AL,Quebrangulo
+1733,AL,Rio Largo
+1734,AL,Roteiro
+1735,AL,Santa Luzia do Norte
+1736,AL,Santana do Ipanema
+1737,AL,Santana do Mundaú
+1738,AL,São Brás
+1739,AL,São José da Laje
+1740,AL,São José da Tapera
+1741,AL,São Luís do Quitunde
+1742,AL,São Miguel Dos Campos
+1743,AL,São Miguel Dos Milagres
+1744,AL,São Sebastião
+1745,AL,Satuba
+1746,AL,Senador Rui Palmeira
+1747,AL,Tanque D´arca
+1748,AL,Taquarana
+1749,AL,Teotônio Vilela
+1750,AL,Traipu
+1751,AL,União Dos Palmares
+1752,AL,Viçosa
+1753,SE,Amparo de São Francisco
+1754,SE,Aquidabã
+1755,SE,Aracaju
+1756,SE,Arauá
+1757,SE,Areia Branca
+1758,SE,Barra Dos Coqueiros
+1759,SE,Boquim
+1760,SE,Brejo Grande
+1761,SE,Campo do Brito
+1762,SE,Canhoba
+1763,SE,Canindé de São Francisco
+1764,SE,Capela
+1765,SE,Carira
+1766,SE,Carmópolis
+1767,SE,Cedro de São João
+1768,SE,Cristinápolis
+1769,SE,Cumbe
+1770,SE,Divina Pastora
+1771,SE,Estância
+1772,SE,Feira Nova
+1773,SE,Frei Paulo
+1774,SE,Gararu
+1775,SE,General Maynard
+1776,SE,Gracho Cardoso
+1777,SE,Ilha Das Flores
+1778,SE,Indiaroba
+1779,SE,Itabaiana
+1780,SE,Itabaianinha
+1781,SE,Itabi
+1782,SE,Itaporanga D´ajuda
+1783,SE,Japaratuba
+1784,SE,Japoatã
+1785,SE,Lagarto
+1786,SE,Laranjeiras
+1787,SE,Macambira
+1788,SE,Malhada Dos Bois
+1789,SE,Malhador
+1790,SE,Maruim
+1791,SE,Moita Bonita
+1792,SE,Monte Alegre de Sergipe
+1793,SE,Muribeca
+1794,SE,Neópolis
+1795,SE,Nossa Senhora Aparecida
+1796,SE,Nossa Senhora da Glória
+1797,SE,Nossa Senhora Das Dores
+1798,SE,Nossa Senhora de Lourdes
+1799,SE,Nossa Senhora do Socorro
+1800,SE,Pacatuba
+1801,SE,Pedra Mole
+1802,SE,Pedrinhas
+1803,SE,Pinhão
+1804,SE,Pirambu
+1805,SE,Poço Redondo
+1806,SE,Poço Verde
+1807,SE,Porto da Folha
+1808,SE,Propriá
+1809,SE,Riachão do Dantas
+1810,SE,Riachuelo
+1811,SE,Ribeirópolis
+1812,SE,Rosário do Catete
+1813,SE,Salgado
+1814,SE,Santa Luzia do Itanhy
+1815,SE,Santana do São Francisco
+1816,SE,Santa Rosa de Lima
+1817,SE,Santo Amaro Das Brotas
+1818,SE,São Cristóvão
+1819,SE,São Domingos
+1820,SE,São Francisco
+1821,SE,São Miguel do Aleixo
+1822,SE,Simão Dias
+1823,SE,Siriri
+1824,SE,Telha
+1825,SE,Tobias Barreto
+1826,SE,Tomar do Geru
+1827,SE,Umbaúba
+1828,BA,Abaíra
+1829,BA,Abaré
+1830,BA,Acajutiba
+1831,BA,Adustina
+1832,BA,Água Fria
+1833,BA,Érico Cardoso
+1834,BA,Aiquara
+1835,BA,Alagoinhas
+1836,BA,Alcobaça
+1837,BA,Almadina
+1838,BA,Amargosa
+1839,BA,Amélia Rodrigues
+1840,BA,América Dourada
+1841,BA,Anagé
+1842,BA,Andaraí
+1843,BA,Andorinha
+1844,BA,Angical
+1845,BA,Anguera
+1846,BA,Antas
+1847,BA,Antônio Cardoso
+1848,BA,Antônio Gonçalves
+1849,BA,Aporá
+1850,BA,Apuarema
+1851,BA,Aracatu
+1852,BA,Araças
+1853,BA,Araci
+1854,BA,Aramari
+1855,BA,Arataca
+1856,BA,Aratuípe
+1857,BA,Aurelino Leal
+1858,BA,Baianópolis
+1859,BA,Baixa Grande
+1860,BA,Banzaê
+1861,BA,Barra
+1862,BA,Barra da Estiva
+1863,BA,Barra do Choça
+1864,BA,Barra do Mendes
+1865,BA,Barra do Rocha
+1866,BA,Barreiras
+1867,BA,Barro Alto
+1868,BA,Barrocas
+1869,BA,Governador Lomanto Júnior
+1870,BA,Belmonte
+1871,BA,Belo Campo
+1872,BA,Biritinga
+1873,BA,Boa Nova
+1874,BA,Boa Vista do Tupim
+1875,BA,Bom Jesus da Lapa
+1876,BA,Bom Jesus da Serra
+1877,BA,Boninal
+1878,BA,Bonito
+1879,BA,Boquira
+1880,BA,Botuporã
+1881,BA,Brejões
+1882,BA,Brejolândia
+1883,BA,Brotas de Macaúbas
+1884,BA,Brumado
+1885,BA,Buerarema
+1886,BA,Buritirama
+1887,BA,Caatiba
+1888,BA,Cabaceiras do Paraguaçu
+1889,BA,Cachoeira
+1890,BA,Caculé
+1891,BA,Caém
+1892,BA,Caetanos
+1893,BA,Caetité
+1894,BA,Cafarnaum
+1895,BA,Cairu
+1896,BA,Caldeirão Grande
+1897,BA,Camacan
+1898,BA,Camaçari
+1899,BA,Camamu
+1900,BA,Campo Alegre de Lourdes
+1901,BA,Campo Formoso
+1902,BA,Canápolis
+1903,BA,Canarana
+1904,BA,Canavieiras
+1905,BA,Candeal
+1906,BA,Candeias
+1907,BA,Candiba
+1908,BA,Cândido Sales
+1909,BA,Cansanção
+1910,BA,Canudos
+1911,BA,Capela do Alto Alegre
+1912,BA,Capim Grosso
+1913,BA,Caraíbas
+1914,BA,Caravelas
+1915,BA,Cardeal da Silva
+1916,BA,Carinhanha
+1917,BA,Casa Nova
+1918,BA,Castro Alves
+1919,BA,Catolândia
+1920,BA,Catu
+1921,BA,Caturama
+1922,BA,Central
+1923,BA,Chorrochó
+1924,BA,Cícero Dantas
+1925,BA,Cipó
+1926,BA,Coaraci
+1927,BA,Cocos
+1928,BA,Conceição da Feira
+1929,BA,Conceição do Almeida
+1930,BA,Conceição do Coité
+1931,BA,Conceição do Jacuípe
+1932,BA,Conde
+1933,BA,Condeúba
+1934,BA,Contendas do Sincorá
+1935,BA,Coração de Maria
+1936,BA,Cordeiros
+1937,BA,Coribe
+1938,BA,Coronel João sá
+1939,BA,Correntina
+1940,BA,Cotegipe
+1941,BA,Cravolândia
+1942,BA,Crisópolis
+1943,BA,Cristópolis
+1944,BA,Cruz Das Almas
+1945,BA,Curaçá
+1946,BA,Dário Meira
+1947,BA,Dias D´ávila
+1948,BA,Dom Basílio
+1949,BA,Dom Macedo Costa
+1950,BA,Elísio Medrado
+1951,BA,Encruzilhada
+1952,BA,Entre Rios
+1953,BA,Esplanada
+1954,BA,Euclides da Cunha
+1955,BA,Eunápolis
+1956,BA,Fátima
+1957,BA,Feira da Mata
+1958,BA,Feira de Santana
+1959,BA,Filadélfia
+1960,BA,Firmino Alves
+1961,BA,Floresta Azul
+1962,BA,Formosa do Rio Preto
+1963,BA,Gandu
+1964,BA,Gavião
+1965,BA,Gentio do Ouro
+1966,BA,Glória
+1967,BA,Gongogi
+1968,BA,Governador Mangabeira
+1969,BA,Guajeru
+1970,BA,Guanambi
+1971,BA,Guaratinga
+1972,BA,Heliópolis
+1973,BA,Iaçu
+1974,BA,Ibiassucê
+1975,BA,Ibicaraí
+1976,BA,Ibicoara
+1977,BA,Ibicuí
+1978,BA,Ibipeba
+1979,BA,Ibipitanga
+1980,BA,Ibiquera
+1981,BA,Ibirapitanga
+1982,BA,Ibirapuã
+1983,BA,Ibirataia
+1984,BA,Ibitiara
+1985,BA,Ibititá
+1986,BA,Ibotirama
+1987,BA,Ichu
+1988,BA,Igaporã
+1989,BA,Igrapiúna
+1990,BA,Iguaí
+1991,BA,Ilhéus
+1992,BA,Inhambupe
+1993,BA,Ipecaetá
+1994,BA,Ipiaú
+1995,BA,Ipirá
+1996,BA,Ipupiara
+1997,BA,Irajuba
+1998,BA,Iramaia
+1999,BA,Iraquara
+2000,BA,Irará
+2001,BA,Irecê
+2002,BA,Itabela
+2003,BA,Itaberaba
+2004,BA,Itabuna
+2005,BA,Itacaré
+2006,BA,Itaeté
+2007,BA,Itagi
+2008,BA,Itagibá
+2009,BA,Itagimirim
+2010,BA,Itaguaçu da Bahia
+2011,BA,Itaju do Colônia
+2012,BA,Itajuípe
+2013,BA,Itamaraju
+2014,BA,Itamari
+2015,BA,Itambé
+2016,BA,Itanagra
+2017,BA,Itanhém
+2018,BA,Itaparica
+2019,BA,Itapé
+2020,BA,Itapebi
+2021,BA,Itapetinga
+2022,BA,Itapicuru
+2023,BA,Itapitanga
+2024,BA,Itaquara
+2025,BA,Itarantim
+2026,BA,Itatim
+2027,BA,Itiruçu
+2028,BA,Itiúba
+2029,BA,Itororó
+2030,BA,Ituaçu
+2031,BA,Ituberá
+2032,BA,Iuiú
+2033,BA,Jaborandi
+2034,BA,Jacaraci
+2035,BA,Jacobina
+2036,BA,Jaguaquara
+2037,BA,Jaguarari
+2038,BA,Jaguaripe
+2039,BA,Jandaíra
+2040,BA,Jequié
+2041,BA,Jeremoabo
+2042,BA,Jiquiriçá
+2043,BA,Jitaúna
+2044,BA,João Dourado
+2045,BA,Juazeiro
+2046,BA,Jucuruçu
+2047,BA,Jussara
+2048,BA,Jussari
+2049,BA,Jussiape
+2050,BA,Lafaiete Coutinho
+2051,BA,Lagoa Real
+2052,BA,Laje
+2053,BA,Lajedão
+2054,BA,Lajedinho
+2055,BA,Lajedo do Tabocal
+2056,BA,Lamarão
+2057,BA,Lapão
+2058,BA,Lauro de Freitas
+2059,BA,Lençóis
+2060,BA,Licínio de Almeida
+2061,BA,Livramento de Nossa Senhora
+2062,BA,Luís Eduardo Magalhães
+2063,BA,Macajuba
+2064,BA,Macarani
+2065,BA,Macaúbas
+2066,BA,Macururé
+2067,BA,Madre de Deus
+2068,BA,Maetinga
+2069,BA,Maiquinique
+2070,BA,Mairi
+2071,BA,Malhada
+2072,BA,Malhada de Pedras
+2073,BA,Manoel Vitorino
+2074,BA,Mansidão
+2075,BA,Maracás
+2076,BA,Maragogipe
+2077,BA,Maraú
+2078,BA,Marcionílio Souza
+2079,BA,Mascote
+2080,BA,Mata de São João
+2081,BA,Matina
+2082,BA,Medeiros Neto
+2083,BA,Miguel Calmon
+2084,BA,Milagres
+2085,BA,Mirangaba
+2086,BA,Mirante
+2087,BA,Monte Santo
+2088,BA,Morpará
+2089,BA,Morro do Chapéu
+2090,BA,Mortugaba
+2091,BA,Mucugê
+2092,BA,Mucuri
+2093,BA,Mulungu do Morro
+2094,BA,Mundo Novo
+2095,BA,Muniz Ferreira
+2096,BA,Muquém de São Francisco
+2097,BA,Muritiba
+2098,BA,Mutuípe
+2099,BA,Nazaré
+2100,BA,Nilo Peçanha
+2101,BA,Nordestina
+2102,BA,Nova Canaã
+2103,BA,Nova Fátima
+2104,BA,Nova Ibiá
+2105,BA,Nova Itarana
+2106,BA,Nova Redenção
+2107,BA,Nova Soure
+2108,BA,Nova Viçosa
+2109,BA,Novo Horizonte
+2110,BA,Novo Triunfo
+2111,BA,Olindina
+2112,BA,Oliveira Dos Brejinhos
+2113,BA,Ouriçangas
+2114,BA,Ourolândia
+2115,BA,Palmas de Monte Alto
+2116,BA,Palmeiras
+2117,BA,Paramirim
+2118,BA,Paratinga
+2119,BA,Paripiranga
+2120,BA,Pau Brasil
+2121,BA,Paulo Afonso
+2122,BA,pé de Serra
+2123,BA,Pedrão
+2124,BA,Pedro Alexandre
+2125,BA,Piatã
+2126,BA,Pilão Arcado
+2127,BA,Pindaí
+2128,BA,Pindobaçu
+2129,BA,Pintadas
+2130,BA,Piraí do Norte
+2131,BA,Piripá
+2132,BA,Piritiba
+2133,BA,Planaltino
+2134,BA,Planalto
+2135,BA,Poções
+2136,BA,Pojuca
+2137,BA,Ponto Novo
+2138,BA,Porto Seguro
+2139,BA,Potiraguá
+2140,BA,Prado
+2141,BA,Presidente Dutra
+2142,BA,Presidente Jânio Quadros
+2143,BA,Presidente Tancredo Neves
+2144,BA,Queimadas
+2145,BA,Quijingue
+2146,BA,Quixabeira
+2147,BA,Rafael Jambeiro
+2148,BA,Remanso
+2149,BA,Retirolândia
+2150,BA,Riachão Das Neves
+2151,BA,Riachão do Jacuípe
+2152,BA,Riacho de Santana
+2153,BA,Ribeira do Amparo
+2154,BA,Ribeira do Pombal
+2155,BA,Ribeirão do Largo
+2156,BA,Rio de Contas
+2157,BA,Rio do Antônio
+2158,BA,Rio do Pires
+2159,BA,Rio Real
+2160,BA,Rodelas
+2161,BA,Ruy Barbosa
+2162,BA,Salinas da Margarida
+2163,BA,Salvador
+2164,BA,Santa Bárbara
+2165,BA,Santa Brígida
+2166,BA,Santa Cruz Cabrália
+2167,BA,Santa Cruz da Vitória
+2168,BA,Santa Inês
+2169,BA,Santaluz
+2170,BA,Santa Luzia
+2171,BA,Santa Maria da Vitória
+2172,BA,Santana
+2173,BA,Santanópolis
+2174,BA,Santa Rita de Cássia
+2175,BA,Santa Teresinha
+2176,BA,Santo Amaro
+2177,BA,Santo Antônio de Jesus
+2178,BA,Santo Estêvão
+2179,BA,São Desidério
+2180,BA,São Domingos
+2181,BA,São Félix
+2182,BA,São Félix do Coribe
+2183,BA,São Felipe
+2184,BA,São Francisco do Conde
+2185,BA,São Gabriel
+2186,BA,São Gonçalo Dos Campos
+2187,BA,São José da Vitória
+2188,BA,São José do Jacuípe
+2189,BA,São Miguel Das Matas
+2190,BA,São Sebastião do Passé
+2191,BA,Sapeaçu
+2192,BA,Sátiro Dias
+2193,BA,Saubara
+2194,BA,Saúde
+2195,BA,Seabra
+2196,BA,Sebastião Laranjeiras
+2197,BA,Senhor do Bonfim
+2198,BA,Serra do Ramalho
+2199,BA,Sento sé
+2200,BA,Serra Dourada
+2201,BA,Serra Preta
+2202,BA,Serrinha
+2203,BA,Serrolândia
+2204,BA,Simões Filho
+2205,BA,Sítio do Mato
+2206,BA,Sítio do Quinto
+2207,BA,Sobradinho
+2208,BA,Souto Soares
+2209,BA,Tabocas do Brejo Velho
+2210,BA,Tanhaçu
+2211,BA,Tanque Novo
+2212,BA,Tanquinho
+2213,BA,Taperoá
+2214,BA,Tapiramutá
+2215,BA,Teixeira de Freitas
+2216,BA,Teodoro Sampaio
+2217,BA,Teofilândia
+2218,BA,Teolândia
+2219,BA,Terra Nova
+2220,BA,Tremedal
+2221,BA,Tucano
+2222,BA,Uauá
+2223,BA,Ubaíra
+2224,BA,Ubaitaba
+2225,BA,Ubatã
+2226,BA,Uibaí
+2227,BA,Umburanas
+2228,BA,Una
+2229,BA,Urandi
+2230,BA,Uruçuca
+2231,BA,Utinga
+2232,BA,Valença
+2233,BA,Valente
+2234,BA,Várzea da Roça
+2235,BA,Várzea do Poço
+2236,BA,Várzea Nova
+2237,BA,Varzedo
+2238,BA,Vera Cruz
+2239,BA,Vereda
+2240,BA,Vitória da Conquista
+2241,BA,Wagner
+2242,BA,Wanderley
+2243,BA,Wenceslau Guimarães
+2244,BA,Xique-xique
+2245,MG,Abadia Dos Dourados
+2246,MG,Abaeté
+2247,MG,Abre Campo
+2248,MG,Acaiaca
+2249,MG,Açucena
+2250,MG,Água Boa
+2251,MG,Água Comprida
+2252,MG,Aguanil
+2253,MG,Águas Formosas
+2254,MG,Águas Vermelhas
+2255,MG,Aimorés
+2256,MG,Aiuruoca
+2257,MG,Alagoa
+2258,MG,Albertina
+2259,MG,Além Paraíba
+2260,MG,Alfenas
+2261,MG,Alfredo Vasconcelos
+2262,MG,Almenara
+2263,MG,Alpercata
+2264,MG,Alpinópolis
+2265,MG,Alterosa
+2266,MG,Alto Caparaó
+2267,MG,Alto Rio Doce
+2268,MG,Alvarenga
+2269,MG,Alvinópolis
+2270,MG,Alvorada de Minas
+2271,MG,Amparo do Serra
+2272,MG,Andradas
+2273,MG,Cachoeira de Pajeú
+2274,MG,Andrelândia
+2275,MG,Angelândia
+2276,MG,Antônio Carlos
+2277,MG,Antônio Dias
+2278,MG,Antônio Prado de Minas
+2279,MG,Araçaí
+2280,MG,Aracitaba
+2281,MG,Araçuaí
+2282,MG,Araguari
+2283,MG,Arantina
+2284,MG,Araponga
+2285,MG,Araporã
+2286,MG,Arapuá
+2287,MG,Araújos
+2288,MG,Araxá
+2289,MG,Arceburgo
+2290,MG,Arcos
+2291,MG,Areado
+2292,MG,Argirita
+2293,MG,Aricanduva
+2294,MG,Arinos
+2295,MG,Astolfo Dutra
+2296,MG,Ataléia
+2297,MG,Augusto de Lima
+2298,MG,Baependi
+2299,MG,Baldim
+2300,MG,Bambuí
+2301,MG,Bandeira
+2302,MG,Bandeira do Sul
+2303,MG,Barão de Cocais
+2304,MG,Barão de Monte Alto
+2305,MG,Barbacena
+2306,MG,Barra Longa
+2307,MG,Barroso
+2308,MG,Bela Vista de Minas
+2309,MG,Belmiro Braga
+2310,MG,Belo Horizonte
+2311,MG,Belo Oriente
+2312,MG,Belo Vale
+2313,MG,Berilo
+2314,MG,Bertópolis
+2315,MG,Berizal
+2316,MG,Betim
+2317,MG,Bias Fortes
+2318,MG,Bicas
+2319,MG,Biquinhas
+2320,MG,Boa Esperança
+2321,MG,Bocaina de Minas
+2322,MG,Bocaiúva
+2323,MG,Bom Despacho
+2324,MG,Bom Jardim de Minas
+2325,MG,Bom Jesus da Penha
+2326,MG,Bom Jesus do Amparo
+2327,MG,Bom Jesus do Galho
+2328,MG,Bom Repouso
+2329,MG,Bom Sucesso
+2330,MG,Bonfim
+2331,MG,Bonfinópolis de Minas
+2332,MG,Bonito de Minas
+2333,MG,Borda da Mata
+2334,MG,Botelhos
+2335,MG,Botumirim
+2336,MG,Brasilândia de Minas
+2337,MG,Brasília de Minas
+2338,MG,Brás Pires
+2339,MG,Braúnas
+2340,MG,Brasópolis
+2341,MG,Brumadinho
+2342,MG,Bueno Brandão
+2343,MG,Buenópolis
+2344,MG,Bugre
+2345,MG,Buritis
+2346,MG,Buritizeiro
+2347,MG,Cabeceira Grande
+2348,MG,Cabo Verde
+2349,MG,Cachoeira da Prata
+2350,MG,Cachoeira de Minas
+2351,MG,Cachoeira Dourada
+2352,MG,Caetanópolis
+2353,MG,Caeté
+2354,MG,Caiana
+2355,MG,Cajuri
+2356,MG,Caldas
+2357,MG,Camacho
+2358,MG,Camanducaia
+2359,MG,Cambuí
+2360,MG,Cambuquira
+2361,MG,Campanário
+2362,MG,Campanha
+2363,MG,Campestre
+2364,MG,Campina Verde
+2365,MG,Campo Azul
+2366,MG,Campo Belo
+2367,MG,Campo do Meio
+2368,MG,Campo Florido
+2369,MG,Campos Altos
+2370,MG,Campos Gerais
+2371,MG,Canaã
+2372,MG,Canápolis
+2373,MG,Cana Verde
+2374,MG,Candeias
+2375,MG,Cantagalo
+2376,MG,Caparaó
+2377,MG,Capela Nova
+2378,MG,Capelinha
+2379,MG,Capetinga
+2380,MG,Capim Branco
+2381,MG,Capinópolis
+2382,MG,Capitão Andrade
+2383,MG,Capitão Enéas
+2384,MG,Capitólio
+2385,MG,Caputira
+2386,MG,Caraí
+2387,MG,Caranaíba
+2388,MG,Carandaí
+2389,MG,Carangola
+2390,MG,Caratinga
+2391,MG,Carbonita
+2392,MG,Careaçu
+2393,MG,Carlos Chagas
+2394,MG,Carmésia
+2395,MG,Carmo da Cachoeira
+2396,MG,Carmo da Mata
+2397,MG,Carmo de Minas
+2398,MG,Carmo do Cajuru
+2399,MG,Carmo do Paranaíba
+2400,MG,Carmo do Rio Claro
+2401,MG,Carmópolis de Minas
+2402,MG,Carneirinho
+2403,MG,Carrancas
+2404,MG,Carvalhópolis
+2405,MG,Carvalhos
+2406,MG,Casa Grande
+2407,MG,Cascalho Rico
+2408,MG,Cássia
+2409,MG,Conceição da Barra de Minas
+2410,MG,Cataguases
+2411,MG,Catas Altas
+2412,MG,Catas Altas da Noruega
+2413,MG,Catuji
+2414,MG,Catuti
+2415,MG,Caxambu
+2416,MG,Cedro do Abaeté
+2417,MG,Central de Minas
+2418,MG,Centralina
+2419,MG,Chácara
+2420,MG,Chalé
+2421,MG,Chapada do Norte
+2422,MG,Chapada Gaúcha
+2423,MG,Chiador
+2424,MG,Cipotânea
+2425,MG,Claraval
+2426,MG,Claro Dos Poções
+2427,MG,Cláudio
+2428,MG,Coimbra
+2429,MG,Coluna
+2430,MG,Comendador Gomes
+2431,MG,Comercinho
+2432,MG,Conceição da Aparecida
+2433,MG,Conceição Das Pedras
+2434,MG,Conceição Das Alagoas
+2435,MG,Conceição de Ipanema
+2436,MG,Conceição do Mato Dentro
+2437,MG,Conceição do Pará
+2438,MG,Conceição do Rio Verde
+2439,MG,Conceição Dos Ouros
+2440,MG,Cônego Marinho
+2441,MG,Confins
+2442,MG,Congonhal
+2443,MG,Congonhas
+2444,MG,Congonhas do Norte
+2445,MG,Conquista
+2446,MG,Conselheiro Lafaiete
+2447,MG,Conselheiro Pena
+2448,MG,Consolação
+2449,MG,Contagem
+2450,MG,Coqueiral
+2451,MG,Coração de Jesus
+2452,MG,Cordisburgo
+2453,MG,Cordislândia
+2454,MG,Corinto
+2455,MG,Coroaci
+2456,MG,Coromandel
+2457,MG,Coronel Fabriciano
+2458,MG,Coronel Murta
+2459,MG,Coronel Pacheco
+2460,MG,Coronel Xavier Chaves
+2461,MG,Córrego Danta
+2462,MG,Córrego do Bom Jesus
+2463,MG,Córrego Fundo
+2464,MG,Córrego Novo
+2465,MG,Couto de Magalhães de Minas
+2466,MG,Crisólita
+2467,MG,Cristais
+2468,MG,Cristália
+2469,MG,Cristiano Otoni
+2470,MG,Cristina
+2471,MG,Crucilândia
+2472,MG,Cruzeiro da Fortaleza
+2473,MG,Cruzília
+2474,MG,Cuparaque
+2475,MG,Curral de Dentro
+2476,MG,Curvelo
+2477,MG,Datas
+2478,MG,Delfim Moreira
+2479,MG,Delfinópolis
+2480,MG,Delta
+2481,MG,Descoberto
+2482,MG,Desterro de Entre Rios
+2483,MG,Desterro do Melo
+2484,MG,Diamantina
+2485,MG,Diogo de Vasconcelos
+2486,MG,Dionísio
+2487,MG,Divinésia
+2488,MG,Divino
+2489,MG,Divino Das Laranjeiras
+2490,MG,Divinolândia de Minas
+2491,MG,Divinópolis
+2492,MG,Divisa Alegre
+2493,MG,Divisa Nova
+2494,MG,Divisópolis
+2495,MG,Dom Bosco
+2496,MG,Dom Cavati
+2497,MG,Dom Joaquim
+2498,MG,Dom Silvério
+2499,MG,Dom Viçoso
+2500,MG,Dona Eusébia
+2501,MG,Dores de Campos
+2502,MG,Dores de Guanhães
+2503,MG,Dores do Indaiá
+2504,MG,Dores do Turvo
+2505,MG,Doresópolis
+2506,MG,Douradoquara
+2507,MG,Durandé
+2508,MG,Elói Mendes
+2509,MG,Engenheiro Caldas
+2510,MG,Engenheiro Navarro
+2511,MG,Entre Folhas
+2512,MG,Entre Rios de Minas
+2513,MG,Ervália
+2514,MG,Esmeraldas
+2515,MG,Espera Feliz
+2516,MG,Espinosa
+2517,MG,Espírito Santo do Dourado
+2518,MG,Estiva
+2519,MG,Estrela Dalva
+2520,MG,Estrela do Indaiá
+2521,MG,Estrela do Sul
+2522,MG,Eugenópolis
+2523,MG,Ewbank da Câmara
+2524,MG,Extrema
+2525,MG,Fama
+2526,MG,Faria Lemos
+2527,MG,Felício Dos Santos
+2528,MG,São Gonçalo do Rio Preto
+2529,MG,Felisburgo
+2530,MG,Felixlândia
+2531,MG,Fernandes Tourinho
+2532,MG,Ferros
+2533,MG,Fervedouro
+2534,MG,Florestal
+2535,MG,Formiga
+2536,MG,Formoso
+2537,MG,Fortaleza de Minas
+2538,MG,Fortuna de Minas
+2539,MG,Francisco Badaró
+2540,MG,Francisco Dumont
+2541,MG,Francisco sá
+2542,MG,Franciscópolis
+2543,MG,Frei Gaspar
+2544,MG,Frei Inocêncio
+2545,MG,Frei Lagonegro
+2546,MG,Fronteira
+2547,MG,Fronteira Dos Vales
+2548,MG,Fruta de Leite
+2549,MG,Frutal
+2550,MG,Funilândia
+2551,MG,Galiléia
+2552,MG,Gameleiras
+2553,MG,Glaucilândia
+2554,MG,Goiabeira
+2555,MG,Goianá
+2556,MG,Gonçalves
+2557,MG,Gonzaga
+2558,MG,Gouveia
+2559,MG,Governador Valadares
+2560,MG,Grão Mogol
+2561,MG,Grupiara
+2562,MG,Guanhães
+2563,MG,Guapé
+2564,MG,Guaraciaba
+2565,MG,Guaraciama
+2566,MG,Guaranésia
+2567,MG,Guarani
+2568,MG,Guarará
+2569,MG,Guarda-mor
+2570,MG,Guaxupé
+2571,MG,Guidoval
+2572,MG,Guimarânia
+2573,MG,Guiricema
+2574,MG,Gurinhatã
+2575,MG,Heliodora
+2576,MG,Iapu
+2577,MG,Ibertioga
+2578,MG,Ibiá
+2579,MG,Ibiaí
+2580,MG,Ibiracatu
+2581,MG,Ibiraci
+2582,MG,Ibirité
+2583,MG,Ibitiúra de Minas
+2584,MG,Ibituruna
+2585,MG,Icaraí de Minas
+2586,MG,Igarapé
+2587,MG,Igaratinga
+2588,MG,Iguatama
+2589,MG,Ijaci
+2590,MG,Ilicínea
+2591,MG,Imbé de Minas
+2592,MG,Inconfidentes
+2593,MG,Indaiabira
+2594,MG,Indianópolis
+2595,MG,Ingaí
+2596,MG,Inhapim
+2597,MG,Inhaúma
+2598,MG,Inimutaba
+2599,MG,Ipaba
+2600,MG,Ipanema
+2601,MG,Ipatinga
+2602,MG,Ipiaçu
+2603,MG,Ipuiúna
+2604,MG,Iraí de Minas
+2605,MG,Itabira
+2606,MG,Itabirinha
+2607,MG,Itabirito
+2608,MG,Itacambira
+2609,MG,Itacarambi
+2610,MG,Itaguara
+2611,MG,Itaipé
+2612,MG,Itajubá
+2613,MG,Itamarandiba
+2614,MG,Itamarati de Minas
+2615,MG,Itambacuri
+2616,MG,Itambé do Mato Dentro
+2617,MG,Itamogi
+2618,MG,Itamonte
+2619,MG,Itanhandu
+2620,MG,Itanhomi
+2621,MG,Itaobim
+2622,MG,Itapagipe
+2623,MG,Itapecerica
+2624,MG,Itapeva
+2625,MG,Itatiaiuçu
+2626,MG,Itaú de Minas
+2627,MG,Itaúna
+2628,MG,Itaverava
+2629,MG,Itinga
+2630,MG,Itueta
+2631,MG,Ituiutaba
+2632,MG,Itumirim
+2633,MG,Iturama
+2634,MG,Itutinga
+2635,MG,Jaboticatubas
+2636,MG,Jacinto
+2637,MG,Jacuí
+2638,MG,Jacutinga
+2639,MG,Jaguaraçu
+2640,MG,Jaíba
+2641,MG,Jampruca
+2642,MG,Janaúba
+2643,MG,Januária
+2644,MG,Japaraíba
+2645,MG,Japonvar
+2646,MG,Jeceaba
+2647,MG,Jenipapo de Minas
+2648,MG,Jequeri
+2649,MG,Jequitaí
+2650,MG,Jequitibá
+2651,MG,Jequitinhonha
+2652,MG,Jesuânia
+2653,MG,Joaíma
+2654,MG,Joanésia
+2655,MG,João Monlevade
+2656,MG,João Pinheiro
+2657,MG,Joaquim Felício
+2658,MG,Jordânia
+2659,MG,José Gonçalves de Minas
+2660,MG,José Raydan
+2661,MG,Josenópolis
+2662,MG,Nova União
+2663,MG,Juatuba
+2664,MG,Juiz de Fora
+2665,MG,Juramento
+2666,MG,Juruaia
+2667,MG,Juvenília
+2668,MG,Ladainha
+2669,MG,Lagamar
+2670,MG,Lagoa da Prata
+2671,MG,Lagoa Dos Patos
+2672,MG,Lagoa Dourada
+2673,MG,Lagoa Formosa
+2674,MG,Lagoa Grande
+2675,MG,Lagoa Santa
+2676,MG,Lajinha
+2677,MG,Lambari
+2678,MG,Lamim
+2679,MG,Laranjal
+2680,MG,Lassance
+2681,MG,Lavras
+2682,MG,Leandro Ferreira
+2683,MG,Leme do Prado
+2684,MG,Leopoldina
+2685,MG,Liberdade
+2686,MG,Lima Duarte
+2687,MG,Limeira do Oeste
+2688,MG,Lontra
+2689,MG,Luisburgo
+2690,MG,Luislândia
+2691,MG,Luminárias
+2692,MG,Luz
+2693,MG,Machacalis
+2694,MG,Machado
+2695,MG,Madre de Deus de Minas
+2696,MG,Malacacheta
+2697,MG,Mamonas
+2698,MG,Manga
+2699,MG,Manhuaçu
+2700,MG,Manhumirim
+2701,MG,Mantena
+2702,MG,Maravilhas
+2703,MG,Mar de Espanha
+2704,MG,Maria da fé
+2705,MG,Mariana
+2706,MG,Marilac
+2707,MG,Mário Campos
+2708,MG,Maripá de Minas
+2709,MG,Marliéria
+2710,MG,Marmelópolis
+2711,MG,Martinho Campos
+2712,MG,Martins Soares
+2713,MG,Mata Verde
+2714,MG,Materlândia
+2715,MG,Mateus Leme
+2716,MG,Matias Barbosa
+2717,MG,Matias Cardoso
+2718,MG,Matipó
+2719,MG,Mato Verde
+2720,MG,Matozinhos
+2721,MG,Matutina
+2722,MG,Medeiros
+2723,MG,Medina
+2724,MG,Mendes Pimentel
+2725,MG,Mercês
+2726,MG,Mesquita
+2727,MG,Minas Novas
+2728,MG,Minduri
+2729,MG,Mirabela
+2730,MG,Miradouro
+2731,MG,Miraí
+2732,MG,Miravânia
+2733,MG,Moeda
+2734,MG,Moema
+2735,MG,Monjolos
+2736,MG,Monsenhor Paulo
+2737,MG,Montalvânia
+2738,MG,Monte Alegre de Minas
+2739,MG,Monte Azul
+2740,MG,Monte Belo
+2741,MG,Monte Carmelo
+2742,MG,Monte Formoso
+2743,MG,Monte Santo de Minas
+2744,MG,Montes Claros
+2745,MG,Monte Sião
+2746,MG,Montezuma
+2747,MG,Morada Nova de Minas
+2748,MG,Morro da Garça
+2749,MG,Morro do Pilar
+2750,MG,Munhoz
+2751,MG,Muriaé
+2752,MG,Mutum
+2753,MG,Muzambinho
+2754,MG,Nacip Raydan
+2755,MG,Nanuque
+2756,MG,Naque
+2757,MG,Natalândia
+2758,MG,Natércia
+2759,MG,Nazareno
+2760,MG,Nepomuceno
+2761,MG,Ninheira
+2762,MG,Nova Belém
+2763,MG,Nova Era
+2764,MG,Nova Lima
+2765,MG,Nova Módica
+2766,MG,Nova Ponte
+2767,MG,Nova Porteirinha
+2768,MG,Nova Resende
+2769,MG,Nova Serrana
+2770,MG,Novo Cruzeiro
+2771,MG,Novo Oriente de Minas
+2772,MG,Novorizonte
+2773,MG,Olaria
+2774,MG,Olhos-d´água
+2775,MG,Olímpio Noronha
+2776,MG,Oliveira
+2777,MG,Oliveira Fortes
+2778,MG,Onça de Pitangui
+2779,MG,Oratórios
+2780,MG,Orizânia
+2781,MG,Ouro Branco
+2782,MG,Ouro Fino
+2783,MG,Ouro Preto
+2784,MG,Ouro Verde de Minas
+2785,MG,Padre Carvalho
+2786,MG,Padre Paraíso
+2787,MG,Paineiras
+2788,MG,Pains
+2789,MG,Pai Pedro
+2790,MG,Paiva
+2791,MG,Palma
+2792,MG,Palmópolis
+2793,MG,Papagaios
+2794,MG,Paracatu
+2795,MG,Pará de Minas
+2796,MG,Paraguaçu
+2797,MG,Paraisópolis
+2798,MG,Paraopeba
+2799,MG,Passabém
+2800,MG,Passa Quatro
+2801,MG,Passa Tempo
+2802,MG,Passa-vinte
+2803,MG,Passos
+2804,MG,Patis
+2805,MG,Patos de Minas
+2806,MG,Patrocínio
+2807,MG,Patrocínio do Muriaé
+2808,MG,Paula Cândido
+2809,MG,Paulistas
+2810,MG,Pavão
+2811,MG,Peçanha
+2812,MG,Pedra Azul
+2813,MG,Pedra Bonita
+2814,MG,Pedra do Anta
+2815,MG,Pedra do Indaiá
+2816,MG,Pedra Dourada
+2817,MG,Pedralva
+2818,MG,Pedras de Maria da Cruz
+2819,MG,Pedrinópolis
+2820,MG,Pedro Leopoldo
+2821,MG,Pedro Teixeira
+2822,MG,Pequeri
+2823,MG,Pequi
+2824,MG,Perdigão
+2825,MG,Perdizes
+2826,MG,Perdões
+2827,MG,Periquito
+2828,MG,Pescador
+2829,MG,Piau
+2830,MG,Piedade de Caratinga
+2831,MG,Piedade de Ponte Nova
+2832,MG,Piedade do Rio Grande
+2833,MG,Piedade Dos Gerais
+2834,MG,Pimenta
+2835,MG,Pingo-d´água
+2836,MG,Pintópolis
+2837,MG,Piracema
+2838,MG,Pirajuba
+2839,MG,Piranga
+2840,MG,Piranguçu
+2841,MG,Piranguinho
+2842,MG,Pirapetinga
+2843,MG,Pirapora
+2844,MG,Piraúba
+2845,MG,Pitangui
+2846,MG,Piumhi
+2847,MG,Planura
+2848,MG,Poço Fundo
+2849,MG,Poços de Caldas
+2850,MG,Pocrane
+2851,MG,Pompéu
+2852,MG,Ponte Nova
+2853,MG,Ponto Chique
+2854,MG,Ponto Dos Volantes
+2855,MG,Porteirinha
+2856,MG,Porto Firme
+2857,MG,Poté
+2858,MG,Pouso Alegre
+2859,MG,Pouso Alto
+2860,MG,Prados
+2861,MG,Prata
+2862,MG,Pratápolis
+2863,MG,Pratinha
+2864,MG,Presidente Bernardes
+2865,MG,Presidente Juscelino
+2866,MG,Presidente Kubitschek
+2867,MG,Presidente Olegário
+2868,MG,Alto Jequitibá
+2869,MG,Prudente de Morais
+2870,MG,Quartel Geral
+2871,MG,Queluzito
+2872,MG,Raposos
+2873,MG,Raul Soares
+2874,MG,Recreio
+2875,MG,Reduto
+2876,MG,Resende Costa
+2877,MG,Resplendor
+2878,MG,Ressaquinha
+2879,MG,Riachinho
+2880,MG,Riacho Dos Machados
+2881,MG,Ribeirão Das Neves
+2882,MG,Ribeirão Vermelho
+2883,MG,Rio Acima
+2884,MG,Rio Casca
+2885,MG,Rio Doce
+2886,MG,Rio do Prado
+2887,MG,Rio Espera
+2888,MG,Rio Manso
+2889,MG,Rio Novo
+2890,MG,Rio Paranaíba
+2891,MG,Rio Pardo de Minas
+2892,MG,Rio Piracicaba
+2893,MG,Rio Pomba
+2894,MG,Rio Preto
+2895,MG,Rio Vermelho
+2896,MG,Ritápolis
+2897,MG,Rochedo de Minas
+2898,MG,Rodeiro
+2899,MG,Romaria
+2900,MG,Rosário da Limeira
+2901,MG,Rubelita
+2902,MG,Rubim
+2903,MG,Sabará
+2904,MG,Sabinópolis
+2905,MG,Sacramento
+2906,MG,Salinas
+2907,MG,Salto da Divisa
+2908,MG,Santa Bárbara
+2909,MG,Santa Bárbara do Leste
+2910,MG,Santa Bárbara do Monte Verde
+2911,MG,Santa Bárbara do Tugúrio
+2912,MG,Santa Cruz de Minas
+2913,MG,Santa Cruz de Salinas
+2914,MG,Santa Cruz do Escalvado
+2915,MG,Santa Efigênia de Minas
+2916,MG,Santa fé de Minas
+2917,MG,Santa Helena de Minas
+2918,MG,Santa Juliana
+2919,MG,Santa Luzia
+2920,MG,Santa Margarida
+2921,MG,Santa Maria de Itabira
+2922,MG,Santa Maria do Salto
+2923,MG,Santa Maria do Suaçuí
+2924,MG,Santana da Vargem
+2925,MG,Santana de Cataguases
+2926,MG,Santana de Pirapama
+2927,MG,Santana do Deserto
+2928,MG,Santana do Garambéu
+2929,MG,Santana do Jacaré
+2930,MG,Santana do Manhuaçu
+2931,MG,Santana do Paraíso
+2932,MG,Santana do Riacho
+2933,MG,Santana Dos Montes
+2934,MG,Santa Rita de Caldas
+2935,MG,Santa Rita de Jacutinga
+2936,MG,Santa Rita de Minas
+2937,MG,Santa Rita de Ibitipoca
+2938,MG,Santa Rita do Itueto
+2939,MG,Santa Rita do Sapucaí
+2940,MG,Santa Rosa da Serra
+2941,MG,Santa Vitória
+2942,MG,Santo Antônio do Amparo
+2943,MG,Santo Antônio do Aventureiro
+2944,MG,Santo Antônio do Grama
+2945,MG,Santo Antônio do Itambé
+2946,MG,Santo Antônio do Jacinto
+2947,MG,Santo Antônio do Monte
+2948,MG,Santo Antônio do Retiro
+2949,MG,Santo Antônio do Rio Abaixo
+2950,MG,Santo Hipólito
+2951,MG,Santos Dumont
+2952,MG,São Bento Abade
+2953,MG,São Brás do Suaçuí
+2954,MG,São Domingos Das Dores
+2955,MG,São Domingos do Prata
+2956,MG,São Félix de Minas
+2957,MG,São Francisco
+2958,MG,São Francisco de Paula
+2959,MG,São Francisco de Sales
+2960,MG,São Francisco do Glória
+2961,MG,São Geraldo
+2962,MG,São Geraldo da Piedade
+2963,MG,São Geraldo do Baixio
+2964,MG,São Gonçalo do Abaeté
+2965,MG,São Gonçalo do Pará
+2966,MG,São Gonçalo do Rio Abaixo
+2967,MG,São Gonçalo do Sapucaí
+2968,MG,São Gotardo
+2969,MG,São João Batista do Glória
+2970,MG,São João da Lagoa
+2971,MG,São João da Mata
+2972,MG,São João da Ponte
+2973,MG,São João Das Missões
+2974,MG,São João Del Rei
+2975,MG,São João do Manhuaçu
+2976,MG,São João do Manteninha
+2977,MG,São João do Oriente
+2978,MG,São João do Pacuí
+2979,MG,São João do Paraíso
+2980,MG,São João Evangelista
+2981,MG,São João Nepomuceno
+2982,MG,São Joaquim de Bicas
+2983,MG,São José da Barra
+2984,MG,São José da Lapa
+2985,MG,São José da Safira
+2986,MG,São José da Varginha
+2987,MG,São José do Alegre
+2988,MG,São José do Divino
+2989,MG,São José do Goiabal
+2990,MG,São José do Jacuri
+2991,MG,São José do Mantimento
+2992,MG,São Lourenço
+2993,MG,São Miguel do Anta
+2994,MG,São Pedro da União
+2995,MG,São Pedro Dos Ferros
+2996,MG,São Pedro do Suaçuí
+2997,MG,São Romão
+2998,MG,São Roque de Minas
+2999,MG,São Sebastião da Bela Vista
+3000,MG,São Sebastião da Vargem Alegre
+3001,MG,São Sebastião do Anta
+3002,MG,São Sebastião do Maranhão
+3003,MG,São Sebastião do Oeste
+3004,MG,São Sebastião do Paraíso
+3005,MG,São Sebastião do Rio Preto
+3006,MG,São Sebastião do Rio Verde
+3007,MG,São Tiago
+3008,MG,São Tomás de Aquino
+3009,MG,São Thomé Das Letras
+3010,MG,São Vicente de Minas
+3011,MG,Sapucaí-mirim
+3012,MG,Sardoá
+3013,MG,Sarzedo
+3014,MG,Setubinha
+3015,MG,Sem-peixe
+3016,MG,Senador Amaral
+3017,MG,Senador Cortes
+3018,MG,Senador Firmino
+3019,MG,Senador José Bento
+3020,MG,Senador Modestino Gonçalves
+3021,MG,Senhora de Oliveira
+3022,MG,Senhora do Porto
+3023,MG,Senhora Dos Remédios
+3024,MG,Sericita
+3025,MG,Seritinga
+3026,MG,Serra Azul de Minas
+3027,MG,Serra da Saudade
+3028,MG,Serra Dos Aimorés
+3029,MG,Serra do Salitre
+3030,MG,Serrania
+3031,MG,Serranópolis de Minas
+3032,MG,Serranos
+3033,MG,Serro
+3034,MG,Sete Lagoas
+3035,MG,Silveirânia
+3036,MG,Silvianópolis
+3037,MG,Simão Pereira
+3038,MG,Simonésia
+3039,MG,Sobrália
+3040,MG,Soledade de Minas
+3041,MG,Tabuleiro
+3042,MG,Taiobeiras
+3043,MG,Taparuba
+3044,MG,Tapira
+3045,MG,Tapiraí
+3046,MG,Taquaraçu de Minas
+3047,MG,Tarumirim
+3048,MG,Teixeiras
+3049,MG,Teófilo Otoni
+3050,MG,Timóteo
+3051,MG,Tiradentes
+3052,MG,Tiros
+3053,MG,Tocantins
+3054,MG,Tocos do Moji
+3055,MG,Toledo
+3056,MG,Tombos
+3057,MG,Três Corações
+3058,MG,Três Marias
+3059,MG,Três Pontas
+3060,MG,Tumiritinga
+3061,MG,Tupaciguara
+3062,MG,Turmalina
+3063,MG,Turvolândia
+3064,MG,Ubá
+3065,MG,Ubaí
+3066,MG,Ubaporanga
+3067,MG,Uberaba
+3068,MG,Uberlândia
+3069,MG,Umburatiba
+3070,MG,Unaí
+3071,MG,União de Minas
+3072,MG,Uruana de Minas
+3073,MG,Urucânia
+3074,MG,Urucuia
+3075,MG,Vargem Alegre
+3076,MG,Vargem Bonita
+3077,MG,Vargem Grande do Rio Pardo
+3078,MG,Varginha
+3079,MG,Varjão de Minas
+3080,MG,Várzea da Palma
+3081,MG,Varzelândia
+3082,MG,Vazante
+3083,MG,Verdelândia
+3084,MG,Veredinha
+3085,MG,Veríssimo
+3086,MG,Vermelho Novo
+3087,MG,Vespasiano
+3088,MG,Viçosa
+3089,MG,Vieiras
+3090,MG,Mathias Lobato
+3091,MG,Virgem da Lapa
+3092,MG,Virgínia
+3093,MG,Virginópolis
+3094,MG,Virgolândia
+3095,MG,Visconde do Rio Branco
+3096,MG,Volta Grande
+3097,MG,Wenceslau Braz
+3098,ES,Afonso Cláudio
+3099,ES,Águia Branca
+3100,ES,Água Doce do Norte
+3101,ES,Alegre
+3102,ES,Alfredo Chaves
+3103,ES,Alto Rio Novo
+3104,ES,Anchieta
+3105,ES,Apiacá
+3106,ES,Aracruz
+3107,ES,Atilio Vivacqua
+3108,ES,Baixo Guandu
+3109,ES,Barra de São Francisco
+3110,ES,Boa Esperança
+3111,ES,Bom Jesus do Norte
+3112,ES,Brejetuba
+3113,ES,Cachoeiro de Itapemirim
+3114,ES,Cariacica
+3115,ES,Castelo
+3116,ES,Colatina
+3117,ES,Conceição da Barra
+3118,ES,Conceição do Castelo
+3119,ES,Divino de São Lourenço
+3120,ES,Domingos Martins
+3121,ES,Dores do Rio Preto
+3122,ES,Ecoporanga
+3123,ES,Fundão
+3124,ES,Governador Lindenberg
+3125,ES,Guaçuí
+3126,ES,Guarapari
+3127,ES,Ibatiba
+3128,ES,Ibiraçu
+3129,ES,Ibitirama
+3130,ES,Iconha
+3131,ES,Irupi
+3132,ES,Itaguaçu
+3133,ES,Itapemirim
+3134,ES,Itarana
+3135,ES,Iúna
+3136,ES,Jaguaré
+3137,ES,Jerônimo Monteiro
+3138,ES,João Neiva
+3139,ES,Laranja da Terra
+3140,ES,Linhares
+3141,ES,Mantenópolis
+3142,ES,Marataízes
+3143,ES,Marechal Floriano
+3144,ES,Marilândia
+3145,ES,Mimoso do Sul
+3146,ES,Montanha
+3147,ES,Mucurici
+3148,ES,Muniz Freire
+3149,ES,Muqui
+3150,ES,Nova Venécia
+3151,ES,Pancas
+3152,ES,Pedro Canário
+3153,ES,Pinheiros
+3154,ES,Piúma
+3155,ES,Ponto Belo
+3156,ES,Presidente Kennedy
+3157,ES,Rio Bananal
+3158,ES,Rio Novo do Sul
+3159,ES,Santa Leopoldina
+3160,ES,Santa Maria de Jetibá
+3161,ES,Santa Teresa
+3162,ES,São Domingos do Norte
+3163,ES,São Gabriel da Palha
+3164,ES,São José do Calçado
+3165,ES,São Mateus
+3166,ES,São Roque do Canaã
+3167,ES,Serra
+3168,ES,Sooretama
+3169,ES,Vargem Alta
+3170,ES,Venda Nova do Imigrante
+3171,ES,Viana
+3172,ES,Vila Pavão
+3173,ES,Vila Valério
+3174,ES,Vila Velha
+3175,ES,Vitória
+3176,RJ,Angra Dos Reis
+3177,RJ,Aperibé
+3178,RJ,Araruama
+3179,RJ,Areal
+3180,RJ,Armação Dos Búzios
+3181,RJ,Arraial do Cabo
+3182,RJ,Barra do Piraí
+3183,RJ,Barra Mansa
+3184,RJ,Belford Roxo
+3185,RJ,Bom Jardim
+3186,RJ,Bom Jesus do Itabapoana
+3187,RJ,Cabo Frio
+3188,RJ,Cachoeiras de Macacu
+3189,RJ,Cambuci
+3190,RJ,Carapebus
+3191,RJ,Comendador Levy Gasparian
+3192,RJ,Campos Dos Goytacazes
+3193,RJ,Cantagalo
+3194,RJ,Cardoso Moreira
+3195,RJ,Carmo
+3196,RJ,Casimiro de Abreu
+3197,RJ,Conceição de Macabu
+3198,RJ,Cordeiro
+3199,RJ,Duas Barras
+3200,RJ,Duque de Caxias
+3201,RJ,Engenheiro Paulo de Frontin
+3202,RJ,Guapimirim
+3203,RJ,Iguaba Grande
+3204,RJ,Itaboraí
+3205,RJ,Itaguaí
+3206,RJ,Italva
+3207,RJ,Itaocara
+3208,RJ,Itaperuna
+3209,RJ,Itatiaia
+3210,RJ,Japeri
+3211,RJ,Laje do Muriaé
+3212,RJ,Macaé
+3213,RJ,Macuco
+3214,RJ,Magé
+3215,RJ,Mangaratiba
+3216,RJ,Maricá
+3217,RJ,Mendes
+3218,RJ,Mesquita
+3219,RJ,Miguel Pereira
+3220,RJ,Miracema
+3221,RJ,Natividade
+3222,RJ,Nilópolis
+3223,RJ,Niterói
+3224,RJ,Nova Friburgo
+3225,RJ,Nova Iguaçu
+3226,RJ,Paracambi
+3227,RJ,Paraíba do Sul
+3228,RJ,Parati
+3229,RJ,Paty do Alferes
+3230,RJ,Petrópolis
+3231,RJ,Pinheiral
+3232,RJ,Piraí
+3233,RJ,Porciúncula
+3234,RJ,Porto Real
+3235,RJ,Quatis
+3236,RJ,Queimados
+3237,RJ,Quissamã
+3238,RJ,Resende
+3239,RJ,Rio Bonito
+3240,RJ,Rio Claro
+3241,RJ,Rio Das Flores
+3242,RJ,Rio Das Ostras
+3243,RJ,Rio de Janeiro
+3244,RJ,Santa Maria Madalena
+3245,RJ,Santo Antônio de Pádua
+3246,RJ,São Francisco de Itabapoana
+3247,RJ,São Fidélis
+3248,RJ,São Gonçalo
+3249,RJ,São João da Barra
+3250,RJ,São João de Meriti
+3251,RJ,São José de Ubá
+3252,RJ,São José do Vale do Rio Preto
+3253,RJ,São Pedro da Aldeia
+3254,RJ,São Sebastião do Alto
+3255,RJ,Sapucaia
+3256,RJ,Saquarema
+3257,RJ,Seropédica
+3258,RJ,Silva Jardim
+3259,RJ,Sumidouro
+3260,RJ,Tanguá
+3261,RJ,Teresópolis
+3262,RJ,Trajano de Morais
+3263,RJ,Três Rios
+3264,RJ,Valença
+3265,RJ,Varre-sai
+3266,RJ,Vassouras
+3267,RJ,Volta Redonda
+3268,SP,Adamantina
+3269,SP,Adolfo
+3270,SP,Aguaí
+3271,SP,Águas da Prata
+3272,SP,Águas de Lindóia
+3273,SP,Águas de Santa Bárbara
+3274,SP,Águas de São Pedro
+3275,SP,Agudos
+3276,SP,Alambari
+3277,SP,Alfredo Marcondes
+3278,SP,Altair
+3279,SP,Altinópolis
+3280,SP,Alto Alegre
+3281,SP,Alumínio
+3282,SP,Álvares Florence
+3283,SP,Álvares Machado
+3284,SP,Álvaro de Carvalho
+3285,SP,Alvinlândia
+3286,SP,Americana
+3287,SP,Américo Brasiliense
+3288,SP,Américo de Campos
+3289,SP,Amparo
+3290,SP,Analândia
+3291,SP,Andradina
+3292,SP,Angatuba
+3293,SP,Anhembi
+3294,SP,Anhumas
+3295,SP,Aparecida
+3296,SP,Aparecida D´oeste
+3297,SP,Apiaí
+3298,SP,Araçariguama
+3299,SP,Araçatuba
+3300,SP,Araçoiaba da Serra
+3301,SP,Aramina
+3302,SP,Arandu
+3303,SP,Arapeí
+3304,SP,Araraquara
+3305,SP,Araras
+3306,SP,Arco-íris
+3307,SP,Arealva
+3308,SP,Areias
+3309,SP,Areiópolis
+3310,SP,Ariranha
+3311,SP,Artur Nogueira
+3312,SP,Arujá
+3313,SP,Aspásia
+3314,SP,Assis
+3315,SP,Atibaia
+3316,SP,Auriflama
+3317,SP,Avaí
+3318,SP,Avanhandava
+3319,SP,Avaré
+3320,SP,Bady Bassitt
+3321,SP,Balbinos
+3322,SP,Bálsamo
+3323,SP,Bananal
+3324,SP,Barão de Antonina
+3325,SP,Barbosa
+3326,SP,Bariri
+3327,SP,Barra Bonita
+3328,SP,Barra do Chapéu
+3329,SP,Barra do Turvo
+3330,SP,Barretos
+3331,SP,Barrinha
+3332,SP,Barueri
+3333,SP,Bastos
+3334,SP,Batatais
+3335,SP,Bauru
+3336,SP,Bebedouro
+3337,SP,Bento de Abreu
+3338,SP,Bernardino de Campos
+3339,SP,Bertioga
+3340,SP,Bilac
+3341,SP,Birigui
+3342,SP,Biritiba-mirim
+3343,SP,Boa Esperança do Sul
+3344,SP,Bocaina
+3345,SP,Bofete
+3346,SP,Boituva
+3347,SP,Bom Jesus Dos Perdões
+3348,SP,Bom Sucesso de Itararé
+3349,SP,Borá
+3350,SP,Boracéia
+3351,SP,Borborema
+3352,SP,Borebi
+3353,SP,Botucatu
+3354,SP,Bragança Paulista
+3355,SP,Braúna
+3356,SP,Brejo Alegre
+3357,SP,Brodowski
+3358,SP,Brotas
+3359,SP,Buri
+3360,SP,Buritama
+3361,SP,Buritizal
+3362,SP,Cabrália Paulista
+3363,SP,Cabreúva
+3364,SP,Caçapava
+3365,SP,Cachoeira Paulista
+3366,SP,Caconde
+3367,SP,Cafelândia
+3368,SP,Caiabu
+3369,SP,Caieiras
+3370,SP,Caiuá
+3371,SP,Cajamar
+3372,SP,Cajati
+3373,SP,Cajobi
+3374,SP,Cajuru
+3375,SP,Campina do Monte Alegre
+3376,SP,Campinas
+3377,SP,Campo Limpo Paulista
+3378,SP,Campos do Jordão
+3379,SP,Campos Novos Paulista
+3380,SP,Cananéia
+3381,SP,Canas
+3382,SP,Cândido Mota
+3383,SP,Cândido Rodrigues
+3384,SP,Canitar
+3385,SP,Capão Bonito
+3386,SP,Capela do Alto
+3387,SP,Capivari
+3388,SP,Caraguatatuba
+3389,SP,Carapicuíba
+3390,SP,Cardoso
+3391,SP,Casa Branca
+3392,SP,Cássia Dos Coqueiros
+3393,SP,Castilho
+3394,SP,Catanduva
+3395,SP,Catiguá
+3396,SP,Cedral
+3397,SP,Cerqueira César
+3398,SP,Cerquilho
+3399,SP,Cesário Lange
+3400,SP,Charqueada
+3401,SP,Clementina
+3402,SP,Colina
+3403,SP,Colômbia
+3404,SP,Conchal
+3405,SP,Conchas
+3406,SP,Cordeirópolis
+3407,SP,Coroados
+3408,SP,Coronel Macedo
+3409,SP,Corumbataí
+3410,SP,Cosmópolis
+3411,SP,Cosmorama
+3412,SP,Cotia
+3413,SP,Cravinhos
+3414,SP,Cristais Paulista
+3415,SP,Cruzália
+3416,SP,Cruzeiro
+3417,SP,Cubatão
+3418,SP,Cunha
+3419,SP,Descalvado
+3420,SP,Diadema
+3421,SP,Dirce Reis
+3422,SP,Divinolândia
+3423,SP,Dobrada
+3424,SP,Dois Córregos
+3425,SP,Dolcinópolis
+3426,SP,Dourado
+3427,SP,Dracena
+3428,SP,Duartina
+3429,SP,Dumont
+3430,SP,Echaporã
+3431,SP,Eldorado
+3432,SP,Elias Fausto
+3433,SP,Elisiário
+3434,SP,Embaúba
+3435,SP,Embu
+3436,SP,Embu-guaçu
+3437,SP,Emilianópolis
+3438,SP,Engenheiro Coelho
+3439,SP,Espírito Santo do Pinhal
+3440,SP,Espírito Santo do Turvo
+3441,SP,Estrela D´oeste
+3442,SP,Estrela do Norte
+3443,SP,Euclides da Cunha Paulista
+3444,SP,Fartura
+3445,SP,Fernandópolis
+3446,SP,Fernando Prestes
+3447,SP,Fernão
+3448,SP,Ferraz de Vasconcelos
+3449,SP,Flora Rica
+3450,SP,Floreal
+3451,SP,Flórida Paulista
+3452,SP,Florínia
+3453,SP,Franca
+3454,SP,Francisco Morato
+3455,SP,Franco da Rocha
+3456,SP,Gabriel Monteiro
+3457,SP,Gália
+3458,SP,Garça
+3459,SP,Gastão Vidigal
+3460,SP,Gavião Peixoto
+3461,SP,General Salgado
+3462,SP,Getulina
+3463,SP,Glicério
+3464,SP,Guaiçara
+3465,SP,Guaimbê
+3466,SP,Guaíra
+3467,SP,Guapiaçu
+3468,SP,Guapiara
+3469,SP,Guará
+3470,SP,Guaraçaí
+3471,SP,Guaraci
+3472,SP,Guarani D´oeste
+3473,SP,Guarantã
+3474,SP,Guararapes
+3475,SP,Guararema
+3476,SP,Guaratinguetá
+3477,SP,Guareí
+3478,SP,Guariba
+3479,SP,Guarujá
+3480,SP,Guarulhos
+3481,SP,Guatapará
+3482,SP,Guzolândia
+3483,SP,Herculândia
+3484,SP,Holambra
+3485,SP,Hortolândia
+3486,SP,Iacanga
+3487,SP,Iacri
+3488,SP,Iaras
+3489,SP,Ibaté
+3490,SP,Ibirá
+3491,SP,Ibirarema
+3492,SP,Ibitinga
+3493,SP,Ibiúna
+3494,SP,Icém
+3495,SP,Iepê
+3496,SP,Igaraçu do Tietê
+3497,SP,Igarapava
+3498,SP,Igaratá
+3499,SP,Iguape
+3500,SP,Ilhabela
+3501,SP,Ilha Comprida
+3502,SP,Ilha Solteira
+3503,SP,Indaiatuba
+3504,SP,Indiana
+3505,SP,Indiaporã
+3506,SP,Inúbia Paulista
+3507,SP,Ipaussu
+3508,SP,Iperó
+3509,SP,Ipeúna
+3510,SP,Ipiguá
+3511,SP,Iporanga
+3512,SP,Ipuã
+3513,SP,Iracemápolis
+3514,SP,Irapuã
+3515,SP,Irapuru
+3516,SP,Itaberá
+3517,SP,Itaí
+3518,SP,Itajobi
+3519,SP,Itaju
+3520,SP,Itanhaém
+3521,SP,Itaóca
+3522,SP,Itapecerica da Serra
+3523,SP,Itapetininga
+3524,SP,Itapeva
+3525,SP,Itapevi
+3526,SP,Itapira
+3527,SP,Itapirapuã Paulista
+3528,SP,Itápolis
+3529,SP,Itaporanga
+3530,SP,Itapuí
+3531,SP,Itapura
+3532,SP,Itaquaquecetuba
+3533,SP,Itararé
+3534,SP,Itariri
+3535,SP,Itatiba
+3536,SP,Itatinga
+3537,SP,Itirapina
+3538,SP,Itirapuã
+3539,SP,Itobi
+3540,SP,Itu
+3541,SP,Itupeva
+3542,SP,Ituverava
+3543,SP,Jaborandi
+3544,SP,Jaboticabal
+3545,SP,Jacareí
+3546,SP,Jaci
+3547,SP,Jacupiranga
+3548,SP,Jaguariúna
+3549,SP,Jales
+3550,SP,Jambeiro
+3551,SP,Jandira
+3552,SP,Jardinópolis
+3553,SP,Jarinu
+3554,SP,Jaú
+3555,SP,Jeriquara
+3556,SP,Joanópolis
+3557,SP,João Ramalho
+3558,SP,José Bonifácio
+3559,SP,Júlio Mesquita
+3560,SP,Jumirim
+3561,SP,Jundiaí
+3562,SP,Junqueirópolis
+3563,SP,Juquiá
+3564,SP,Juquitiba
+3565,SP,Lagoinha
+3566,SP,Laranjal Paulista
+3567,SP,Lavínia
+3568,SP,Lavrinhas
+3569,SP,Leme
+3570,SP,Lençóis Paulista
+3571,SP,Limeira
+3572,SP,Lindóia
+3573,SP,Lins
+3574,SP,Lorena
+3575,SP,Lourdes
+3576,SP,Louveira
+3577,SP,Lucélia
+3578,SP,Lucianópolis
+3579,SP,Luís Antônio
+3580,SP,Luiziânia
+3581,SP,Lupércio
+3582,SP,Lutécia
+3583,SP,Macatuba
+3584,SP,Macaubal
+3585,SP,Macedônia
+3586,SP,Magda
+3587,SP,Mairinque
+3588,SP,Mairiporã
+3589,SP,Manduri
+3590,SP,Marabá Paulista
+3591,SP,Maracaí
+3592,SP,Marapoama
+3593,SP,Mariápolis
+3594,SP,Marília
+3595,SP,Marinópolis
+3596,SP,Martinópolis
+3597,SP,Matão
+3598,SP,Mauá
+3599,SP,Mendonça
+3600,SP,Meridiano
+3601,SP,Mesópolis
+3602,SP,Miguelópolis
+3603,SP,Mineiros do Tietê
+3604,SP,Miracatu
+3605,SP,Mira Estrela
+3606,SP,Mirandópolis
+3607,SP,Mirante do Paranapanema
+3608,SP,Mirassol
+3609,SP,Mirassolândia
+3610,SP,Mococa
+3611,SP,Moji Das Cruzes
+3612,SP,Mogi Guaçu
+3613,SP,Moji-mirim
+3614,SP,Mombuca
+3615,SP,Monções
+3616,SP,Mongaguá
+3617,SP,Monte Alegre do Sul
+3618,SP,Monte Alto
+3619,SP,Monte Aprazível
+3620,SP,Monte Azul Paulista
+3621,SP,Monte Castelo
+3622,SP,Monteiro Lobato
+3623,SP,Monte Mor
+3624,SP,Morro Agudo
+3625,SP,Morungaba
+3626,SP,Motuca
+3627,SP,Murutinga do Sul
+3628,SP,Nantes
+3629,SP,Narandiba
+3630,SP,Natividade da Serra
+3631,SP,Nazaré Paulista
+3632,SP,Neves Paulista
+3633,SP,Nhandeara
+3634,SP,Nipoã
+3635,SP,Nova Aliança
+3636,SP,Nova Campina
+3637,SP,Nova Canaã Paulista
+3638,SP,Nova Castilho
+3639,SP,Nova Europa
+3640,SP,Nova Granada
+3641,SP,Nova Guataporanga
+3642,SP,Nova Independência
+3643,SP,Novais
+3644,SP,Nova Luzitânia
+3645,SP,Nova Odessa
+3646,SP,Novo Horizonte
+3647,SP,Nuporanga
+3648,SP,Ocauçu
+3649,SP,Óleo
+3650,SP,Olímpia
+3651,SP,Onda Verde
+3652,SP,Oriente
+3653,SP,Orindiúva
+3654,SP,Orlândia
+3655,SP,Osasco
+3656,SP,Oscar Bressane
+3657,SP,Osvaldo Cruz
+3658,SP,Ourinhos
+3659,SP,Ouroeste
+3660,SP,Ouro Verde
+3661,SP,Pacaembu
+3662,SP,Palestina
+3663,SP,Palmares Paulista
+3664,SP,Palmeira D´oeste
+3665,SP,Palmital
+3666,SP,Panorama
+3667,SP,Paraguaçu Paulista
+3668,SP,Paraibuna
+3669,SP,Paraíso
+3670,SP,Paranapanema
+3671,SP,Paranapuã
+3672,SP,Parapuã
+3673,SP,Pardinho
+3674,SP,Pariquera-açu
+3675,SP,Parisi
+3676,SP,Patrocínio Paulista
+3677,SP,Paulicéia
+3678,SP,Paulínia
+3679,SP,Paulistânia
+3680,SP,Paulo de Faria
+3681,SP,Pederneiras
+3682,SP,Pedra Bela
+3683,SP,Pedranópolis
+3684,SP,Pedregulho
+3685,SP,Pedreira
+3686,SP,Pedrinhas Paulista
+3687,SP,Pedro de Toledo
+3688,SP,Penápolis
+3689,SP,Pereira Barreto
+3690,SP,Pereiras
+3691,SP,Peruíbe
+3692,SP,Piacatu
+3693,SP,Piedade
+3694,SP,Pilar do Sul
+3695,SP,Pindamonhangaba
+3696,SP,Pindorama
+3697,SP,Pinhalzinho
+3698,SP,Piquerobi
+3699,SP,Piquete
+3700,SP,Piracaia
+3701,SP,Piracicaba
+3702,SP,Piraju
+3703,SP,Pirajuí
+3704,SP,Pirangi
+3705,SP,Pirapora do Bom Jesus
+3706,SP,Pirapozinho
+3707,SP,Pirassununga
+3708,SP,Piratininga
+3709,SP,Pitangueiras
+3710,SP,Planalto
+3711,SP,Platina
+3712,SP,Poá
+3713,SP,Poloni
+3714,SP,Pompéia
+3715,SP,Pongaí
+3716,SP,Pontal
+3717,SP,Pontalinda
+3718,SP,Pontes Gestal
+3719,SP,Populina
+3720,SP,Porangaba
+3721,SP,Porto Feliz
+3722,SP,Porto Ferreira
+3723,SP,Potim
+3724,SP,Potirendaba
+3725,SP,Pracinha
+3726,SP,Pradópolis
+3727,SP,Praia Grande
+3728,SP,Pratânia
+3729,SP,Presidente Alves
+3730,SP,Presidente Bernardes
+3731,SP,Presidente Epitácio
+3732,SP,Presidente Prudente
+3733,SP,Presidente Venceslau
+3734,SP,Promissão
+3735,SP,Quadra
+3736,SP,Quatá
+3737,SP,Queiroz
+3738,SP,Queluz
+3739,SP,Quintana
+3740,SP,Rafard
+3741,SP,Rancharia
+3742,SP,Redenção da Serra
+3743,SP,Regente Feijó
+3744,SP,Reginópolis
+3745,SP,Registro
+3746,SP,Restinga
+3747,SP,Ribeira
+3748,SP,Ribeirão Bonito
+3749,SP,Ribeirão Branco
+3750,SP,Ribeirão Corrente
+3751,SP,Ribeirão do Sul
+3752,SP,Ribeirão Dos Índios
+3753,SP,Ribeirão Grande
+3754,SP,Ribeirão Pires
+3755,SP,Ribeirão Preto
+3756,SP,Riversul
+3757,SP,Rifaina
+3758,SP,Rincão
+3759,SP,Rinópolis
+3760,SP,Rio Claro
+3761,SP,Rio Das Pedras
+3762,SP,Rio Grande da Serra
+3763,SP,Riolândia
+3764,SP,Rosana
+3765,SP,Roseira
+3766,SP,Rubiácea
+3767,SP,Rubinéia
+3768,SP,Sabino
+3769,SP,Sagres
+3770,SP,Sales
+3771,SP,Sales Oliveira
+3772,SP,Salesópolis
+3773,SP,Salmourão
+3774,SP,Saltinho
+3775,SP,Salto
+3776,SP,Salto de Pirapora
+3777,SP,Salto Grande
+3778,SP,Sandovalina
+3779,SP,Santa Adélia
+3780,SP,Santa Albertina
+3781,SP,Santa Bárbara D´oeste
+3782,SP,Santa Branca
+3783,SP,Santa Clara D´oeste
+3784,SP,Santa Cruz da Conceição
+3785,SP,Santa Cruz da Esperança
+3786,SP,Santa Cruz Das Palmeiras
+3787,SP,Santa Cruz do Rio Pardo
+3788,SP,Santa Ernestina
+3789,SP,Santa fé do Sul
+3790,SP,Santa Gertrudes
+3791,SP,Santa Isabel
+3792,SP,Santa Lúcia
+3793,SP,Santa Maria da Serra
+3794,SP,Santa Mercedes
+3795,SP,Santana da Ponte Pensa
+3796,SP,Santana de Parnaíba
+3797,SP,Santa Rita D´oeste
+3798,SP,Santa Rita do Passa Quatro
+3799,SP,Santa Rosa de Viterbo
+3800,SP,Santa Salete
+3801,SP,Santo Anastácio
+3802,SP,Santo André
+3803,SP,Santo Antônio da Alegria
+3804,SP,Santo Antônio de Posse
+3805,SP,Santo Antônio do Aracanguá
+3806,SP,Santo Antônio do Jardim
+3807,SP,Santo Antônio do Pinhal
+3808,SP,Santo Expedito
+3809,SP,Santópolis do Aguapeí
+3810,SP,Santos
+3811,SP,São Bento do Sapucaí
+3812,SP,São Bernardo do Campo
+3813,SP,São Caetano do Sul
+3814,SP,São Carlos
+3815,SP,São Francisco
+3816,SP,São João da Boa Vista
+3817,SP,São João Das Duas Pontes
+3818,SP,São João de Iracema
+3819,SP,São João do Pau D´alho
+3820,SP,São Joaquim da Barra
+3821,SP,São José da Bela Vista
+3822,SP,São José do Barreiro
+3823,SP,São José do Rio Pardo
+3824,SP,São José do Rio Preto
+3825,SP,São José Dos Campos
+3826,SP,São Lourenço da Serra
+3827,SP,São Luís do Paraitinga
+3828,SP,São Manuel
+3829,SP,São Miguel Arcanjo
+3830,SP,São Paulo
+3831,SP,São Pedro
+3832,SP,São Pedro do Turvo
+3833,SP,São Roque
+3834,SP,São Sebastião
+3835,SP,São Sebastião da Grama
+3836,SP,São Simão
+3837,SP,São Vicente
+3838,SP,Sarapuí
+3839,SP,Sarutaiá
+3840,SP,Sebastianópolis do Sul
+3841,SP,Serra Azul
+3842,SP,Serrana
+3843,SP,Serra Negra
+3844,SP,Sertãozinho
+3845,SP,Sete Barras
+3846,SP,Severínia
+3847,SP,Silveiras
+3848,SP,Socorro
+3849,SP,Sorocaba
+3850,SP,Sud Mennucci
+3851,SP,Sumaré
+3852,SP,Suzano
+3853,SP,Suzanápolis
+3854,SP,Tabapuã
+3855,SP,Tabatinga
+3856,SP,Taboão da Serra
+3857,SP,Taciba
+3858,SP,Taguaí
+3859,SP,Taiaçu
+3860,SP,Taiúva
+3861,SP,Tambaú
+3862,SP,Tanabi
+3863,SP,Tapiraí
+3864,SP,Tapiratiba
+3865,SP,Taquaral
+3866,SP,Taquaritinga
+3867,SP,Taquarituba
+3868,SP,Taquarivaí
+3869,SP,Tarabai
+3870,SP,Tarumã
+3871,SP,Tatuí
+3872,SP,Taubaté
+3873,SP,Tejupá
+3874,SP,Teodoro Sampaio
+3875,SP,Terra Roxa
+3876,SP,Tietê
+3877,SP,Timburi
+3878,SP,Torre de Pedra
+3879,SP,Torrinha
+3880,SP,Trabiju
+3881,SP,Tremembé
+3882,SP,Três Fronteiras
+3883,SP,Tuiuti
+3884,SP,Tupã
+3885,SP,Tupi Paulista
+3886,SP,Turiúba
+3887,SP,Turmalina
+3888,SP,Ubarana
+3889,SP,Ubatuba
+3890,SP,Ubirajara
+3891,SP,Uchoa
+3892,SP,União Paulista
+3893,SP,Urânia
+3894,SP,Uru
+3895,SP,Urupês
+3896,SP,Valentim Gentil
+3897,SP,Valinhos
+3898,SP,Valparaíso
+3899,SP,Vargem
+3900,SP,Vargem Grande do Sul
+3901,SP,Vargem Grande Paulista
+3902,SP,Várzea Paulista
+3903,SP,Vera Cruz
+3904,SP,Vinhedo
+3905,SP,Viradouro
+3906,SP,Vista Alegre do Alto
+3907,SP,Vitória Brasil
+3908,SP,Votorantim
+3909,SP,Votuporanga
+3910,SP,Zacarias
+3911,SP,Chavantes
+3912,SP,Estiva Gerbi
+3913,PR,Abatiá
+3914,PR,Adrianópolis
+3915,PR,Agudos do Sul
+3916,PR,Almirante Tamandaré
+3917,PR,Altamira do Paraná
+3918,PR,Altônia
+3919,PR,Alto Paraná
+3920,PR,Alto Piquiri
+3921,PR,Alvorada do Sul
+3922,PR,Amaporã
+3923,PR,Ampére
+3924,PR,Anahy
+3925,PR,Andirá
+3926,PR,Ângulo
+3927,PR,Antonina
+3928,PR,Antônio Olinto
+3929,PR,Apucarana
+3930,PR,Arapongas
+3931,PR,Arapoti
+3932,PR,Arapuã
+3933,PR,Araruna
+3934,PR,Araucária
+3935,PR,Ariranha do Ivaí
+3936,PR,Assaí
+3937,PR,Assis Chateaubriand
+3938,PR,Astorga
+3939,PR,Atalaia
+3940,PR,Balsa Nova
+3941,PR,Bandeirantes
+3942,PR,Barbosa Ferraz
+3943,PR,Barracão
+3944,PR,Barra do Jacaré
+3945,PR,Bela Vista da Caroba
+3946,PR,Bela Vista do Paraíso
+3947,PR,Bituruna
+3948,PR,Boa Esperança
+3949,PR,Boa Esperança do Iguaçu
+3950,PR,Boa Ventura de São Roque
+3951,PR,Boa Vista da Aparecida
+3952,PR,Bocaiúva do Sul
+3953,PR,Bom Jesus do Sul
+3954,PR,Bom Sucesso
+3955,PR,Bom Sucesso do Sul
+3956,PR,Borrazópolis
+3957,PR,Braganey
+3958,PR,Brasilândia do Sul
+3959,PR,Cafeara
+3960,PR,Cafelândia
+3961,PR,Cafezal do Sul
+3962,PR,Califórnia
+3963,PR,Cambará
+3964,PR,Cambé
+3965,PR,Cambira
+3966,PR,Campina da Lagoa
+3967,PR,Campina do Simão
+3968,PR,Campina Grande do Sul
+3969,PR,Campo Bonito
+3970,PR,Campo do Tenente
+3971,PR,Campo Largo
+3972,PR,Campo Magro
+3973,PR,Campo Mourão
+3974,PR,Cândido de Abreu
+3975,PR,Candói
+3976,PR,Cantagalo
+3977,PR,Capanema
+3978,PR,Capitão Leônidas Marques
+3979,PR,Carambeí
+3980,PR,Carlópolis
+3981,PR,Cascavel
+3982,PR,Castro
+3983,PR,Catanduvas
+3984,PR,Centenário do Sul
+3985,PR,Cerro Azul
+3986,PR,Céu Azul
+3987,PR,Chopinzinho
+3988,PR,Cianorte
+3989,PR,Cidade Gaúcha
+3990,PR,Clevelândia
+3991,PR,Colombo
+3992,PR,Colorado
+3993,PR,Congonhinhas
+3994,PR,Conselheiro Mairinck
+3995,PR,Contenda
+3996,PR,Corbélia
+3997,PR,Cornélio Procópio
+3998,PR,Coronel Domingos Soares
+3999,PR,Coronel Vivida
+4000,PR,Corumbataí do Sul
+4001,PR,Cruzeiro do Iguaçu
+4002,PR,Cruzeiro do Oeste
+4003,PR,Cruzeiro do Sul
+4004,PR,Cruz Machado
+4005,PR,Cruzmaltina
+4006,PR,Curitiba
+4007,PR,Curiúva
+4008,PR,Diamante do Norte
+4009,PR,Diamante do Sul
+4010,PR,Diamante D´oeste
+4011,PR,Dois Vizinhos
+4012,PR,Douradina
+4013,PR,Doutor Camargo
+4014,PR,Enéas Marques
+4015,PR,Engenheiro Beltrão
+4016,PR,Esperança Nova
+4017,PR,Entre Rios do Oeste
+4018,PR,Espigão Alto do Iguaçu
+4019,PR,Farol
+4020,PR,Faxinal
+4021,PR,Fazenda Rio Grande
+4022,PR,Fênix
+4023,PR,Fernandes Pinheiro
+4024,PR,Figueira
+4025,PR,Floraí
+4026,PR,Flor da Serra do Sul
+4027,PR,Floresta
+4028,PR,Florestópolis
+4029,PR,Flórida
+4030,PR,Formosa do Oeste
+4031,PR,Foz do Iguaçu
+4032,PR,Francisco Alves
+4033,PR,Francisco Beltrão
+4034,PR,Foz do Jordão
+4035,PR,General Carneiro
+4036,PR,Godoy Moreira
+4037,PR,Goioerê
+4038,PR,Goioxim
+4039,PR,Grandes Rios
+4040,PR,Guaíra
+4041,PR,Guairaçá
+4042,PR,Guamiranga
+4043,PR,Guapirama
+4044,PR,Guaporema
+4045,PR,Guaraci
+4046,PR,Guaraniaçu
+4047,PR,Guarapuava
+4048,PR,Guaraqueçaba
+4049,PR,Guaratuba
+4050,PR,Honório Serpa
+4051,PR,Ibaiti
+4052,PR,Ibema
+4053,PR,Ibiporã
+4054,PR,Icaraíma
+4055,PR,Iguaraçu
+4056,PR,Iguatu
+4057,PR,Imbaú
+4058,PR,Imbituva
+4059,PR,Inácio Martins
+4060,PR,Inajá
+4061,PR,Indianópolis
+4062,PR,Ipiranga
+4063,PR,Iporã
+4064,PR,Iracema do Oeste
+4065,PR,Irati
+4066,PR,Iretama
+4067,PR,Itaguajé
+4068,PR,Itaipulândia
+4069,PR,Itambaracá
+4070,PR,Itambé
+4071,PR,Itapejara D´oeste
+4072,PR,Itaperuçu
+4073,PR,Itaúna do Sul
+4074,PR,Ivaí
+4075,PR,Ivaiporã
+4076,PR,Ivaté
+4077,PR,Ivatuba
+4078,PR,Jaboti
+4079,PR,Jacarezinho
+4080,PR,Jaguapitã
+4081,PR,Jaguariaíva
+4082,PR,Jandaia do Sul
+4083,PR,Janiópolis
+4084,PR,Japira
+4085,PR,Japurá
+4086,PR,Jardim Alegre
+4087,PR,Jardim Olinda
+4088,PR,Jataizinho
+4089,PR,Jesuítas
+4090,PR,Joaquim Távora
+4091,PR,Jundiaí do Sul
+4092,PR,Juranda
+4093,PR,Jussara
+4094,PR,Kaloré
+4095,PR,Lapa
+4096,PR,Laranjal
+4097,PR,Laranjeiras do Sul
+4098,PR,Leópolis
+4099,PR,Lidianópolis
+4100,PR,Lindoeste
+4101,PR,Loanda
+4102,PR,Lobato
+4103,PR,Londrina
+4104,PR,Luiziana
+4105,PR,Lunardelli
+4106,PR,Lupionópolis
+4107,PR,Mallet
+4108,PR,Mamborê
+4109,PR,Mandaguaçu
+4110,PR,Mandaguari
+4111,PR,Mandirituba
+4112,PR,Manfrinópolis
+4113,PR,Mangueirinha
+4114,PR,Manoel Ribas
+4115,PR,Marechal Cândido Rondon
+4116,PR,Maria Helena
+4117,PR,Marialva
+4118,PR,Marilândia do Sul
+4119,PR,Marilena
+4120,PR,Mariluz
+4121,PR,Maringá
+4122,PR,Mariópolis
+4123,PR,Maripá
+4124,PR,Marmeleiro
+4125,PR,Marquinho
+4126,PR,Marumbi
+4127,PR,Matelândia
+4128,PR,Matinhos
+4129,PR,Mato Rico
+4130,PR,Mauá da Serra
+4131,PR,Medianeira
+4132,PR,Mercedes
+4133,PR,Mirador
+4134,PR,Miraselva
+4135,PR,Missal
+4136,PR,Moreira Sales
+4137,PR,Morretes
+4138,PR,Munhoz de Melo
+4139,PR,Nossa Senhora Das Graças
+4140,PR,Nova Aliança do Ivaí
+4141,PR,Nova América da Colina
+4142,PR,Nova Aurora
+4143,PR,Nova Cantu
+4144,PR,Nova Esperança
+4145,PR,Nova Esperança do Sudoeste
+4146,PR,Nova Fátima
+4147,PR,Nova Laranjeiras
+4148,PR,Nova Londrina
+4149,PR,Nova Olímpia
+4150,PR,Nova Santa Bárbara
+4151,PR,Nova Santa Rosa
+4152,PR,Nova Prata do Iguaçu
+4153,PR,Nova Tebas
+4154,PR,Novo Itacolomi
+4155,PR,Ortigueira
+4156,PR,Ourizona
+4157,PR,Ouro Verde do Oeste
+4158,PR,Paiçandu
+4159,PR,Palmas
+4160,PR,Palmeira
+4161,PR,Palmital
+4162,PR,Palotina
+4163,PR,Paraíso do Norte
+4164,PR,Paranacity
+4165,PR,Paranaguá
+4166,PR,Paranapoema
+4167,PR,Paranavaí
+4168,PR,Pato Bragado
+4169,PR,Pato Branco
+4170,PR,Paula Freitas
+4171,PR,Paulo Frontin
+4172,PR,Peabiru
+4173,PR,Perobal
+4174,PR,Pérola
+4175,PR,Pérola D´oeste
+4176,PR,Piên
+4177,PR,Pinhais
+4178,PR,Pinhalão
+4179,PR,Pinhal de São Bento
+4180,PR,Pinhão
+4181,PR,Piraí do Sul
+4182,PR,Piraquara
+4183,PR,Pitanga
+4184,PR,Pitangueiras
+4185,PR,Planaltina do Paraná
+4186,PR,Planalto
+4187,PR,Ponta Grossa
+4188,PR,Pontal do Paraná
+4189,PR,Porecatu
+4190,PR,Porto Amazonas
+4191,PR,Porto Barreiro
+4192,PR,Porto Rico
+4193,PR,Porto Vitória
+4194,PR,Prado Ferreira
+4195,PR,Pranchita
+4196,PR,Presidente Castelo Branco
+4197,PR,Primeiro de Maio
+4198,PR,Prudentópolis
+4199,PR,Quarto Centenário
+4200,PR,Quatiguá
+4201,PR,Quatro Barras
+4202,PR,Quatro Pontes
+4203,PR,Quedas do Iguaçu
+4204,PR,Querência do Norte
+4205,PR,Quinta do Sol
+4206,PR,Quitandinha
+4207,PR,Ramilândia
+4208,PR,Rancho Alegre
+4209,PR,Rancho Alegre D´oeste
+4210,PR,Realeza
+4211,PR,Rebouças
+4212,PR,Renascença
+4213,PR,Reserva
+4214,PR,Reserva do Iguaçu
+4215,PR,Ribeirão Claro
+4216,PR,Ribeirão do Pinhal
+4217,PR,Rio Azul
+4218,PR,Rio Bom
+4219,PR,Rio Bonito do Iguaçu
+4220,PR,Rio Branco do Ivaí
+4221,PR,Rio Branco do Sul
+4222,PR,Rio Negro
+4223,PR,Rolândia
+4224,PR,Roncador
+4225,PR,Rondon
+4226,PR,Rosário do Ivaí
+4227,PR,Sabáudia
+4228,PR,Salgado Filho
+4229,PR,Salto do Itararé
+4230,PR,Salto do Lontra
+4231,PR,Santa Amélia
+4232,PR,Santa Cecília do Pavão
+4233,PR,Santa Cruz de Monte Castelo
+4234,PR,Santa fé
+4235,PR,Santa Helena
+4236,PR,Santa Inês
+4237,PR,Santa Isabel do Ivaí
+4238,PR,Santa Izabel do Oeste
+4239,PR,Santa Lúcia
+4240,PR,Santa Maria do Oeste
+4241,PR,Santa Mariana
+4242,PR,Santa Mônica
+4243,PR,Santana do Itararé
+4244,PR,Santa Tereza do Oeste
+4245,PR,Santa Terezinha de Itaipu
+4246,PR,Santo Antônio da Platina
+4247,PR,Santo Antônio do Caiuá
+4248,PR,Santo Antônio do Paraíso
+4249,PR,Santo Antônio do Sudoeste
+4250,PR,Santo Inácio
+4251,PR,São Carlos do Ivaí
+4252,PR,São Jerônimo da Serra
+4253,PR,São João
+4254,PR,São João do Caiuá
+4255,PR,São João do Ivaí
+4256,PR,São João do Triunfo
+4257,PR,São Jorge D´oeste
+4258,PR,São Jorge do Ivaí
+4259,PR,São Jorge do Patrocínio
+4260,PR,São José da Boa Vista
+4261,PR,São José Das Palmeiras
+4262,PR,São José Dos Pinhais
+4263,PR,São Manoel do Paraná
+4264,PR,São Mateus do Sul
+4265,PR,São Miguel do Iguaçu
+4266,PR,São Pedro do Iguaçu
+4267,PR,São Pedro do Ivaí
+4268,PR,São Pedro do Paraná
+4269,PR,São Sebastião da Amoreira
+4270,PR,São Tomé
+4271,PR,Sapopema
+4272,PR,Sarandi
+4273,PR,Saudade do Iguaçu
+4274,PR,Sengés
+4275,PR,Serranópolis do Iguaçu
+4276,PR,Sertaneja
+4277,PR,Sertanópolis
+4278,PR,Siqueira Campos
+4279,PR,Sulina
+4280,PR,Tamarana
+4281,PR,Tamboara
+4282,PR,Tapejara
+4283,PR,Tapira
+4284,PR,Teixeira Soares
+4285,PR,Telêmaco Borba
+4286,PR,Terra Boa
+4287,PR,Terra Rica
+4288,PR,Terra Roxa
+4289,PR,Tibagi
+4290,PR,Tijucas do Sul
+4291,PR,Toledo
+4292,PR,Tomazina
+4293,PR,Três Barras do Paraná
+4294,PR,Tunas do Paraná
+4295,PR,Tuneiras do Oeste
+4296,PR,Tupãssi
+4297,PR,Turvo
+4298,PR,Ubiratã
+4299,PR,Umuarama
+4300,PR,União da Vitória
+4301,PR,Uniflor
+4302,PR,Uraí
+4303,PR,Wenceslau Braz
+4304,PR,Ventania
+4305,PR,Vera Cruz do Oeste
+4306,PR,Verê
+4307,PR,Vila Alta
+4308,PR,Doutor Ulysses
+4309,PR,Virmond
+4310,PR,Vitorino
+4311,PR,Xambrê
+4312,SC,Abdon Batista
+4313,SC,Abelardo Luz
+4314,SC,Agrolândia
+4315,SC,Agronômica
+4316,SC,Água Doce
+4317,SC,Águas de Chapecó
+4318,SC,Águas Frias
+4319,SC,Águas Mornas
+4320,SC,Alfredo Wagner
+4321,SC,Alto Bela Vista
+4322,SC,Anchieta
+4323,SC,Angelina
+4324,SC,Anita Garibaldi
+4325,SC,Anitápolis
+4326,SC,Antônio Carlos
+4327,SC,Apiúna
+4328,SC,Arabutã
+4329,SC,Araquari
+4330,SC,Araranguá
+4331,SC,Armazém
+4332,SC,Arroio Trinta
+4333,SC,Arvoredo
+4334,SC,Ascurra
+4335,SC,Atalanta
+4336,SC,Aurora
+4337,SC,Balneário Arroio do Silva
+4338,SC,Balneário Camboriú
+4339,SC,Balneário Barra do Sul
+4340,SC,Balneário Gaivota
+4341,SC,Bandeirante
+4342,SC,Barra Bonita
+4343,SC,Barra Velha
+4344,SC,Bela Vista do Toldo
+4345,SC,Belmonte
+4346,SC,Benedito Novo
+4347,SC,Biguaçu
+4348,SC,Blumenau
+4349,SC,Bocaina do Sul
+4350,SC,Bombinhas
+4351,SC,Bom Jardim da Serra
+4352,SC,Bom Jesus
+4353,SC,Bom Jesus do Oeste
+4354,SC,Bom Retiro
+4355,SC,Botuverá
+4356,SC,Braço do Norte
+4357,SC,Braço do Trombudo
+4358,SC,Brunópolis
+4359,SC,Brusque
+4360,SC,Caçador
+4361,SC,Caibi
+4362,SC,Calmon
+4363,SC,Camboriú
+4364,SC,Capão Alto
+4365,SC,Campo Alegre
+4366,SC,Campo Belo do Sul
+4367,SC,Campo Erê
+4368,SC,Campos Novos
+4369,SC,Canelinha
+4370,SC,Canoinhas
+4371,SC,Capinzal
+4372,SC,Capivari de Baixo
+4373,SC,Catanduvas
+4374,SC,Caxambu do Sul
+4375,SC,Celso Ramos
+4376,SC,Cerro Negro
+4377,SC,Chapadão do Lageado
+4378,SC,Chapecó
+4379,SC,Cocal do Sul
+4380,SC,Concórdia
+4381,SC,Cordilheira Alta
+4382,SC,Coronel Freitas
+4383,SC,Coronel Martins
+4384,SC,Corupá
+4385,SC,Correia Pinto
+4386,SC,Criciúma
+4387,SC,Cunha Porã
+4388,SC,Cunhataí
+4389,SC,Curitibanos
+4390,SC,Descanso
+4391,SC,Dionísio Cerqueira
+4392,SC,Dona Emma
+4393,SC,Doutor Pedrinho
+4394,SC,Entre Rios
+4395,SC,Ermo
+4396,SC,Erval Velho
+4397,SC,Faxinal Dos Guedes
+4398,SC,Flor do Sertão
+4399,SC,Florianópolis
+4400,SC,Formosa do Sul
+4401,SC,Forquilhinha
+4402,SC,Fraiburgo
+4403,SC,Frei Rogério
+4404,SC,Galvão
+4405,SC,Garopaba
+4406,SC,Garuva
+4407,SC,Gaspar
+4408,SC,Governador Celso Ramos
+4409,SC,Grão Pará
+4410,SC,Gravatal
+4411,SC,Guabiruba
+4412,SC,Guaraciaba
+4413,SC,Guaramirim
+4414,SC,Guarujá do Sul
+4415,SC,Guatambú
+4416,SC,Herval D´oeste
+4417,SC,Ibiam
+4418,SC,Ibicaré
+4419,SC,Ibirama
+4420,SC,Içara
+4421,SC,Ilhota
+4422,SC,Imaruí
+4423,SC,Imbituba
+4424,SC,Imbuia
+4425,SC,Indaial
+4426,SC,Iomerê
+4427,SC,Ipira
+4428,SC,Iporã do Oeste
+4429,SC,Ipuaçu
+4430,SC,Ipumirim
+4431,SC,Iraceminha
+4432,SC,Irani
+4433,SC,Irati
+4434,SC,Irineópolis
+4435,SC,Itá
+4436,SC,Itaiópolis
+4437,SC,Itajaí
+4438,SC,Itapema
+4439,SC,Itapiranga
+4440,SC,Itapoá
+4441,SC,Ituporanga
+4442,SC,Jaborá
+4443,SC,Jacinto Machado
+4444,SC,Jaguaruna
+4445,SC,Jaraguá do Sul
+4446,SC,Jardinópolis
+4447,SC,Joaçaba
+4448,SC,Joinville
+4449,SC,José Boiteux
+4450,SC,Jupiá
+4451,SC,Lacerdópolis
+4452,SC,Lages
+4453,SC,Laguna
+4454,SC,Lajeado Grande
+4455,SC,Laurentino
+4456,SC,Lauro Muller
+4457,SC,Lebon Régis
+4458,SC,Leoberto Leal
+4459,SC,Lindóia do Sul
+4460,SC,Lontras
+4461,SC,Luiz Alves
+4462,SC,Luzerna
+4463,SC,Macieira
+4464,SC,Mafra
+4465,SC,Major Gercino
+4466,SC,Major Vieira
+4467,SC,Maracajá
+4468,SC,Maravilha
+4469,SC,Marema
+4470,SC,Massaranduba
+4471,SC,Matos Costa
+4472,SC,Meleiro
+4473,SC,Mirim Doce
+4474,SC,Modelo
+4475,SC,Mondaí
+4476,SC,Monte Carlo
+4477,SC,Monte Castelo
+4478,SC,Morro da Fumaça
+4479,SC,Morro Grande
+4480,SC,Navegantes
+4481,SC,Nova Erechim
+4482,SC,Nova Itaberaba
+4483,SC,Nova Trento
+4484,SC,Nova Veneza
+4485,SC,Novo Horizonte
+4486,SC,Orleans
+4487,SC,Otacílio Costa
+4488,SC,Ouro
+4489,SC,Ouro Verde
+4490,SC,Paial
+4491,SC,Painel
+4492,SC,Palhoça
+4493,SC,Palma Sola
+4494,SC,Palmeira
+4495,SC,Palmitos
+4496,SC,Papanduva
+4497,SC,Paraíso
+4498,SC,Passo de Torres
+4499,SC,Passos Maia
+4500,SC,Paulo Lopes
+4501,SC,Pedras Grandes
+4502,SC,Penha
+4503,SC,Peritiba
+4504,SC,Pescaria Brava
+4505,SC,Petrolândia
+4506,SC,Piçarras
+4507,SC,Pinhalzinho
+4508,SC,Pinheiro Preto
+4509,SC,Piratuba
+4510,SC,Planalto Alegre
+4511,SC,Pomerode
+4512,SC,Ponte Alta
+4513,SC,Ponte Alta do Norte
+4514,SC,Ponte Serrada
+4515,SC,Porto Belo
+4516,SC,Porto União
+4517,SC,Pouso Redondo
+4518,SC,Praia Grande
+4519,SC,Presidente Castelo Branco
+4520,SC,Presidente Getúlio
+4521,SC,Presidente Nereu
+4522,SC,Princesa
+4523,SC,Quilombo
+4524,SC,Rancho Queimado
+4525,SC,Rio Das Antas
+4526,SC,Rio do Campo
+4527,SC,Rio do Oeste
+4528,SC,Rio Dos Cedros
+4529,SC,Rio do Sul
+4530,SC,Rio Fortuna
+4531,SC,Rio Negrinho
+4532,SC,Rio Rufino
+4533,SC,Riqueza
+4534,SC,Rodeio
+4535,SC,Romelândia
+4536,SC,Salete
+4537,SC,Saltinho
+4538,SC,Salto Veloso
+4539,SC,Sangão
+4540,SC,Santa Cecília
+4541,SC,Santa Helena
+4542,SC,Santa Rosa de Lima
+4543,SC,Santa Rosa do Sul
+4544,SC,Santa Terezinha
+4545,SC,Santa Terezinha do Progresso
+4546,SC,Santiago do Sul
+4547,SC,Santo Amaro da Imperatriz
+4548,SC,São Bernardino
+4549,SC,São Bento do Sul
+4550,SC,São Bonifácio
+4551,SC,São Carlos
+4552,SC,São Cristovão do Sul
+4553,SC,São Domingos
+4554,SC,São Francisco do Sul
+4555,SC,São João do Oeste
+4556,SC,São João Batista
+4557,SC,São João do Itaperiú
+4558,SC,São João do Sul
+4559,SC,São Joaquim
+4560,SC,São José
+4561,SC,São José do Cedro
+4562,SC,São José do Cerrito
+4563,SC,São Lourenço do Oeste
+4564,SC,São Ludgero
+4565,SC,São Martinho
+4566,SC,São Miguel da Boa Vista
+4567,SC,São Miguel do Oeste
+4568,SC,São Pedro de Alcântara
+4569,SC,Saudades
+4570,SC,Schroeder
+4571,SC,Seara
+4572,SC,Serra Alta
+4573,SC,Siderópolis
+4574,SC,Sombrio
+4575,SC,Sul Brasil
+4576,SC,Taió
+4577,SC,Tangará
+4578,SC,Tigrinhos
+4579,SC,Tijucas
+4580,SC,Timbé do Sul
+4581,SC,Timbó
+4582,SC,Timbó Grande
+4583,SC,Três Barras
+4584,SC,Treviso
+4585,SC,Treze de Maio
+4586,SC,Treze Tílias
+4587,SC,Trombudo Central
+4588,SC,Tubarão
+4589,SC,Tunápolis
+4590,SC,Turvo
+4591,SC,União do Oeste
+4592,SC,Urubici
+4593,SC,Urupema
+4594,SC,Urussanga
+4595,SC,Vargeão
+4596,SC,Vargem
+4597,SC,Vargem Bonita
+4598,SC,Vidal Ramos
+4599,SC,Videira
+4600,SC,Vitor Meireles
+4601,SC,Witmarsum
+4602,SC,Xanxerê
+4603,SC,Xavantina
+4604,SC,Xaxim
+4605,SC,Zortéa
+4606,SC,Balneário Rincão
+4607,RS,Aceguá
+4608,RS,Água Santa
+4609,RS,Agudo
+4610,RS,Ajuricaba
+4611,RS,Alecrim
+4612,RS,Alegrete
+4613,RS,Alegria
+4614,RS,Almirante Tamandaré do Sul
+4615,RS,Alpestre
+4616,RS,Alto Alegre
+4617,RS,Alto Feliz
+4618,RS,Alvorada
+4619,RS,Amaral Ferrador
+4620,RS,Ametista do Sul
+4621,RS,André da Rocha
+4622,RS,Anta Gorda
+4623,RS,Antônio Prado
+4624,RS,Arambaré
+4625,RS,Araricá
+4626,RS,Aratiba
+4627,RS,Arroio do Meio
+4628,RS,Arroio do Sal
+4629,RS,Arroio do Padre
+4630,RS,Arroio Dos Ratos
+4631,RS,Arroio do Tigre
+4632,RS,Arroio Grande
+4633,RS,Arvorezinha
+4634,RS,Augusto Pestana
+4635,RS,Áurea
+4636,RS,Bagé
+4637,RS,Balneário Pinhal
+4638,RS,Barão
+4639,RS,Barão de Cotegipe
+4640,RS,Barão do Triunfo
+4641,RS,Barracão
+4642,RS,Barra do Guarita
+4643,RS,Barra do Quaraí
+4644,RS,Barra do Ribeiro
+4645,RS,Barra do Rio Azul
+4646,RS,Barra Funda
+4647,RS,Barros Cassal
+4648,RS,Benjamin Constant do Sul
+4649,RS,Bento Gonçalves
+4650,RS,Boa Vista Das Missões
+4651,RS,Boa Vista do Buricá
+4652,RS,Boa Vista do Cadeado
+4653,RS,Boa Vista do Incra
+4654,RS,Boa Vista do Sul
+4655,RS,Bom Jesus
+4656,RS,Bom Princípio
+4657,RS,Bom Progresso
+4658,RS,Bom Retiro do Sul
+4659,RS,Boqueirão do Leão
+4660,RS,Bossoroca
+4661,RS,Bozano
+4662,RS,Braga
+4663,RS,Brochier
+4664,RS,Butiá
+4665,RS,Caçapava do Sul
+4666,RS,Cacequi
+4667,RS,Cachoeira do Sul
+4668,RS,Cachoeirinha
+4669,RS,Cacique Doble
+4670,RS,Caibaté
+4671,RS,Caiçara
+4672,RS,Camaquã
+4673,RS,Camargo
+4674,RS,Cambará do Sul
+4675,RS,Campestre da Serra
+4676,RS,Campina Das Missões
+4677,RS,Campinas do Sul
+4678,RS,Campo Bom
+4679,RS,Campo Novo
+4680,RS,Campos Borges
+4681,RS,Candelária
+4682,RS,Cândido Godói
+4683,RS,Candiota
+4684,RS,Canela
+4685,RS,Canguçu
+4686,RS,Canoas
+4687,RS,Canudos do Vale
+4688,RS,Capão Bonito do Sul
+4689,RS,Capão da Canoa
+4690,RS,Capão do Cipó
+4691,RS,Capão do Leão
+4692,RS,Capivari do Sul
+4693,RS,Capela de Santana
+4694,RS,Capitão
+4695,RS,Carazinho
+4696,RS,Caraá
+4697,RS,Carlos Barbosa
+4698,RS,Carlos Gomes
+4699,RS,Casca
+4700,RS,Caseiros
+4701,RS,Catuípe
+4702,RS,Caxias do Sul
+4703,RS,Centenário
+4704,RS,Cerrito
+4705,RS,Cerro Branco
+4706,RS,Cerro Grande
+4707,RS,Cerro Grande do Sul
+4708,RS,Cerro Largo
+4709,RS,Chapada
+4710,RS,Charqueadas
+4711,RS,Charrua
+4712,RS,Chiapetta
+4713,RS,Chuí
+4714,RS,Chuvisca
+4715,RS,Cidreira
+4716,RS,Ciríaco
+4717,RS,Colinas
+4718,RS,Colorado
+4719,RS,Condor
+4720,RS,Constantina
+4721,RS,Coqueiro Baixo
+4722,RS,Coqueiros do Sul
+4723,RS,Coronel Barros
+4724,RS,Coronel Bicaco
+4725,RS,Coronel Pilar
+4726,RS,Cotiporã
+4727,RS,Coxilha
+4728,RS,Crissiumal
+4729,RS,Cristal
+4730,RS,Cristal do Sul
+4731,RS,Cruz Alta
+4732,RS,Cruzaltense
+4733,RS,Cruzeiro do Sul
+4734,RS,David Canabarro
+4735,RS,Derrubadas
+4736,RS,Dezesseis de Novembro
+4737,RS,Dilermando de Aguiar
+4738,RS,Dois Irmãos
+4739,RS,Dois Irmãos Das Missões
+4740,RS,Dois Lajeados
+4741,RS,Dom Feliciano
+4742,RS,Dom Pedro de Alcântara
+4743,RS,Dom Pedrito
+4744,RS,Dona Francisca
+4745,RS,Doutor Maurício Cardoso
+4746,RS,Doutor Ricardo
+4747,RS,Eldorado do Sul
+4748,RS,Encantado
+4749,RS,Encruzilhada do Sul
+4750,RS,Engenho Velho
+4751,RS,Entre-ijuís
+4752,RS,Entre Rios do Sul
+4753,RS,Erebango
+4754,RS,Erechim
+4755,RS,Ernestina
+4756,RS,Herval
+4757,RS,Erval Grande
+4758,RS,Erval Seco
+4759,RS,Esmeralda
+4760,RS,Esperança do Sul
+4761,RS,Espumoso
+4762,RS,Estação
+4763,RS,Estância Velha
+4764,RS,Esteio
+4765,RS,Estrela
+4766,RS,Estrela Velha
+4767,RS,Eugênio de Castro
+4768,RS,Fagundes Varela
+4769,RS,Farroupilha
+4770,RS,Faxinal do Soturno
+4771,RS,Faxinalzinho
+4772,RS,Fazenda Vilanova
+4773,RS,Feliz
+4774,RS,Flores da Cunha
+4775,RS,Floriano Peixoto
+4776,RS,Fontoura Xavier
+4777,RS,Formigueiro
+4778,RS,Forquetinha
+4779,RS,Fortaleza Dos Valos
+4780,RS,Frederico Westphalen
+4781,RS,Garibaldi
+4782,RS,Garruchos
+4783,RS,Gaurama
+4784,RS,General Câmara
+4785,RS,Gentil
+4786,RS,Getúlio Vargas
+4787,RS,Giruá
+4788,RS,Glorinha
+4789,RS,Gramado
+4790,RS,Gramado Dos Loureiros
+4791,RS,Gramado Xavier
+4792,RS,Gravataí
+4793,RS,Guabiju
+4794,RS,Guaíba
+4795,RS,Guaporé
+4796,RS,Guarani Das Missões
+4797,RS,Harmonia
+4798,RS,Herveiras
+4799,RS,Horizontina
+4800,RS,Hulha Negra
+4801,RS,Humaitá
+4802,RS,Ibarama
+4803,RS,Ibiaçá
+4804,RS,Ibiraiaras
+4805,RS,Ibirapuitã
+4806,RS,Ibirubá
+4807,RS,Igrejinha
+4808,RS,Ijuí
+4809,RS,Ilópolis
+4810,RS,Imbé
+4811,RS,Imigrante
+4812,RS,Independência
+4813,RS,Inhacorá
+4814,RS,Ipê
+4815,RS,Ipiranga do Sul
+4816,RS,Iraí
+4817,RS,Itaara
+4818,RS,Itacurubi
+4819,RS,Itapuca
+4820,RS,Itaqui
+4821,RS,Itati
+4822,RS,Itatiba do Sul
+4823,RS,Ivorá
+4824,RS,Ivoti
+4825,RS,Jaboticaba
+4826,RS,Jacuizinho
+4827,RS,Jacutinga
+4828,RS,Jaguarão
+4829,RS,Jaguari
+4830,RS,Jaquirana
+4831,RS,Jari
+4832,RS,Jóia
+4833,RS,Júlio de Castilhos
+4834,RS,Lagoa Bonita do Sul
+4835,RS,Lagoão
+4836,RS,Lagoa Dos Três Cantos
+4837,RS,Lagoa Vermelha
+4838,RS,Lajeado
+4839,RS,Lajeado do Bugre
+4840,RS,Lavras do Sul
+4841,RS,Liberato Salzano
+4842,RS,Lindolfo Collor
+4843,RS,Linha Nova
+4844,RS,Machadinho
+4845,RS,Maçambara
+4846,RS,Mampituba
+4847,RS,Manoel Viana
+4848,RS,Maquiné
+4849,RS,Maratá
+4850,RS,Marau
+4851,RS,Marcelino Ramos
+4852,RS,Mariana Pimentel
+4853,RS,Mariano Moro
+4854,RS,Marques de Souza
+4855,RS,Mata
+4856,RS,Mato Castelhano
+4857,RS,Mato Leitão
+4858,RS,Mato Queimado
+4859,RS,Maximiliano de Almeida
+4860,RS,Minas do Leão
+4861,RS,Miraguaí
+4862,RS,Montauri
+4863,RS,Monte Alegre Dos Campos
+4864,RS,Monte Belo do Sul
+4865,RS,Montenegro
+4866,RS,Mormaço
+4867,RS,Morrinhos do Sul
+4868,RS,Morro Redondo
+4869,RS,Morro Reuter
+4870,RS,Mostardas
+4871,RS,Muçum
+4872,RS,Muitos Capões
+4873,RS,Muliterno
+4874,RS,Não-me-toque
+4875,RS,Nicolau Vergueiro
+4876,RS,Nonoai
+4877,RS,Nova Alvorada
+4878,RS,Nova Araçá
+4879,RS,Nova Bassano
+4880,RS,Nova Boa Vista
+4881,RS,Nova Bréscia
+4882,RS,Nova Candelária
+4883,RS,Nova Esperança do Sul
+4884,RS,Nova Hartz
+4885,RS,Nova Pádua
+4886,RS,Nova Palma
+4887,RS,Nova Petrópolis
+4888,RS,Nova Prata
+4889,RS,Nova Ramada
+4890,RS,Nova Roma do Sul
+4891,RS,Nova Santa Rita
+4892,RS,Novo Cabrais
+4893,RS,Novo Hamburgo
+4894,RS,Novo Machado
+4895,RS,Novo Tiradentes
+4896,RS,Novo Xingu
+4897,RS,Novo Barreiro
+4898,RS,Osório
+4899,RS,Paim Filho
+4900,RS,Palmares do Sul
+4901,RS,Palmeira Das Missões
+4902,RS,Palmitinho
+4903,RS,Panambi
+4904,RS,Pantano Grande
+4905,RS,Paraí
+4906,RS,Paraíso do Sul
+4907,RS,Pareci Novo
+4908,RS,Parobé
+4909,RS,Passa Sete
+4910,RS,Passo do Sobrado
+4911,RS,Passo Fundo
+4912,RS,Paulo Bento
+4913,RS,Paverama
+4914,RS,Pedras Altas
+4915,RS,Pedro Osório
+4916,RS,Pejuçara
+4917,RS,Pelotas
+4918,RS,Picada Café
+4919,RS,Pinhal
+4920,RS,Pinhal da Serra
+4921,RS,Pinhal Grande
+4922,RS,Pinheirinho do Vale
+4923,RS,Pinheiro Machado
+4924,RS,Pinto Bandeira
+4925,RS,Pirapó
+4926,RS,Piratini
+4927,RS,Planalto
+4928,RS,Poço Das Antas
+4929,RS,Pontão
+4930,RS,Ponte Preta
+4931,RS,Portão
+4932,RS,Porto Alegre
+4933,RS,Porto Lucena
+4934,RS,Porto Mauá
+4935,RS,Porto Vera Cruz
+4936,RS,Porto Xavier
+4937,RS,Pouso Novo
+4938,RS,Presidente Lucena
+4939,RS,Progresso
+4940,RS,Protásio Alves
+4941,RS,Putinga
+4942,RS,Quaraí
+4943,RS,Quatro Irmãos
+4944,RS,Quevedos
+4945,RS,Quinze de Novembro
+4946,RS,Redentora
+4947,RS,Relvado
+4948,RS,Restinga Seca
+4949,RS,Rio Dos Índios
+4950,RS,Rio Grande
+4951,RS,Rio Pardo
+4952,RS,Riozinho
+4953,RS,Roca Sales
+4954,RS,Rodeio Bonito
+4955,RS,Rolador
+4956,RS,Rolante
+4957,RS,Ronda Alta
+4958,RS,Rondinha
+4959,RS,Roque Gonzales
+4960,RS,Rosário do Sul
+4961,RS,Sagrada Família
+4962,RS,Saldanha Marinho
+4963,RS,Salto do Jacuí
+4964,RS,Salvador Das Missões
+4965,RS,Salvador do Sul
+4966,RS,Sananduva
+4967,RS,Santa Bárbara do Sul
+4968,RS,Santa Cecília do Sul
+4969,RS,Santa Clara do Sul
+4970,RS,Santa Cruz do Sul
+4971,RS,Santa Maria
+4972,RS,Santa Maria do Herval
+4973,RS,Santa Margarida do Sul
+4974,RS,Santana da Boa Vista
+4975,RS,Santana do Livramento
+4976,RS,Santa Rosa
+4977,RS,Santa Tereza
+4978,RS,Santa Vitória do Palmar
+4979,RS,Santiago
+4980,RS,Santo Ângelo
+4981,RS,Santo Antônio do Palma
+4982,RS,Santo Antônio da Patrulha
+4983,RS,Santo Antônio Das Missões
+4984,RS,Santo Antônio do Planalto
+4985,RS,Santo Augusto
+4986,RS,Santo Cristo
+4987,RS,Santo Expedito do Sul
+4988,RS,São Borja
+4989,RS,São Domingos do Sul
+4990,RS,São Francisco de Assis
+4991,RS,São Francisco de Paula
+4992,RS,São Gabriel
+4993,RS,São Jerônimo
+4994,RS,São João da Urtiga
+4995,RS,São João do Polêsine
+4996,RS,São Jorge
+4997,RS,São José Das Missões
+4998,RS,São José do Herval
+4999,RS,São José do Hortêncio
+5000,RS,São José do Inhacorá
+5001,RS,São José do Norte
+5002,RS,São José do Ouro
+5003,RS,São José do Sul
+5004,RS,São José Dos Ausentes
+5005,RS,São Leopoldo
+5006,RS,São Lourenço do Sul
+5007,RS,São Luiz Gonzaga
+5008,RS,São Marcos
+5009,RS,São Martinho
+5010,RS,São Martinho da Serra
+5011,RS,São Miguel Das Missões
+5012,RS,São Nicolau
+5013,RS,São Paulo Das Missões
+5014,RS,São Pedro da Serra
+5015,RS,São Pedro Das Missões
+5016,RS,São Pedro do Butiá
+5017,RS,São Pedro do Sul
+5018,RS,São Sebastião do Caí
+5019,RS,São Sepé
+5020,RS,São Valentim
+5021,RS,São Valentim do Sul
+5022,RS,São Valério do Sul
+5023,RS,São Vendelino
+5024,RS,São Vicente do Sul
+5025,RS,Sapiranga
+5026,RS,Sapucaia do Sul
+5027,RS,Sarandi
+5028,RS,Seberi
+5029,RS,Sede Nova
+5030,RS,Segredo
+5031,RS,Selbach
+5032,RS,Senador Salgado Filho
+5033,RS,Sentinela do Sul
+5034,RS,Serafina Corrêa
+5035,RS,Sério
+5036,RS,Sertão
+5037,RS,Sertão Santana
+5038,RS,Sete de Setembro
+5039,RS,Severiano de Almeida
+5040,RS,Silveira Martins
+5041,RS,Sinimbu
+5042,RS,Sobradinho
+5043,RS,Soledade
+5044,RS,Tabaí
+5045,RS,Tapejara
+5046,RS,Tapera
+5047,RS,Tapes
+5048,RS,Taquara
+5049,RS,Taquari
+5050,RS,Taquaruçu do Sul
+5051,RS,Tavares
+5052,RS,Tenente Portela
+5053,RS,Terra de Areia
+5054,RS,Teutônia
+5055,RS,Tio Hugo
+5056,RS,Tiradentes do Sul
+5057,RS,Toropi
+5058,RS,Torres
+5059,RS,Tramandaí
+5060,RS,Travesseiro
+5061,RS,Três Arroios
+5062,RS,Três Cachoeiras
+5063,RS,Três Coroas
+5064,RS,Três de Maio
+5065,RS,Três Forquilhas
+5066,RS,Três Palmeiras
+5067,RS,Três Passos
+5068,RS,Trindade do Sul
+5069,RS,Triunfo
+5070,RS,Tucunduva
+5071,RS,Tunas
+5072,RS,Tupanci do Sul
+5073,RS,Tupanciretã
+5074,RS,Tupandi
+5075,RS,Tuparendi
+5076,RS,Turuçu
+5077,RS,Ubiretama
+5078,RS,União da Serra
+5079,RS,Unistalda
+5080,RS,Uruguaiana
+5081,RS,Vacaria
+5082,RS,Vale Verde
+5083,RS,Vale do Sol
+5084,RS,Vale Real
+5085,RS,Vanini
+5086,RS,Venâncio Aires
+5087,RS,Vera Cruz
+5088,RS,Veranópolis
+5089,RS,Vespasiano Correa
+5090,RS,Viadutos
+5091,RS,Viamão
+5092,RS,Vicente Dutra
+5093,RS,Victor Graeff
+5094,RS,Vila Flores
+5095,RS,Vila Lângaro
+5096,RS,Vila Maria
+5097,RS,Vila Nova do Sul
+5098,RS,Vista Alegre
+5099,RS,Vista Alegre do Prata
+5100,RS,Vista Gaúcha
+5101,RS,Vitória Das Missões
+5102,RS,Westfalia
+5103,RS,Xangri-lá
+5104,MS,Água Clara
+5105,MS,Alcinópolis
+5106,MS,Amambaí
+5107,MS,Anastácio
+5108,MS,Anaurilândia
+5109,MS,Angélica
+5110,MS,Antônio João
+5111,MS,Aparecida do Taboado
+5112,MS,Aquidauana
+5113,MS,Aral Moreira
+5114,MS,Bandeirantes
+5115,MS,Bataguassu
+5116,MS,Batayporã
+5117,MS,Bela Vista
+5118,MS,Bodoquena
+5119,MS,Bonito
+5120,MS,Brasilândia
+5121,MS,Caarapó
+5122,MS,Camapuã
+5123,MS,Campo Grande
+5124,MS,Caracol
+5125,MS,Cassilândia
+5126,MS,Chapadão do Sul
+5127,MS,Corguinho
+5128,MS,Coronel Sapucaia
+5129,MS,Corumbá
+5130,MS,Costa Rica
+5131,MS,Coxim
+5132,MS,Deodápolis
+5133,MS,Dois Irmãos do Buriti
+5134,MS,Douradina
+5135,MS,Dourados
+5136,MS,Eldorado
+5137,MS,Fátima do Sul
+5138,MS,Figueirão
+5139,MS,Glória de Dourados
+5140,MS,Guia Lopes da Laguna
+5141,MS,Iguatemi
+5142,MS,Inocência
+5143,MS,Itaporã
+5144,MS,Itaquiraí
+5145,MS,Ivinhema
+5146,MS,Japorã
+5147,MS,Jaraguari
+5148,MS,Jardim
+5149,MS,Jateí
+5150,MS,Juti
+5151,MS,Ladário
+5152,MS,Laguna Carapã
+5153,MS,Maracaju
+5154,MS,Miranda
+5155,MS,Mundo Novo
+5156,MS,Naviraí
+5157,MS,Nioaque
+5158,MS,Nova Alvorada do Sul
+5159,MS,Nova Andradina
+5160,MS,Novo Horizonte do Sul
+5161,MS,Paraíso das Águas
+5162,MS,Paranaíba
+5163,MS,Paranhos
+5164,MS,Pedro Gomes
+5165,MS,Ponta Porã
+5166,MS,Porto Murtinho
+5167,MS,Ribas do Rio Pardo
+5168,MS,Rio Brilhante
+5169,MS,Rio Negro
+5170,MS,Rio Verde de Mato Grosso
+5171,MS,Rochedo
+5172,MS,Santa Rita do Pardo
+5173,MS,São Gabriel do Oeste
+5174,MS,Sete Quedas
+5175,MS,Selvíria
+5176,MS,Sidrolândia
+5177,MS,Sonora
+5178,MS,Tacuru
+5179,MS,Taquarussu
+5180,MS,Terenos
+5181,MS,Três Lagoas
+5182,MS,Vicentina
+5183,MT,Acorizal
+5184,MT,Água Boa
+5185,MT,Alta Floresta
+5186,MT,Alto Araguaia
+5187,MT,Alto Boa Vista
+5188,MT,Alto Garças
+5189,MT,Alto Paraguai
+5190,MT,Alto Taquari
+5191,MT,Apiacás
+5192,MT,Araguaiana
+5193,MT,Araguainha
+5194,MT,Araputanga
+5195,MT,Arenápolis
+5196,MT,Aripuanã
+5197,MT,Barão de Melgaço
+5198,MT,Barra do Bugres
+5199,MT,Barra do Garças
+5200,MT,Bom Jesus do Araguaia
+5201,MT,Brasnorte
+5202,MT,Cáceres
+5203,MT,Campinápolis
+5204,MT,Campo Novo do Parecis
+5205,MT,Campo Verde
+5206,MT,Campos de Júlio
+5207,MT,Canabrava do Norte
+5208,MT,Canarana
+5209,MT,Carlinda
+5210,MT,Castanheira
+5211,MT,Chapada Dos Guimarães
+5212,MT,Cláudia
+5213,MT,Cocalinho
+5214,MT,Colíder
+5215,MT,Colniza
+5216,MT,Comodoro
+5217,MT,Confresa
+5218,MT,Conquista D´oeste
+5219,MT,Cotriguaçu
+5220,MT,Cuiabá
+5221,MT,Curvelândia
+5222,MT,Denise
+5223,MT,Diamantino
+5224,MT,Dom Aquino
+5225,MT,Feliz Natal
+5226,MT,Figueirópolis D´oeste
+5227,MT,Gaúcha do Norte
+5228,MT,General Carneiro
+5229,MT,Glória D´oeste
+5230,MT,Guarantã do Norte
+5231,MT,Guiratinga
+5232,MT,Indiavaí
+5233,MT,Ipiranga do Norte
+5234,MT,Itanhangá
+5235,MT,Itaúba
+5236,MT,Itiquira
+5237,MT,Jaciara
+5238,MT,Jangada
+5239,MT,Jauru
+5240,MT,Juara
+5241,MT,Juína
+5242,MT,Juruena
+5243,MT,Juscimeira
+5244,MT,Lambari D´oeste
+5245,MT,Lucas do Rio Verde
+5246,MT,Luciára
+5247,MT,Vila Bela da Santíssima Trindade
+5248,MT,Marcelândia
+5249,MT,Matupá
+5250,MT,Mirassol D´oeste
+5251,MT,Nobres
+5252,MT,Nortelândia
+5253,MT,Nossa Senhora do Livramento
+5254,MT,Nova Bandeirantes
+5255,MT,Nova Nazaré
+5256,MT,Nova Lacerda
+5257,MT,Nova Santa Helena
+5258,MT,Nova Brasilândia
+5259,MT,Nova Canaã do Norte
+5260,MT,Nova Mutum
+5261,MT,Nova Olímpia
+5262,MT,Nova Ubiratã
+5263,MT,Nova Xavantina
+5264,MT,Novo Mundo
+5265,MT,Novo Horizonte do Norte
+5266,MT,Novo São Joaquim
+5267,MT,Paranaíta
+5268,MT,Paranatinga
+5269,MT,Novo Santo Antônio
+5270,MT,Pedra Preta
+5271,MT,Peixoto de Azevedo
+5272,MT,Planalto da Serra
+5273,MT,Poconé
+5274,MT,Pontal do Araguaia
+5275,MT,Ponte Branca
+5276,MT,Pontes e Lacerda
+5277,MT,Porto Alegre do Norte
+5278,MT,Porto Dos Gaúchos
+5279,MT,Porto Esperidião
+5280,MT,Porto Estrela
+5281,MT,Poxoréo
+5282,MT,Primavera do Leste
+5283,MT,Querência
+5284,MT,São José Dos Quatro Marcos
+5285,MT,Reserva do Cabaçal
+5286,MT,Ribeirão Cascalheira
+5287,MT,Ribeirãozinho
+5288,MT,Rio Branco
+5289,MT,Santa Carmem
+5290,MT,Santo Afonso
+5291,MT,São José do Povo
+5292,MT,São José do Rio Claro
+5293,MT,São José do Xingu
+5294,MT,São Pedro da Cipa
+5295,MT,Rondolândia
+5296,MT,Rondonópolis
+5297,MT,Rosário Oeste
+5298,MT,Santa Cruz do Xingu
+5299,MT,Salto do Céu
+5300,MT,Santa Rita do Trivelato
+5301,MT,Santa Terezinha
+5302,MT,Santo Antônio do Leste
+5303,MT,Santo Antônio do Leverger
+5304,MT,São Félix do Araguaia
+5305,MT,Sapezal
+5306,MT,Serra Nova Dourada
+5307,MT,Sinop
+5308,MT,Sorriso
+5309,MT,Tabaporã
+5310,MT,Tangará da Serra
+5311,MT,Tapurah
+5312,MT,Terra Nova do Norte
+5313,MT,Tesouro
+5314,MT,Torixoréu
+5315,MT,União do Sul
+5316,MT,Vale de São Domingos
+5317,MT,Várzea Grande
+5318,MT,Vera
+5319,MT,Vila Rica
+5320,MT,Nova Guarita
+5321,MT,Nova Marilândia
+5322,MT,Nova Maringá
+5323,MT,Nova Monte Verde
+5324,GO,Abadia de Goiás
+5325,GO,Abadiânia
+5326,GO,Acreúna
+5327,GO,Adelândia
+5328,GO,Água Fria de Goiás
+5329,GO,Água Limpa
+5330,GO,Águas Lindas de Goiás
+5331,GO,Alexânia
+5332,GO,Aloândia
+5333,GO,Alto Horizonte
+5334,GO,Alto Paraíso de Goiás
+5335,GO,Alvorada do Norte
+5336,GO,Amaralina
+5337,GO,Americano do Brasil
+5338,GO,Amorinópolis
+5339,GO,Anápolis
+5340,GO,Anhanguera
+5341,GO,Anicuns
+5342,GO,Aparecida de Goiânia
+5343,GO,Aparecida do Rio Doce
+5344,GO,Aporé
+5345,GO,Araçu
+5346,GO,Aragarças
+5347,GO,Aragoiânia
+5348,GO,Araguapaz
+5349,GO,Arenópolis
+5350,GO,Aruanã
+5351,GO,Aurilândia
+5352,GO,Avelinópolis
+5353,GO,Baliza
+5354,GO,Barro Alto
+5355,GO,Bela Vista de Goiás
+5356,GO,Bom Jardim de Goiás
+5357,GO,Bom Jesus de Goiás
+5358,GO,Bonfinópolis
+5359,GO,Bonópolis
+5360,GO,Brazabrantes
+5361,GO,Britânia
+5362,GO,Buriti Alegre
+5363,GO,Buriti de Goiás
+5364,GO,Buritinópolis
+5365,GO,Cabeceiras
+5366,GO,Cachoeira Alta
+5367,GO,Cachoeira de Goiás
+5368,GO,Cachoeira Dourada
+5369,GO,Caçu
+5370,GO,Caiapônia
+5371,GO,Caldas Novas
+5372,GO,Caldazinha
+5373,GO,Campestre de Goiás
+5374,GO,Campinaçu
+5375,GO,Campinorte
+5376,GO,Campo Alegre de Goiás
+5377,GO,Campo Limpo de Goiás
+5378,GO,Campos Belos
+5379,GO,Campos Verdes
+5380,GO,Carmo do Rio Verde
+5381,GO,Castelândia
+5382,GO,Catalão
+5383,GO,Caturaí
+5384,GO,Cavalcante
+5385,GO,Ceres
+5386,GO,Cezarina
+5387,GO,Chapadão do Céu
+5388,GO,Cidade Ocidental
+5389,GO,Cocalzinho de Goiás
+5390,GO,Colinas do Sul
+5391,GO,Córrego do Ouro
+5392,GO,Corumbá de Goiás
+5393,GO,Corumbaíba
+5394,GO,Cristalina
+5395,GO,Cristianópolis
+5396,GO,Crixás
+5397,GO,Cromínia
+5398,GO,Cumari
+5399,GO,Damianópolis
+5400,GO,Damolândia
+5401,GO,Davinópolis
+5402,GO,Diorama
+5403,GO,Doverlândia
+5404,GO,Edealina
+5405,GO,Edéia
+5406,GO,Estrela do Norte
+5407,GO,Faina
+5408,GO,Fazenda Nova
+5409,GO,Firminópolis
+5410,GO,Flores de Goiás
+5411,GO,Formosa
+5412,GO,Formoso
+5413,GO,Gameleira de Goiás
+5414,GO,Divinópolis de Goiás
+5415,GO,Goianápolis
+5416,GO,Goiandira
+5417,GO,Goianésia
+5418,GO,Goiânia
+5419,GO,Goianira
+5420,GO,Goiás
+5421,GO,Goiatuba
+5422,GO,Gouvelândia
+5423,GO,Guapó
+5424,GO,Guaraíta
+5425,GO,Guarani de Goiás
+5426,GO,Guarinos
+5427,GO,Heitoraí
+5428,GO,Hidrolândia
+5429,GO,Hidrolina
+5430,GO,Iaciara
+5431,GO,Inaciolândia
+5432,GO,Indiara
+5433,GO,Inhumas
+5434,GO,Ipameri
+5435,GO,Ipiranga de Goiás
+5436,GO,Iporá
+5437,GO,Israelândia
+5438,GO,Itaberaí
+5439,GO,Itaguari
+5440,GO,Itaguaru
+5441,GO,Itajá
+5442,GO,Itapaci
+5443,GO,Itapirapuã
+5444,GO,Itapuranga
+5445,GO,Itarumã
+5446,GO,Itauçu
+5447,GO,Itumbiara
+5448,GO,Ivolândia
+5449,GO,Jandaia
+5450,GO,Jaraguá
+5451,GO,Jataí
+5452,GO,Jaupaci
+5453,GO,Jesúpolis
+5454,GO,Joviânia
+5455,GO,Jussara
+5456,GO,Lagoa Santa
+5457,GO,Leopoldo de Bulhões
+5458,GO,Luziânia
+5459,GO,Mairipotaba
+5460,GO,Mambaí
+5461,GO,Mara Rosa
+5462,GO,Marzagão
+5463,GO,Matrinchã
+5464,GO,Maurilândia
+5465,GO,Mimoso de Goiás
+5466,GO,Minaçu
+5467,GO,Mineiros
+5468,GO,Moiporá
+5469,GO,Monte Alegre de Goiás
+5470,GO,Montes Claros de Goiás
+5471,GO,Montividiu
+5472,GO,Montividiu do Norte
+5473,GO,Morrinhos
+5474,GO,Morro Agudo de Goiás
+5475,GO,Mossâmedes
+5476,GO,Mozarlândia
+5477,GO,Mundo Novo
+5478,GO,Mutunópolis
+5479,GO,Nazário
+5480,GO,Nerópolis
+5481,GO,Niquelândia
+5482,GO,Nova América
+5483,GO,Nova Aurora
+5484,GO,Nova Crixás
+5485,GO,Nova Glória
+5486,GO,Nova Iguaçu de Goiás
+5487,GO,Nova Roma
+5488,GO,Nova Veneza
+5489,GO,Novo Brasil
+5490,GO,Novo Gama
+5491,GO,Novo Planalto
+5492,GO,Orizona
+5493,GO,Ouro Verde de Goiás
+5494,GO,Ouvidor
+5495,GO,Padre Bernardo
+5496,GO,Palestina de Goiás
+5497,GO,Palmeiras de Goiás
+5498,GO,Palmelo
+5499,GO,Palminópolis
+5500,GO,Panamá
+5501,GO,Paranaiguara
+5502,GO,Paraúna
+5503,GO,Perolândia
+5504,GO,Petrolina de Goiás
+5505,GO,Pilar de Goiás
+5506,GO,Piracanjuba
+5507,GO,Piranhas
+5508,GO,Pirenópolis
+5509,GO,Pires do Rio
+5510,GO,Planaltina
+5511,GO,Pontalina
+5512,GO,Porangatu
+5513,GO,Porteirão
+5514,GO,Portelândia
+5515,GO,Posse
+5516,GO,Professor Jamil
+5517,GO,Quirinópolis
+5518,GO,Rialma
+5519,GO,Rianápolis
+5520,GO,Rio Quente
+5521,GO,Rio Verde
+5522,GO,Rubiataba
+5523,GO,Sanclerlândia
+5524,GO,Santa Bárbara de Goiás
+5525,GO,Santa Cruz de Goiás
+5526,GO,Santa fé de Goiás
+5527,GO,Santa Helena de Goiás
+5528,GO,Santa Isabel
+5529,GO,Santa Rita do Araguaia
+5530,GO,Santa Rita do Novo Destino
+5531,GO,Santa Rosa de Goiás
+5532,GO,Santa Tereza de Goiás
+5533,GO,Santa Terezinha de Goiás
+5534,GO,Santo Antônio da Barra
+5535,GO,Santo Antônio de Goiás
+5536,GO,Santo Antônio do Descoberto
+5537,GO,São Domingos
+5538,GO,São Francisco de Goiás
+5539,GO,São João D´aliança
+5540,GO,São João da Paraúna
+5541,GO,São Luís de Montes Belos
+5542,GO,São Luíz do Norte
+5543,GO,São Miguel do Araguaia
+5544,GO,São Miguel do Passa Quatro
+5545,GO,São Patrício
+5546,GO,São Simão
+5547,GO,Senador Canedo
+5548,GO,Serranópolis
+5549,GO,Silvânia
+5550,GO,Simolândia
+5551,GO,Sítio D´abadia
+5552,GO,Taquaral de Goiás
+5553,GO,Teresina de Goiás
+5554,GO,Terezópolis de Goiás
+5555,GO,Três Ranchos
+5556,GO,Trindade
+5557,GO,Trombas
+5558,GO,Turvânia
+5559,GO,Turvelândia
+5560,GO,Uirapuru
+5561,GO,Uruaçu
+5562,GO,Uruana
+5563,GO,Urutaí
+5564,GO,Valparaíso de Goiás
+5565,GO,Varjão
+5566,GO,Vianópolis
+5567,GO,Vicentinópolis
+5568,GO,Vila Boa
+5569,GO,Vila Propício
+5570,DF,Brasília
