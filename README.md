@@ -23,7 +23,7 @@ Ferramenta que exibirá de maneira gráfica essa informação, e em seguida, usa
 
 ### **O problema:**
 
-Certa empresa apresenta dificuldades para alocação de equipe em determinados eventos, resultando em alocações excessivas de funcionários para o evento, gerando um grande prejuízo que poderia ter sido evitado. Após diversas reclamações de visitantes alegando que o atendimento estava escasso, notou-se que estava faltando funcionários para suprir a demanda.
+A empresa apresenta dificuldades para alocação de equipe em determinados eventos, resultando em alocações excessivas ou até mesmo escassez de funcionários para eventos específicos, gerando um prejuízo que pode ser evitado.
 
 ### **Backlog:**
 
