@@ -78,13 +78,13 @@ if __name__ == "__main__":
         print("Descrição:", dayweather["weather"])
         print(f"Temperatura Maxima: {dayweather['max_temp']}°C")
         print(f"Temperatura Minima: {dayweather['min_temp']}°C") """
-        plt.scatter(x = dayweather['name'], y = dayweather['max_temp'], color='Red')
-        plt.scatter(x = dayweather['name'], y = dayweather['min_temp'], color='Blue')
+        plt.scatter(x = dayweather['name'], y = float(dayweather['max_temp']), color='Red')
+        plt.scatter(x = dayweather['name'], y = float(dayweather['min_temp']), color='Blue')
 
 
 plt.suptitle("Previsão de Tempo em Blumenau")
 plt.title("Clima nos próximos 6 dias")
-plt.xlabel('Dias da Semana') 
-plt.ylabel('Temperatura Máxima e Mínima')
+plt.xlabel('Dias da Semana', fontsize=8) 
+plt.ylabel('Temperatura Máxima e Mínima', fontsize=13)
 plt.style.use('classic')
 plt.show()
