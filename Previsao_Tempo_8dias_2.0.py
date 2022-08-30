@@ -1,4 +1,5 @@
-from turtle import color
+from calendar import day_name
+from re import X
 import matplotlib.pyplot as plt
 from bs4 import BeautifulSoup as bs
 import requests
@@ -64,27 +65,20 @@ if __name__ == "__main__":
         URL += f"+{region}"
     # get data
     data = get_weather_data(URL)
-    # print data
-    """print("Tempo em:", data["region"])
-    print("Hoje:", data["dayhour"])
-    print(f"Temperatura agora: {data['temp_now']}°C")
-    print("Descrição:", data['weather_now'])
-    print("Precipitacão:", data["precipitation"])
-    print("Umidade:", data["humidity"])
-    print("Vento:", data["wind"]) 
-    print("Proximos dias:") """
+    
     for dayweather in data["next_days"]:
-        """ print("="*40, dayweather["name"], "="*40)
-        print("Descrição:", dayweather["weather"])
-        print(f"Temperatura Maxima: {dayweather['max_temp']}°C")
-        print(f"Temperatura Minima: {dayweather['min_temp']}°C") """
-        plt.scatter(x = dayweather['name'], y = float(dayweather['max_temp']), color='Red')
-        plt.scatter(x = dayweather['name'], y = float(dayweather['min_temp']), color='Blue')
-
-
+     x1=dayweather['name']
+     y1=float(dayweather['max_temp'] )
+     plt.scatter(x1,y1 , color='Red')
+     x2=dayweather['name'] 
+     y2=float(dayweather['min_temp'])
+     plt.scatter(x2,y2, color='Blue')
+        
 plt.suptitle("Previsão de Tempo em Blumenau")
-plt.title("Clima nos próximos 6 dias")
+plt.title("Clima nos próximos 7 dias")
 plt.xlabel('Dias da Semana', fontsize=8) 
 plt.ylabel('Temperatura Máxima e Mínima', fontsize=13)
-plt.style.use('classic')
+plt.style.use('classic')  
 plt.show()
+
+
