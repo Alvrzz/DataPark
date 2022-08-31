@@ -67,18 +67,16 @@ if __name__ == "__main__":
     data = get_weather_data(URL)
     
     for dayweather in data["next_days"]:
-     x1=dayweather['name']
-     y1=float(dayweather['max_temp'] )
-     plt.scatter(x1,y1 , color='Red')
-     x2=dayweather['name'] 
-     y2=float(dayweather['min_temp'])
-     plt.scatter(x2,y2, color='Blue')
+        x1=dayweather['name']
+        y1=float(dayweather['max_temp'] )
+        plt.bar(x1,y1 , color='Red')
+        x2=dayweather['name'] 
+        y2=float(dayweather['min_temp'])
+        plt.bar(x2,y2, color='Blue')
         
 plt.suptitle("Previsão de Tempo em Blumenau")
-plt.title("Clima nos próximos 7 dias")
+plt.title("Clima nos próximos 6 dias")
 plt.xlabel('Dias da Semana', fontsize=8) 
 plt.ylabel('Temperatura Máxima e Mínima', fontsize=13)
 plt.style.use('classic')  
 plt.show()
-
-
