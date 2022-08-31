@@ -1,4 +1,5 @@
-
+import matplotlib.pyplot as plt
+import smtplib, ssl
 from bs4 import BeautifulSoup as bs
 import requests
 
@@ -77,3 +78,4 @@ if __name__ == "__main__":
         print("Descrição:", tempododia["weather"])
         print(f"Temperatura Maxima: {tempododia['max_temp']}°C")
         print(f"Temperatura Minima: {tempododia['min_temp']}°C")
+
