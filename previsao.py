@@ -1,73 +1,55 @@
 import sqlite3
-from calendar import day_name
-from re import X
-import matplotlib.pyplot as plt
 from bs4 import BeautifulSoup as bs
 import requests
 
-cnx = sqlite3.connect('previsao.sqlite3')
-
-cur = cnx.cursor()
-
-cur.execute("""
-    DROP TABLE IF EXISTS Previsao;
-""")
-
-cur.execute("""
-    CREATE TABLE Previsao (
-        PREVISAO_ID INTEGER PRIMARY KEY AUTOINCREMENT,
-        DATA CHAR(20) NOT NULL,
-        TEMP_MAX REAL NOT NULL,
-        TEMP_MIN REAL NOT NULL
-    );
-""")
-
+conn = sqlite3.connect('previsao.db')
+c = conn.cursor()
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
 # US english
 LANGUAGE = "en-US,en;q=0.5"
 
-def get_weather_data(url):
+def obtem_dados_tempo(url):
     session = requests.Session()
     session.headers['User-Agent'] = USER_AGENT
     session.headers['Accept-Language'] = LANGUAGE
     session.headers['Content-Language'] = LANGUAGE
     html = session.get(url)
-    # create a new soup
-    soup = bs(html.text, "html.parser")
-    # store all results on this dictionary
-    result = {}
-    # extract region
-    result['region'] = soup.find("div", attrs={"id": "wob_loc"}).text
-    # extract temperature now
-    result['temp_now'] = soup.find("span", attrs={"id": "wob_tm"}).text
-    # get the day and hour now
-    result['dayhour'] = soup.find("div", attrs={"id": "wob_dts"}).text
-    # get the actual weather
-    result['weather_now'] = soup.find("span", attrs={"id": "wob_dc"}).text
-    # get the precipitation
-    result['precipitation'] = soup.find("span", attrs={"id": "wob_pp"}).text
-    # get the % of humidity
-    result['humidity'] = soup.find("span", attrs={"id": "wob_hm"}).text
-    # extract the wind
-    result['wind'] = soup.find("span", attrs={"id": "wob_ws"}).text
-    # get next few days' weather
-    next_days = []
-    days = soup.find("div", attrs={"id": "wob_dp"})
+    # Criar uma nova sopa
+    sopa = bs(html.text, "html.parser")
+    # Salvar os dados em esta biblioteca 
+    resultado = {}
+    # Extrai a região
+    resultado['region'] = sopa.find("div", attrs={"id": "wob_loc"}).text
+    # Extrai a temperatura agora
+    resultado['temp_now'] = sopa.find("span", attrs={"id": "wob_tm"}).text
+    # Obtem o dia e a hora agora
+    resultado['dayhour'] = sopa.find("div", attrs={"id": "wob_dts"}).text
+    # Obtem a previsao agora
+    resultado['weather_now'] = sopa.find("span", attrs={"id": "wob_dc"}).text
+    # Obtem a precipitacão
+    resultado['precipitation'] = sopa.find("span", attrs={"id": "wob_pp"}).text
+    # Obtem a % de umidade
+    resultado['humidity'] = sopa.find("span", attrs={"id": "wob_hm"}).text
+    # Obtem o vento 
+    resultado['wind'] = sopa.find("span", attrs={"id": "wob_ws"}).text
+    # Obtem a previsao dos proximos dias
+    proximos_dias = []
+    days = sopa.find("div", attrs={"id": "wob_dp"})
     for day in days.findAll("div", attrs={"class": "wob_df"}):
-        # extract the name of the day
-        day_name = day.findAll("div")[0].attrs['aria-label']
-        # get weather status for that day
-        weather = day.find("img").attrs["alt"]
-        temp = day.findAll("span", {"class": "wob_t"})
-        # maximum temparature in Celsius, use temp[1].text if you want fahrenheit
-        max_temp = temp[0].text
-        # minimum temparature in Celsius, use temp[3].text if you want fahrenheit
-        min_temp = temp[2].text
-        next_days.append({"name": day_name, "weather": weather, "max_temp": max_temp, "min_temp": min_temp})
-    # append to result
-    result['next_days'] = next_days
-    return result
+        # Obtem o nome do dia
+        nome_do_dia = day.findAll("div")[0].attrs['aria-label']
+        # Obtem o status para o dia
+        tempo = day.find("img").attrs["alt"]
+        temperatura = day.findAll("span", {"class": "wob_t"})
+        # Tempetarua maxima em Celsius, use temp[1].si voce quiser em fahrenheit
+        max_temp = temperatura[0].text
+        # Temparature minima em Celsius, use temp[3].si voce quiser em fahrenheit
+        min_temp = temperatura[2].text
+        proximos_dias.append({"name": nome_do_dia, "weather": tempo, "max_temp": max_temp, "min_temp": min_temp})
+    # Acrescenta no resultado
+    resultado['next_days'] = proximos_dias
+    return resultado
     
 
 if __name__ == "__main__":
@@ -76,17 +58,44 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Quick Script for Extracting Weather data using Google Weather")
     parser.add_argument("region", nargs="?", help="""Region to get weather for, must be available region.
                                         Default is your current location determined by your IP Address""", default="")
-    # parse arguments
+    # Analisa os argumentos
     args = parser.parse_args()
-    region = args.region
-    if region:
-        region = region.replace(" ", "+")
-        URL += f"+{region}"
-    # get data
-    data = get_weather_data(URL)
+    regiao = args.region
+    if regiao:
+        regiao = regiao.replace(" ", "+")
+        URL += f"+{regiao}"
+    # Obtem os dados
+    dados = obtem_dados_tempo(URL)
+  
     
-    for dayweather in data["next_days"]:
-        cur.execute("""
-            INSERT INTO previsao(DATA,TEMP_MAX,TEMP_MIN) VALUES
-            ('dayweather['name']', 'dayweather['max_temp']', 'dayweather['min_temp']');
-        """)
+    for tempododia in dados["next_days"]:
+       
+
+
+      def create_table():
+       c.execute("CREATE TABLE IF NOT EXISTS previsao (Dia_semana VARCHAR, Temp_Max TEXT, Temp_Min TEXT)") #<<<<<<<<<< CHANGED
+
+
+def enter_data():
+    c.execute("INSERT INTO previsao VALUES('')")
+   
+create_table() #<<<<<<<<<< ADDED
+conn.commit()
+
+
+
+def enter_dynamic_data():
+    dia = tempododia["name"]
+    max = float(tempododia['max_temp'])
+    min = float(tempododia['min_temp'])
+    c.execute("INSERT INTO previsao (Dia_semana, Temp_Max, Temp_min) VALUES (?, ?, ?)",
+          (dia, max, min))
+    conn.commit()
+enter_dynamic_data()
+
+cursor = c.connection.cursor() 
+cursor.execute("SELECT * FROM previsao") 
+for row in cursor: 
+    print("Dia_Semana=", row[0], " Temp_Max=", row[1], " Temp_min=", row[2]) 
+
+conn.close()

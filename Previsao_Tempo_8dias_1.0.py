@@ -1,5 +1,3 @@
-import matplotlib.pyplot as plt
-import smtplib, ssl
 from bs4 import BeautifulSoup as bs
 import requests
 
