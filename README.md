@@ -57,7 +57,7 @@ A empresa apresenta dificuldades para alocação de equipe em determinados event
 ### **FLUXOGRAMA**
 
 
-![Fluxograma2](https://user-images.githubusercontent.com/104404936/188035436-a7b9996a-0a34-4e79-b616-9309408d8623.jpg)
+![Fluxograma3](https://user-images.githubusercontent.com/104404936/188039563-a2a3f779-b98d-4e51-80e5-3b750dae27ba.jpg)
 
 
 
