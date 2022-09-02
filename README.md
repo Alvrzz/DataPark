@@ -3,7 +3,7 @@
 
 - **Luan Alvarez** (Scrum Master , Tratamento e Analise),
 
-- **William Justino** (Ação), 
+- **William Justino** (Ação),
 
 - **Jean Carlos Bernabé De Oliveira** (Banco de dados),
 
@@ -53,7 +53,16 @@ A empresa apresenta dificuldades para alocação de equipe em determinados event
 - Ação
   - Tomar decisões com base nos dados compartilhados de maneira intuitiva.
 
+
+### **FLUXOGRAMA**
+
+
+![Fluxograma](https://user-images.githubusercontent.com/104404936/188033456-fdc33c7d-378d-4163-93ca-7b97f8b96268.jpg)
+
+
+
 ### **DER:** 
+
 
 Clima
 -
@@ -69,8 +78,16 @@ cliente_id pk int
 cliente_data string
 cliente_nome string
 cliente_cpf string
+cliente_idade int
 cliente_uf string
-cliente_cidade string
+cliente_cidade_id FK >- Cidades.cidade_id int
+
+Cidades
+-
+cidade_id pk int
+cidade_nome string
+cidade_uf string
+
 
 Funcionarios
 -
@@ -120,6 +137,10 @@ atracao_nome string
     -  Todo sábado domingo, e feriado, essa visitação dobrou.
     -  A partir daqui, toda a base foi tratada para recalcular a visitação de cada dia, considerando o fator chuva (mm). Nos dias com pluviometria próxima de zero, afetando menos, e conforme esse índice aumentou e se aproximou de 30, chegando a zerar a visitação do parque nesse dia.
   - Essa tabela conta ainda com o campo Cidade_id, para que se possa fazer busca de origem do visitante, o campo Cliente_idade, para disponibilizar dados sobre a faixa etária dos visitantes, e também o campo Cliente_CPF, gerado aleatoriamente.
+
+
+
+
 
 
 

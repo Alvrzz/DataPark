@@ -47,7 +47,7 @@ cur.execute("""
 cur.execute("""
     CREATE TABLE FUNCIONARIOS(
         FUNCIONARIO_ID INTEGER PRIMARY KEY AUTO_INCREMENT,
-        FUNCIONARIO_DATA TEXT NOT NULL,
+        FUNCIONARIO_DATA DATE NOT NULL,
         FUNCIONARIO_NOME TEXT NOT NULL, 
         FUNCIONARIO_ATRACOES_ID INTEGER NOT NULL
         );
@@ -88,7 +88,7 @@ cur.execute("""
 # cnx.commit()
 
 
-tabela = ('https://docs.google.com/spreadsheets/d/e/2PACX-1vRPs43CE0ejjDVZ3fyEuuZ83pNeZPfF69Z3wVcGO41NydqQbmzBGH9WwzT9ht4IswElmjawq-gW8G92/pub?gid=164424013&single=true&output=csv')
+tabela = ('https://docs.google.com/spreadsheets/d/e/2PACX-1vTDYn_OqsTC_xwiUa2Y_EIRcv57dF6zgeXoBGXwEM7pFxymekLcXe8cdxovktx3zy9H_bXjB89aRsv5/pub?gid=60904193&single=true&output=csv')
 
 contagem = 0
 lines = pd.read_csv(tabela, index_col=0, header=0)
