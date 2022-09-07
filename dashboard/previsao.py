@@ -1,4 +1,6 @@
 import sqlite3
+import datetime
+import timedelta 
 from bs4 import BeautifulSoup as bs
 import requests
 
@@ -68,12 +70,15 @@ if __name__ == "__main__":
     dados = obtem_dados_tempo(URL)
 
 
+
+
+
 def drop_table():
     c.execute("DROP TABLE IF EXISTS previsao")
 
         
 def create_table():
-    c.execute("CREATE TABLE IF NOT EXISTS previsao (Dia_semana VARCHAR, Temp_Max TEXT, Temp_Min TEXT)") #<<<<<<<<<< CHANGED
+    c.execute("CREATE TABLE IF NOT EXISTS previsao (Data, Dia_semana VARCHAR, Temp_Max TEXT, Temp_Min TEXT)") #<<<<<<<<<< CHANGED
 
 
 def enter_data():
@@ -91,17 +96,19 @@ conn.commit()
     dia = tempododia["name"]
     max = float(tempododia['max_temp'])
     min = float(tempododia['min_temp'])
-    c.execute("INSERT INTO previsao (Dia_semana, Temp_Max, Temp_min) VALUES (?, ?, ?)",
-          (dia, max, min))
+    c.execute("INSERT INTO previsao (Data, Dia_semana, Temp_Max, Temp_min) VALUES (?, ?, ?, ?)",
+          (data, dia, max, min))
     conn.commit()
 enter_dynamic_data() """
 
 for tempododia in dados["next_days"]:
+        
+        today = datetime.date.today()
         nome_dia = tempododia['name']
         max = tempododia['max_temp']
         min = tempododia['min_temp']
-        c.execute("INSERT INTO previsao (Dia_semana, Temp_Max, Temp_min) VALUES (?, ?, ?)",
-          (nome_dia, max, min))
+        c.execute("INSERT INTO previsao (Data, Dia_semana, Temp_Max, Temp_min) VALUES (?, ?, ?, ?)",
+          (today, nome_dia, max, min))
         conn.commit()
 
 

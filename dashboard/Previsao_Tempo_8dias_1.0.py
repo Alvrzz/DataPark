@@ -77,3 +77,4 @@ if __name__ == "__main__":
         print(f"Temperatura Maxima: {tempododia['max_temp']}°C")
         print(f"Temperatura Minima: {tempododia['min_temp']}°C")
 
+
