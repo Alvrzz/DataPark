@@ -101,21 +101,18 @@ conn.commit()
     conn.commit()
 enter_dynamic_data() """
 
+x = -1
+dia_hj = datetime.date.today()
 for tempododia in dados["next_days"]:  
     nome_dia = tempododia['name']
     max = tempododia['max_temp']
     min = tempododia['min_temp']
-    
-
-x = -1
-dia_hj = datetime.date.today()
-while x <= 6:
     x += 1
     a = dia_hj + timedelta.Timedelta(days=x)     
     c.execute("INSERT INTO previsao (Data, Dia_semana, Temp_Max, Temp_min) VALUES (?, ?, ?, ?)",
         (a, nome_dia, max, min))
     conn.commit()
-
+    
 
 cursor = c.connection.cursor() 
 cursor.execute("SELECT * FROM previsao") 
