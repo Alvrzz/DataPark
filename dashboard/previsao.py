@@ -69,37 +69,10 @@ if __name__ == "__main__":
     # Obtem os dados
     dados = obtem_dados_tempo(URL)
 
-
-
-
-
-def drop_table():
-    c.execute("DROP TABLE IF EXISTS previsao")
-
-        
-def create_table():
-    c.execute("CREATE TABLE IF NOT EXISTS previsao (Data, Dia_semana VARCHAR, Temp_Max TEXT, Temp_Min TEXT)") #<<<<<<<<<< CHANGED
-
-
-def enter_data():
-    c.execute("INSERT INTO previsao VALUES('')")
-
-
-drop_table()
-create_table() #<<<<<<<<<< ADDED
-
+c.execute("DROP TABLE IF EXISTS previsao")
+c.execute("CREATE TABLE IF NOT EXISTS previsao (Data, Dia_semana VARCHAR, Temp_Max TEXT, Temp_Min TEXT)") #<<<<<<<<<< CHANGED
 conn.commit()
 
-
-
-""" def enter_dynamic_data():        
-    dia = tempododia["name"]
-    max = float(tempododia['max_temp'])
-    min = float(tempododia['min_temp'])
-    c.execute("INSERT INTO previsao (Data, Dia_semana, Temp_Max, Temp_min) VALUES (?, ?, ?, ?)",
-          (data, dia, max, min))
-    conn.commit()
-enter_dynamic_data() """
 
 x = -1
 dia_hj = datetime.date.today()
