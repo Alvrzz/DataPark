@@ -83,7 +83,8 @@ def drop_table():
 def create_table():
     c.execute("""
     CREATE TABLE PREVISAO(
-        DATA INTEGER PRIMARY KEY AUTO_INCREMENT,
+        PREVISAO_ID INTEGER PRIMARY KEY AUTO_INCREMENT,
+        DATA DATE NOT NULL,
         DIA_SEMANA TEXT NOT NULL,
         TEMP_MAX TEXT NOT NULL, 
         TEMP_MIN TEXT NOT NULL,
@@ -114,7 +115,7 @@ for tempododia in dados["next_days"]:
     mm_chuva = (milimetros[y])
     a = dia_hj + timedelta.Timedelta(days=x)     
 sql = ('INSERT INTO PREVISAO ( DATA, DIA_SEMANA,TEMP_MAX,TEMP_MIN, MM_CHUVA_PRECi) VALUES (%s, %s, %s, %s, %s)')
-val = (a, nome_dia, max, min, str(mm_chuva))
+val = a, nome_dia, max, min, str(mm_chuva)
 c.execute(sql, val)
 conn.commit()
 
