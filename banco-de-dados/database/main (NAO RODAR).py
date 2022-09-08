@@ -11,10 +11,11 @@ from funcionarios.funcionarios import funcionarios
 import mysql.connector
 import pandas as pd
 
-
+# Gera 98640 ids para as atrações, para ser usado na tabela de funcionarios
 atracao = [x for x in range(1, 19)]
 atracao = atracao * 5480
 
+# Variáveis para a contagem e passos dos while
 contagem_clientes = 0
 contagem_clima = 0
 contagem_atracao = 0
@@ -24,7 +25,7 @@ passos_clima = 100
 passos_atracao = 10
 passos_funcionarios = 10000
 
-
+# Conexão com o database
 cnx = mysql.connector.connect(
     host = '3.89.36.150',
     user = 'e2122g4',
@@ -34,7 +35,7 @@ cnx = mysql.connector.connect(
 
 cur = cnx.cursor()
 
-
+# Cria todas as tabelas do database
 cur.execute('''
     DROP TABLE IF EXISTS CLIENTES;
 ''')
@@ -100,12 +101,13 @@ cur.execute("""
     );
 """)
 
+# Cria tuplas com todos os dados para enviar ao database
 clientes_final = list(zip(nomes, idade, data_mult, cpfe, cidade_id))
 data_final = list(zip(data, weather))
 atracao_final = list(zip(atracoes, setor))
 funcionarios = list(zip(funcionarios, data_mult_funcionarios, atracao))
 
-
+# Envia todas tuplas para o database na nuvem
 while contagem_clientes < sum(clientes):
     cur.executemany('INSERT INTO CLIENTES (CLIENTE_NOME, CLIENTE_IDADE, CLIENTE_DATA, CLIENTE_CPF, CLIENTE_CIDADE_ID) VALUES (%s, %s, %s, %s, %s)', clientes_final[contagem_clientes: passos_clientes])
     contagem_clientes += 100000
