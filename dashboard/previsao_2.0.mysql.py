@@ -1,15 +1,17 @@
-
 import mysql.connector
+import datetime
+import timedelta 
+from lxml import html
 from bs4 import BeautifulSoup as bs
 import requests
 
-cnx = mysql.connector.connect(
+conn = mysql.connector.connect(
     host = '3.89.36.150',
     user = 'e2122g4',
     password = 'e2122g4@16@ago',
     database = 'e2122g4'
     )
-cur = cnx.cursor()
+c = conn.cursor()
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
 # US english
@@ -74,61 +76,47 @@ if __name__ == "__main__":
     dados = obtem_dados_tempo(URL)
 
 
-cur.execute("""
-    DROP TABLE IF EXISTS PREVISAO; 
-""")
+def drop_table():
+    c.execute("""DROP TABLE IF EXISTS PREVISAO""")
 
-cur.execute("""
+        
+def create_table():
+    c.execute("""
     CREATE TABLE PREVISAO(
+        DATA INTEGER PRIMARY KEY AUTO_INCREMENT,
         DIA_SEMANA TEXT NOT NULL,
         TEMP_MAX TEXT NOT NULL, 
-        TEMP_MIN TEXT NOT NULL
+        TEMP_MIN TEXT NOT NULL,
+        MM_CHUVA_PRECI TEXT NOT NULL
         );
 """)
 
 
+drop_table()
+create_table() #<<<<<<<<<< ADDED
+
+conn.commit()
+
+# Pagina
+pagina = requests.get('https://www.climatempo.com.br/previsao-do-tempo/15-dias/cidade/372/blumenau-sc')
+arvore = html.fromstring(pagina.text)
+milimetros = arvore.xpath('//span[@class="_margin-l-5"]/text()')  
+
+y = -1
+x = -1
+dia_hj = datetime.date.today()
+for tempododia in dados["next_days"]:  
+    nome_dia = tempododia['name']
+    max = tempododia['max_temp']
+    min = tempododia['min_temp']
+    x += 1
+    y += 1
+    mm_chuva = (milimetros[y])
+    a = dia_hj + timedelta.Timedelta(days=x)     
+sql = ('INSERT INTO PREVISAO ( DATA, DIA_SEMANA,TEMP_MAX,TEMP_MIN, MM_CHUVA_PRECi) VALUES (%s, %s, %s, %s, %s)')
+val = (a, nome_dia, max, min, str(mm_chuva))
+c.execute(sql, val)
+conn.commit()
 
 
-# def drop_table():
-#     cur.execute("DROP TABLE IF EXISTS previsao")
-
-        
-# def create_table():
-#     cur.execute("CREATE TABLE IF NOT EXISTS previsao (Dia_semana VARCHAR, Temp_Max TEXT, Temp_Min TEXT)") #<<<<<<<<<< CHANGED
-
-
-# def enter_data():
-#     cur.execute("INSERT INTO previsao VALUES('')")
-
-
-# drop_table()
-# create_table() #<<<<<<<<<< ADDED
-
-# cnx.commit()
-
-
-
-# """ def enter_dynamic_data():        
-#     dia = tempododia["name"]
-#     max = float(tempododia['max_temp'])
-#     min = float(tempododia['min_temp'])
-#     c.execute("INSERT INTO previsao (Dia_semana, Temp_Max, Temp_min) VALUES (?, ?, ?)",
-#           (dia, max, min))
-#     conn.commit()
-# enter_dynamic_data() """
-
-# for tempododia in dados["next_days"]:
-#         nome_dia = tempododia['name']
-#         max = tempododia['max_temp']
-#         min = tempododia['min_temp']
-#         cur.execute("INSERT INTO previsao (Dia_semana, Temp_Max, Temp_min) VALUES (?, ?, ?)",
-#           (nome_dia, max, min))
-#         cnx.commit()
-
-
-# cursor = cur.connection.cursor() 
-# cursor.execute("SELECT * FROM previsao") 
-# for row in cursor: 
-#     print("Dia_Semana=", row[0], " Temp_Max=", row[1], " Temp_min=", row[2]) 
-
-# cnx.close()
+conn.close()
