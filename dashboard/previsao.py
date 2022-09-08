@@ -70,13 +70,6 @@ if __name__ == "__main__":
     # Obtem os dados
     dados = obtem_dados_tempo(URL)
 
-pagina = requests.get('https://www.climatempo.com.br/previsao-do-tempo/15-dias/cidade/372/blumenau-sc')
-arvore = html.fromstring(pagina.text)
-
-milimetros = arvore.xpath('//span[@class="_margin-l-5"]/text()')
-for i in [0, 1, 2, 3, 4, 5, 6, 7]:
-        mm_chuva = (milimetros[i])
-
 
 def drop_table():
     c.execute("DROP TABLE IF EXISTS previsao")
@@ -86,28 +79,29 @@ def create_table():
     c.execute("CREATE TABLE IF NOT EXISTS previsao (Data, Dia_semana VARCHAR, Temp_Max TEXT, Temp_Min TEXT, mm_chuva_preci)") #<<<<<<<<<< CHANGED
 
 
-def enter_data():
-    c.execute("INSERT INTO previsao VALUES('')")
-
-
 drop_table()
 create_table() #<<<<<<<<<< ADDED
 
 conn.commit()
 
+pagina = requests.get('https://www.climatempo.com.br/previsao-do-tempo/15-dias/cidade/372/blumenau-sc')
+arvore = html.fromstring(pagina.text)
+milimetros = arvore.xpath('//span[@class="_margin-l-5"]/text()')  
+
+y = -1
 x = -1
 dia_hj = datetime.date.today()
 for tempododia in dados["next_days"]:  
     nome_dia = tempododia['name']
     max = tempododia['max_temp']
     min = tempododia['min_temp']
-    mm = mm_chuva
     x += 1
+    y += 1
+    mm_chuva = (milimetros[y])
     a = dia_hj + timedelta.Timedelta(days=x)     
     c.execute("INSERT INTO previsao (Data, Dia_semana, Temp_Max, Temp_min, mm_chuva_preci) VALUES (?, ?, ?, ?, ?)",
-        (a, nome_dia, max, min, mm))
+        (a, nome_dia, max, min, mm_chuva))
     conn.commit()
-    
 
 
 conn.close()
