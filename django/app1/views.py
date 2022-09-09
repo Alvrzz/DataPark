@@ -18,10 +18,10 @@ def db1(request):
 
     data = "Versao 0.01 - Dashboard 1.1 (um) "
 
-    data = clima.objcts.all()
+    # data = clima.objcts.all()
 
     return render(request, 'dashboard1.html', 
-        { 'dados' : json.loads(data) } 
+        { 'dados' : data } 
     )    
 
 @login_required

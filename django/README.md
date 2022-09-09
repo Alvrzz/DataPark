@@ -26,6 +26,10 @@ Sequencia de códigos utilizara para criar ambiente inteiro.
 (venv) $ django-admin startapp app1 
 
 ~~~
+GitBash
+source venv/Scripts/Activate
 
-
-
+Editar o arquivo app1\urls.py
+Editar o arquivo app1\views.py
+Editar o arquivo app1\dashboard?.py
+Editar o arquivo app1\base.py
