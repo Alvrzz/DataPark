@@ -16,9 +16,8 @@ def index(request):
 @login_required
 def db1(request):
 
-    data = "Versao 0.01 - Dashboard 1.1 (um) "
+    data = "Versao 0.01 - Dashboard 3 (um) "
 
-    # data = clima.objcts.all()
 
     return render(request, 'dashboard1.html', 
         { 'dados' : data } 
@@ -33,3 +32,12 @@ def db2(request):
     return render(request, 'dashboard2.html', 
         { 'dados' : data } 
     )        
+
+def db3(request):
+
+    data = "Versao 0.01 - Dashboard 3 (três) "
+
+
+    return render(request, 'dashboard3.html', 
+        { 'dados' : data } 
+    )    
