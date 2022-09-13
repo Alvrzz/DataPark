@@ -14,7 +14,7 @@
 <body>
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="/">Projeto Previsão de Dados Entra21 - Grupo 4</a>
+            <h2><a class="navbar-brand" href="/"><font color="Purple">Projeto Previsão de Dados Entra21 - Grupo 4</font></h2></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -23,16 +23,13 @@
                 <ul class="navbar-nav">
                     {% if user.is_authenticated %}
                     <li class="nav-item">
-                        <a class="nav-link" href="/db1">Dash Board Data Base</a>
+                        <a class="nav-link" href="/db1"><font color="#32CD32">Dash Board Data Base</font></a>
+                    </li>                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/db3"><font color="#32CD32">Dash Board Previsão</font></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/db3">Dash Board Previsão</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/db3">Dash Board Previsão</a>
-                    </li>
-                    <li class="nav-item">
-                            <a class="nav-link" href="/admin">Admin</a>
+                            <a class="nav-link" href="/admin"><font color="#32CD32">Admin</font></a>
                         </li>
                     {% else %}
                     <li class="nav-item">
@@ -40,11 +37,11 @@
                     </li>
                     {% endif %}
                     <li class="nav-item">
-                        <a class="nav-link" href="/about">Sobre</a>
+                        <a class="nav-link" href="/about"><font color="#32CD32">Sobre</font></a>
                     </li>
                     {% if user.is_authenticated %}
                     <li class="nav-item">
-                            <a class="nav-link" href="/accounts/logout">Sair </a>
+                            <a class="nav-link" href="/accounts/logout"><font color="#32CD32">Sair</font></a>
                         </li>
                     {% endif %}
                 </ul>
@@ -53,7 +50,7 @@
         {% block content %}
         {% endblock %}
         <footer>
-            <p>App By Turma G4 do Entra21 em 2022</p>
+            <h4><p><font color="Purple">App By Turma G4 do Entra21 em 2022</font></p></h4>
         </footer>
     </div>
     <script
