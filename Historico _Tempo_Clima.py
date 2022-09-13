@@ -15,3 +15,4 @@ data = data.fetch()
 
 data.plot(y=['tmin', 'tmax'])
 print (data)
+
