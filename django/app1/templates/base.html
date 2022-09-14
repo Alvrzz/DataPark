@@ -14,7 +14,7 @@
 <body>
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <h2><a class="navbar-brand" href="/"><font color="Purple">Projeto Previsão de Dados Entra21 - Grupo 4</font></h2></a>
+            <h1><a class="navbar-brand" href="/">Projeto Previsão de Dados Entra21 - Grupo 4</h1></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -23,13 +23,13 @@
                 <ul class="navbar-nav">
                     {% if user.is_authenticated %}
                     <li class="nav-item">
-                        <a class="nav-link" href="/db1"><font color="#32CD32">Dash Board Data Base</font></a>
+                        <a class="nav-link" href="/db1">DashBoard DataBase</a>
                     </li>                    
                     <li class="nav-item">
-                        <a class="nav-link" href="/db3"><font color="#32CD32">Dash Board Previsão</font></a>
+                        <a class="nav-link" href="/db3">DashBoard Previsão</a>
                     </li>
                     <li class="nav-item">
-                            <a class="nav-link" href="/admin"><font color="#32CD32">Admin</font></a>
+                            <a class="nav-link" href="/admin"> Admin</a>
                         </li>
                     {% else %}
                     <li class="nav-item">
@@ -37,11 +37,11 @@
                     </li>
                     {% endif %}
                     <li class="nav-item">
-                        <a class="nav-link" href="/about"><font color="#32CD32">Sobre</font></a>
+                        <a class="nav-link" href="/about">Sobre</a>
                     </li>
                     {% if user.is_authenticated %}
                     <li class="nav-item">
-                            <a class="nav-link" href="/accounts/logout"><font color="#32CD32">Sair</font></a>
+                            <a class="nav-link" href="/accounts/logout"> Sair</a>
                         </li>
                     {% endif %}
                 </ul>
@@ -50,7 +50,7 @@
         {% block content %}
         {% endblock %}
         <footer>
-            <h4><p><font color="Purple">App By Turma G4 do Entra21 em 2022</font></p></h4>
+            <h6>App By Turma G4 do Entra21 em 2022</h6>
         </footer>
     </div>
     <script
