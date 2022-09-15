@@ -36,4 +36,6 @@ while contagem_pred < len(data_pred):
     contagem_pred += 1
     passos_pred += 1
     cnx.commit()
-    print('Adição de 1 registro de PREDIÇÃO completa.')
+    print('Adição de 1 registro da PREDIÇÃO completa.')
+
+print('Envio dos dados completo.')
