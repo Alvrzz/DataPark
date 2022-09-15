@@ -23,12 +23,10 @@ contagem_clientes = 0
 contagem_clima = 0
 contagem_atracao = 0
 contagem_funcionarios = 0
-contagem_pred = 0
 passos_clientes = 100000
 passos_clima = 100
 passos_atracao = 10
 passos_funcionarios = 10000
-passos_pred = 1
 
 # Conexão com o database
 cnx = mysql.connector.connect(
@@ -106,26 +104,12 @@ cur.execute("""
     );
 """)
 
-cur.execute('''
-    DROP TABLE IF EXISTS PREDICAO_PARQUE;
-''')
-
-cur.execute('''
-    CREATE TABLE PREDICAO_PARQUE(
-        PREDICAO_ID INTEGER PRIMARY KEY AUTO_INCREMENT,
-        PREDICAO_DATA DATE NOT NULL,
-        PREDICAO_CHUVA INTEGER NOT NULL,
-        PREDICAO_FUNCIONARIOS INTEGER NOT NULL,
-        PREDICAO_CLIENTES INTEGER NOT NULL
-    );
-''')
 
 # Cria tuplas com todos os dados para enviar ao database
 clientes_final = list(zip(nomes, idade, data_mult, cpfe, cidade_id))
 data_final = list(zip(data, weather))
 atracao_final = list(zip(atracoes, setor))
 funcionarios = list(zip(funcionarios, data_mult_funcionarios, atracao))
-predicao = list(zip(data_pred, chuva_pred, funcionarios_pred, clientes_pred))
 
 # Envia todas tuplas para o database na nuvem
 while contagem_clientes < sum(clientes):
@@ -155,13 +139,6 @@ while contagem_funcionarios < len(data_mult_funcionarios):
     passos_funcionarios += 10000
     cnx.commit()
     print('Adição de 10000 registros de FUNCIONARIOS completa.')
-
-while contagem_pred < len(data_pred):
-    cur.executemany('INSERT INTO PREDICAO_PARQUE (PREDICAO_DATA, PREDICAO_CHUVA, PREDICAO_FUNCIONARIOS, PREDICAO_CLIENTES) VALUES (%s, %s, %s, %s)', predicao[contagem_pred: passos_pred])
-    contagem_pred += 1
-    passos_pred += 1
-    cnx.commit()
-    print('Adição de 1 registro de PREDIÇÃO completa.')
 
 cidades = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSqpxiXuROqjtAI24wP7WSLvg6YlwOHKfQASvXZ3I-zRmxCW6Q2oDx_IG8uT0rdIBUxomunDyURxW-G/pub?gid=385229407&single=true&output=csv'
 colunas = list(['ID','UF', 'Município'])
