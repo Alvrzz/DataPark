@@ -3,5 +3,7 @@ from Tratamento_previsão import tratamento2
 
 
 tratamento1()
+print('done tratamento1')
+
 tratamento2()
-print('done')
+print('done tratamento2')
