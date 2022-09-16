@@ -8,9 +8,6 @@ from chuva_clientes.data_total import data_mult
 from atracoes.atracoes import atracoes, setor
 from funcionarios.data_mult import data_mult_funcionarios
 from funcionarios.funcionarios import funcionarios
-from predicao_clientes.clientes import clientes_pred
-from predicao_clientes.database_connect import data_pred, chuva_pred
-from predicao_clientes.funcionarios import funcionarios_pred
 import mysql.connector
 import pandas as pd
 

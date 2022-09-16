@@ -1,6 +1,6 @@
 import mysql.connector
 import datetime
-import timedelta 
+import timedelta
 from lxml import html
 from bs4 import BeautifulSoup as bs
 import requests
