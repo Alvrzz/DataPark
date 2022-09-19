@@ -1,6 +1,6 @@
-from src.clientes import clientes_pred
-from src.database_connect import data_pred, chuva_pred
-from src.funcionarios import funcionarios_pred
+from predicao_clientes.src.clientes import clientes_pred
+from predicao_clientes.src.database_connect import data_pred, chuva_pred
+from predicao_clientes.src.funcionarios import funcionarios_pred
 import mysql.connector
 
 cnx = mysql.connector.connect(
