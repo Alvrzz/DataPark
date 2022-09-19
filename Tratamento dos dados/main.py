@@ -1,5 +1,5 @@
-from Tratamento_Dados import tratamento1 
-from Tratamento_previsão import tratamento2
+from tratamento.Tratamento_Dados import tratamento1 
+from tratamento.Tratamento_previsão import tratamento2
 
 
 tratamento1()
