@@ -105,6 +105,8 @@ dia_hj = datetime.date.today()
 
 
 def web_scraping():
+    global x
+    global y
     for tempododia in dados["next_days"]:  
         nome_dia = tempododia['name']
         max = tempododia['max_temp']
@@ -121,7 +123,4 @@ def web_scraping():
 
 
 web_scraping()
-    
-   
-
 conn.close()
