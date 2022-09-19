@@ -1,30 +1,29 @@
 # 📊Projeto Grupo 4 - Analise de Dados - Entra21📊
 **Time**: 
 
-**Luan Alvarez** (Scrum Master , Limpeza, Analise e DashBoards) 
-- [linkedin](https://www.linkedin.com/in/luan-alvarez-1499a7224/); 
-- [Whatsapp](https://wa.me/+55013991378334)
-
-**William Justino** (Ação)
-- [linkedin](https://www.linkedin.com/in/william-justino-analista-de-dados/);
-- [Whatsapp](https://wa.me/+55048998066865)
-
 **Jean Carlos Bernabé De Oliveira** (Banco de dados)
-- [linkedin](https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAAo8S9UB11_f9sQcqx5RD90PLCQdV23EGgA&keywords=jean%20carlos%20bernab%C3%A9%20de%20oliveira&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=cfaf2dad-fc0e-4d27-8fb7-51a49c7d52e7&sid=iHb);
+- [linkedin](https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAAo8S9UB11_f9sQcqx5RD90PLCQdV23EGgA&keywords=jean%20carlos%20bernab%C3%A9%20de%20oliveira&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=cfaf2dad-fc0e-4d27-8fb7-51a49c7d52e7&sid=iHb)
 - [Whatsapp](https://wa.me/+43991898626)
-
 
 **Gabriel Mello** (Banco de dados)
 -  [linkedin](https://www.linkedin.com/in/gabriel-mello-analise-de-dados-python-sql/)
 -  [Whatsapp](https://wa.me/+55048996736618)
 
-**Gustavo Rodrigues Da Silva** (Limpeza, Analise e DashBoards)
-- [linkedin](https://www.linkedin.com/in/guhtcha/);
-- [Whatsapp](https://wa.me/+55053984742009).
-
 **Lucas Locks** (Ação) 
--  [linkedin](https://www.linkedin.com/in/lucas-locks-analista-de-dados/), 
+-  [linkedin](https://www.linkedin.com/in/lucas-locks-analista-de-dados/)
 -  [Whatsapp](https://wa.me/+55049999367658)
+
+**William Justino** (Ação)
+- [linkedin](https://www.linkedin.com/in/william-justino-analista-de-dados/)
+- [Whatsapp](https://wa.me/+55048998066865)
+
+**Luan Alvarez** (Scrum Master , Limpeza, Analise e DashBoards) 
+- [linkedin](https://www.linkedin.com/in/luan-alvarez-1499a7224/)
+- [Whatsapp](https://wa.me/+55013991378334)
+
+**Gustavo Rodrigues Da Silva** (Limpeza, Analise e DashBoards)
+- [linkedin](https://www.linkedin.com/in/guhtcha/)
+- [Whatsapp](https://wa.me/+55053984742009)
 
 ### **Sobre:**
 
@@ -41,7 +40,7 @@ A empresa apresenta dificuldades para alocação de equipe em determinados event
 ### **FLUXOGRAMA**
 ![Fluxograma3](https://user-images.githubusercontent.com/104404936/188039563-a2a3f779-b98d-4e51-80e5-3b750dae27ba.jpg)
 
-
+## Detalhamento do projeto:
 ### **Parâmetros banco simulado:**
 
 
@@ -110,12 +109,6 @@ Arquivo executável de limpeza do WebScraping e atualização da tabela na nuvem
             Remoção de caracteres ('mm' & '%') das colunas DATA E PREVISAO_DATA.
 * Exportação: 
             Envio da nova tabela(PREVISAO_TRATADA) para o banco de dados MySQL.
-
-
-
-
-
-
 
 
 ### **DER:** 
