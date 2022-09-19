@@ -1,6 +1,5 @@
-# 📊Projeto Grupo 4 - Analise de Dados - Entra21📊
+# 📊Projeto Grupo 4 - Previsão de dados - Entra21📊
 ## **Time**: 
-
 **Jean Carlos Bernabé De Oliveira** (Banco de dados)
 - [linkedin](https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAAo8S9UB11_f9sQcqx5RD90PLCQdV23EGgA&keywords=jean%20carlos%20bernab%C3%A9%20de%20oliveira&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=cfaf2dad-fc0e-4d27-8fb7-51a49c7d52e7&sid=iHb)
 - [Whatsapp](https://wa.me/+43991898626)
@@ -26,7 +25,6 @@
 - [Whatsapp](https://wa.me/+55053984742009)
 
 ### **Sobre:**
-
 Estudo de Tendência e previsão de público para alocação de equipes.
 Assertividade na contratação de mão de obra usando como base dados históricos e previsão futura.
 
@@ -34,7 +32,6 @@ Através de análise de dados históricos de visitação do parque, cruzando ess
 Ferramenta que exibirá de maneira gráfica essa informação, e em seguida, usará como base previsão de tempo futura para sugerir uma adequação na locação de mão de obra.
 
 ### **O problema:**
-
 A empresa apresenta dificuldades para alocação de equipe em determinados eventos, resultando em alocações excessivas gerando um prejuízo que pode ser evitado.
 
 ### **FLUXOGRAMA**
@@ -44,37 +41,32 @@ A empresa apresenta dificuldades para alocação de equipe em determinados event
 ### **Parâmetros banco simulado:**
 
 
-- Tabela Atracoes:
-
-  - Cadastro simples de 18 atrações do parque para alocação de funcionários, bem como localização das mesmas.
-
-
-- Tabela Cidades: 
-
-  - Cadastro de todas as cidades brasileiras, bem como UF à que pertencem.
+###### Tabela Atracoes:
+- Cadastro simples de 18 atrações do parque para alocação de funcionários, bem como localização das mesmas.
 
 
-- Tabela Cima: 
-
-  - Cadastro de dados históricos fictícios dos anos de 2019,2020,2021, dia a dia, registrando quanto choveu em mm (milímetros), temperatura mínima e máxima de cada dia.
-  - Foram feitas as seguintes considerações:
-    - Chuva num range randômico de 0 a 30, sendo 0 nenhuma chuva e 30 um dia bastante chuvoso.
-    - Para temperaturas máximas e mínimas, trabalhamos com duas faixas de range, uma para meses mais quentes (nov_abr), e outra para os frios (mai_out).
+###### Tabela Cidades: 
+- Cadastro de todas as cidades brasileiras, bem como UF à que pertencem.
 
 
-- Tabela Funcionarios:
+###### Tabela Clima: 
+- Cadastro de dados históricos fictícios dos anos de 2019,2020,2021, dia a dia, registrando quanto choveu em mm (milímetros), temperatura mínima e máxima de cada dia.
+- Foram feitas as seguintes considerações:
+- Chuva num range randômico de 0 a 30, sendo 0 nenhuma chuva e 30 um dia bastante chuvoso.
+- Para temperaturas máximas e mínimas, trabalhamos com duas faixas de range, uma para meses mais quentes (nov_abr), e outra para os frios (mai_out).
 
-  -  Cadastro de todos os funcionários que trabalharam em cada dia, no mesmo período da pesquisa, bem como alocação por setor.
-  -  Considerado 5 pessoas por setor do parque, sendo 18 setores, no período de 1096 dias.
 
-- Tabela clientes:
+###### Tabela Funcionarios:
+- Cadastro de todos os funcionários que trabalharam em cada dia, no mesmo período da pesquisa, bem como alocação por setor.
+- Considerado 5 pessoas por setor do parque, sendo 18 setores, no período de 1096 dias.
 
-  - Cadastro de todos os clientes que visitaram o parque no mesmo período da pesquisa, considerando:
-    -  50% dos visitantes originalmente do estado de Santa Catarina, e os demais, distribuídos de forma randômica entre todos os estados.
-    -  Nos meses de calor (nov_abr) consideramos uma visitação original de 600 pessoas por dia, e 400 pessoas por dia para os meses mais frios. 
-    -  Todo sábado domingo, e feriado, essa visitação dobrou.
-    -  A partir daqui, toda a base foi tratada para recalcular a visitação de cada dia, considerando o fator chuva (mm). Nos dias com pluviometria próxima de zero, afetando menos, e conforme esse índice aumentou e se aproximou de 30, chegando a zerar a visitação do parque nesse dia.
-  - Essa tabela conta ainda com o campo Cidade_id, para que se possa fazer busca de origem do visitante, o campo Cliente_idade, para disponibilizar dados sobre a faixa etária dos visitantes, e também o campo Cliente_CPF, gerado aleatoriamente.
+###### Tabela clientes:
+- Cadastro de todos os clientes que visitaram o parque no mesmo período da pesquisa, considerando:
+- 50% dos visitantes originalmente do estado de Santa Catarina, e os demais, distribuídos de forma randômica entre todos os estados.
+- Nos meses de calor (nov_abr) consideramos uma visitação original de 600 pessoas por dia, e 400 pessoas por dia para os meses mais frios. 
+- Todo sábado domingo, e feriado, essa visitação dobrou.
+- A partir daqui, toda a base foi tratada para recalcular a visitação de cada dia, considerando o fator chuva (mm). Nos dias com pluviometria próxima de zero, afetando menos, e conforme esse índice aumentou e se aproximou de 30, chegando a zerar a visitação do parque nesse dia.
+- Essa tabela conta ainda com o campo Cidade_id, para que se possa fazer busca de origem do visitante, o campo Cliente_idade, para disponibilizar dados sobre a faixa etária dos visitantes, e também o campo Cliente_CPF, gerado aleatoriamente.
 
 
 ## Limpeza e Analise
@@ -82,37 +74,36 @@ A empresa apresenta dificuldades para alocação de equipe em determinados event
 
 Arquivo executavel com a finalidade de importar da nuvem, limpar e exportar os dados para a nuvem.
 
-* Importação: Conexão com a base de dados na nuvem via mysql.connector, conectando com as tabelas existentes na nuvem;
-              Utilização de comandos SQL para armazenamento das tabelas em váriaveis distintas.              
+###### Importação: 
+- Conexão com a base de dados na nuvem via mysql.connector, conectando com as tabelas existentes na nuvem;
+- Utilização de comandos SQL para armazenamento das tabelas em váriaveis distintas.              
 
-* Limpeza:  Utilização do pandas para limpeza e simplificação da tabela;
-            Utilização da função Groupby para contabilizar a quantidade de clientes(CLIENTE_DATA) e funcionarios(FUNCIONARIOS_DATA) por data;
-            Utilização da função merge e join para conexão das tabelas(CLIMA, FUNCIONARIOS, CLIENTES);
-            Seleção de colunas e tabelas complementares para analise(CLIMA, FUNCIONARIOS, CLIENTES), removendo colunas não necessarias;
-            Alteração dos nomes das colunas para melhor vizualização(CLIENTES_DATA para TABELA_CLIENTES, FUNCIONARIOS_DATA para TABELA_FUNCIONARIOS, CLIMA_CHUVA_MM para TABELA_CHUVA):
+Limpeza:  Utilização do pandas para limpeza e simplificação da tabela;
+- Utilização da função Groupby para contabilizar a quantidade de clientes(CLIENTE_DATA) e funcionarios(FUNCIONARIOS_DATA) por data;
+- Utilização da função merge e join para conexão das tabelas(CLIMA, FUNCIONARIOS, CLIENTES);
+- Seleção de colunas e tabelas complementares para analise(CLIMA, FUNCIONARIOS, CLIENTES), removendo colunas não necessarias;
+- Alteração dos nomes das colunas para melhor vizualização(CLIENTES_DATA para TABELA_CLIENTES, FUNCIONARIOS_DATA para TABELA_FUNCIONARIOS, CLIMA_CHUVA_MM para TABELA_CHUVA):
 
-* Exportação: Utilização do mysql.connector para exportar os dados limpos.
-              Comandos em SQL para criação de uma nova tabela na nuvem (TABELA_GERAL).  
-
+###### Exportação: Utilização do mysql.connector para exportar os dados limpos.
+- Comandos em SQL para criação de uma nova tabela na nuvem (TABELA_GERAL).  
 
 
 ### Limpeza da base de previsão
-
 Arquivo executável de limpeza do WebScraping e atualização da tabela na nuvem.
 
-* Importação:  Conexão com a base de dados da aplicação WebScraping para tratamento com mysql.connector
+###### Importação:  Conexão com a base de dados da aplicação WebScraping para tratamento com mysql.connector
 
-* Limpeza:  Remoção de colunas e tabelas não complementares para analise(ID, TEMP_MAX, TEMP_MIN, DIA_SEMANA);
-            Divisão de coluna(MM_CHUVA_PRECI) em duas colunas(PREVISAO_CHUVA & PREVISAO_PREVISAO) de dados int;
-            Alteração dos tipos de dados (PREVISAO_CHUVA & PREVISAO_PREVISAO);
-            Alteração dos nomes das colunas(DATA para PREVISAO_DATA) para melhor vizualização;
-            Remoção de caracteres ('mm' & '%') das colunas DATA E PREVISAO_DATA.
-* Exportação: 
-            Envio da nova tabela(PREVISAO_TRATADA) para o banco de dados MySQL.
+###### Limpeza:  Remoção de colunas e tabelas não complementares para analise(ID, TEMP_MAX, TEMP_MIN, DIA_SEMANA)
+- Divisão de coluna(MM_CHUVA_PRECI) em duas colunas(PREVISAO_CHUVA & PREVISAO_PREVISAO) de dados int;
+- Alteração dos tipos de dados (PREVISAO_CHUVA & PREVISAO_PREVISAO);
+- Alteração dos nomes das colunas(DATA para PREVISAO_DATA) para melhor vizualização;
+- Remoção de caracteres ('mm' & '%') das colunas DATA E PREVISAO_DATA.
+
+##### Exportação: 
+- Envio da nova tabela(PREVISAO_TRATADA) para o banco de dados MySQL.
 
 
 ### **DER:** 
-
 
 Clima
 -
@@ -138,7 +129,6 @@ cidade_id pk int
 cidade_nome string
 cidade_uf string
 
-
 Funcionarios
 -
 funcionario_id pk int
@@ -151,12 +141,3 @@ Atracoes
 -
 atracao_id pk int
 atracao_nome string
-
-
-
-
-
-
-
-
-
