@@ -78,7 +78,7 @@ Arquivo executavel com a finalidade de importar da nuvem, limpar e exportar os d
 - Conexão com a base de dados na nuvem via mysql.connector, conectando com as tabelas existentes na nuvem;
 - Utilização de comandos SQL para armazenamento das tabelas em váriaveis distintas.              
 
-Limpeza:  
+###### Limpeza:  
 - Utilização do pandas para limpeza e simplificação da tabela;
 - Utilização da função Groupby para contabilizar a quantidade de clientes(CLIENTE_DATA) e funcionarios(FUNCIONARIOS_DATA) por data;
 - Utilização da função merge e join para conexão das tabelas(CLIMA, FUNCIONARIOS, CLIENTES);
