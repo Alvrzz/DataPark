@@ -1,5 +1,5 @@
 # 📊Projeto Grupo 4 - Analise de Dados - Entra21📊
-**Time**: 
+## **Time**: 
 
 **Jean Carlos Bernabé De Oliveira** (Banco de dados)
 - [linkedin](https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAAo8S9UB11_f9sQcqx5RD90PLCQdV23EGgA&keywords=jean%20carlos%20bernab%C3%A9%20de%20oliveira&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=cfaf2dad-fc0e-4d27-8fb7-51a49c7d52e7&sid=iHb)
@@ -9,19 +9,19 @@
 -  [linkedin](https://www.linkedin.com/in/gabriel-mello-analise-de-dados-python-sql/)
 -  [Whatsapp](https://wa.me/+55048996736618)
 
-**Lucas Locks** (Ação) 
+**Lucas Locks** (WebScraping) 
 -  [linkedin](https://www.linkedin.com/in/lucas-locks-analista-de-dados/)
 -  [Whatsapp](https://wa.me/+55049999367658)
 
-**William Justino** (Ação)
+**William Justino** (WebScraping)
 - [linkedin](https://www.linkedin.com/in/william-justino-analista-de-dados/)
 - [Whatsapp](https://wa.me/+55048998066865)
 
-**Luan Alvarez** (Scrum Master , Limpeza, Analise e DashBoards) 
+**Luan Alvarez** (Scrum Master, Limpeza, Análise e DashBoards)
 - [linkedin](https://www.linkedin.com/in/luan-alvarez-1499a7224/)
 - [Whatsapp](https://wa.me/+55013991378334)
 
-**Gustavo Rodrigues Da Silva** (Limpeza, Analise e DashBoards)
+**Gustavo Rodrigues Da Silva** (Limpeza, Análise e DashBoards)
 - [linkedin](https://www.linkedin.com/in/guhtcha/)
 - [Whatsapp](https://wa.me/+55053984742009)
 
