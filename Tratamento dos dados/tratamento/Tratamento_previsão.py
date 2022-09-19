@@ -70,4 +70,3 @@ def tratamento2():
     cursor.close()
     con.close()
     print("Conexão encerrada")
-
