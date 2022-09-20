@@ -17,16 +17,6 @@ def tratamento1():
     funcionarios = pd.read_sql_query('SELECT * FROM FUNCIONARIOS',con) #comando que será executado
     clima = pd.read_sql_query('SELECT * FROM CLIMA',con) #comando que será executado
 
-
-
-
-
-    clientes = pd.read_sql_query('SELECT * FROM CLIENTES',con) #comando que será executado
-
-
-
-
-
     clientes = pd.read_sql_query('SELECT * FROM CLIENTES',con) #comando que será executado
 
 

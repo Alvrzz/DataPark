@@ -10,37 +10,13 @@ def tratamento2():
     if con.is_connected(): #se está conectado
         db_info = con.get_server_info()
         print("Conectado ao servidor MySQL versão",db_info)
-
-
-
     con #conetar
-
-
-
     previsao = pd.read_sql_query('SELECT * FROM PREVISAO',con) #comando que será executado
-
-
-
     previsao[['CHUVA','PRECISAO']] = previsao['MM_CHUVA_PRECI'].str.split('-',expand=True)
-
-
-
     previsao['CHUVA'] = previsao['CHUVA'].str.replace('mm','')
-
-
-
     previsao['PRECISAO'] = previsao['PRECISAO'].str.replace('%','')
-
-
-
     previsao_final = previsao[['DATA','DIA_SEMANA','CHUVA','PRECISAO']]
-
-
-
     previsao_final['PRECISAO'] = previsao_final['PRECISAO'].astype('int32')
-
-
-
 
     cursor.execute('''
         DROP TABLE IF EXISTS PREVISAO_TRATADA;
@@ -63,8 +39,6 @@ def tratamento2():
     con.commit()
     print('Adição de registros completa.')
     con.close()
-
-
 
     #Fechar conexão
     cursor.close()
