@@ -1,11 +1,14 @@
 from dashboard.main import obtem_dados_tempo, drop_table, create_table, web_scraping
-from tratamento_dados.main import tratamento1,tratamento2
+from limpeza.arquivos.limpeza_dados import limpeza1
+from limpeza.arquivos.limpeza_previsao import limpeza2
 
-# CriaTabelas()
-# EnviaDatabase()
-# print('Database enviado com sucesso.')
 
-tratamento1()
+
+#CriaTabelas()
+#EnviaDatabase()
+#print('Database enviado com sucesso.')
+
+limpeza1()
 print('Limpeza e exportação  da base de dados concluida\n')
 
 obtem_dados_tempo()
@@ -18,5 +21,5 @@ print('Tabela criada com sucesso.\n')
 web_scraping()
 print('Dados da previsão inseridos com sucesso nas tabelas.\n')
 
-tratamento2()
+limpeza2()
 print('Limpeza e exportação da base de previsão concluída.\n')

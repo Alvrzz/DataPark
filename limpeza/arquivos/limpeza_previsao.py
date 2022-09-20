@@ -1,7 +1,7 @@
 import mysql.connector
 import pandas as pd
 
-def tratamento2():
+def limpeza2():
     #conectar ao servidor
     con = mysql.connector.connect(host='3.89.36.150',database='e2122g4',user='e2122g4',password='e2122g4@16@ago')#conexão
 
@@ -10,8 +10,11 @@ def tratamento2():
     if con.is_connected(): #se está conectado
         db_info = con.get_server_info()
         print("Conectado ao servidor MySQL versão",db_info)
+
     con #conetar
+
     previsao = pd.read_sql_query('SELECT * FROM PREVISAO',con) #comando que será executado
+    
     previsao[['CHUVA','PRECISAO']] = previsao['MM_CHUVA_PRECI'].str.split('-',expand=True)
     previsao['CHUVA'] = previsao['CHUVA'].str.replace('mm','')
     previsao['PRECISAO'] = previsao['PRECISAO'].str.replace('%','')

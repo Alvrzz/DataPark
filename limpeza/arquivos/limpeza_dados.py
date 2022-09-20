@@ -1,7 +1,7 @@
 import mysql.connector
 import pandas as pd
 
-def tratamento1():
+def limpeza1():
     #conectar ao servidor
     con = mysql.connector.connect(host='3.89.36.150',database='e2122g4',user='e2122g4',password='e2122g4@16@ago')#conexão
 
@@ -15,6 +15,7 @@ def tratamento1():
     con #conetar
 
     funcionarios = pd.read_sql_query('SELECT * FROM FUNCIONARIOS',con) #comando que será executado
+    
     clima = pd.read_sql_query('SELECT * FROM CLIMA',con) #comando que será executado
 
     clientes = pd.read_sql_query('SELECT * FROM CLIENTES',con) #comando que será executado
