@@ -99,15 +99,16 @@ pagina = requests.get('https://www.climatempo.com.br/previsao-do-tempo/15-dias/c
 arvore = html.fromstring(pagina.text)
 milimetros = arvore.xpath('//span[@class="_margin-l-5"]/text()')  
 
-y = -1 # Junto com o y+=1 e mm_chuva = (milimetros[y]) adiciona o milimetros de chuva no restante dos dias da semana no banco de dados.
-x = -1 # Junto com o x+=1 e  a = dia_hj + timedelta.Timedelta(days=x) adiciona o restante das datas dos dias da semana no banco de dados.
-dia_hj = datetime.date.today()
-
-
 def web_scraping():
-    global x
-    global y
-    for tempododia in dados["next_days"]:  
+ global x
+ global y
+ y = -1 # Junto com o y+=1 e mm_chuva = (milimetros[y]) adiciona o milimetros de chuva no restante dos dias da semana no banco de dados.
+ x = -1 # Junto com o x+=1 e  a = dia_hj + timedelta.Timedelta(days=x) adiciona o restante das datas dos dias da semana no banco de dados.
+ dia_hj = datetime.date.today()
+
+
+
+ for tempododia in dados["next_days"]:  
         nome_dia = tempododia['name']
         max = tempododia['max_temp']
         min = tempododia['min_temp']
@@ -119,8 +120,13 @@ def web_scraping():
         sql = ('INSERT INTO PREVISAO ( DATA, DIA_SEMANA,TEMP_MAX,TEMP_MIN, MM_CHUVA_PRECi) VALUES (%s, %s, %s, %s, %s)')
         val = a, nome_dia, max, min, str(mm_chuva)
         c.execute(sql, val)
-        conn.commit()
 
+        
+        conn.commit()
+        
 
 web_scraping()
+    
+   
+
 conn.close()
