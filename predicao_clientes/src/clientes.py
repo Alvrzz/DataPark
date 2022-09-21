@@ -1,14 +1,15 @@
 import holidays
 from datetime import datetime
-from src.database_connect import chuva_pred, data_pred
+from predicao_clientes.src.database_connect import chuva_pred, data_pred
 
 loop = 0
 clientes_pred = []
 
 while loop < len(chuva_pred):
     chuva_a = chuva_pred[loop]
+    dia_hoje = data_pred[loop]
     feriado_list = []
-    dia_semana = datetime.today().isoweekday()
+    dia_semana = datetime.strptime(dia_hoje, '%Y-%m-%d').isoweekday()
     clientes_normal = 600
     feriado = 0
     clientes_final = 0
@@ -50,5 +51,3 @@ while loop < len(chuva_pred):
     loop += 1
     
     clientes_pred.append(clientes_final)
-
-# print(clientes)

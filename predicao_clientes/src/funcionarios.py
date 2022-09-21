@@ -1,4 +1,4 @@
-from src.database_connect import chuva_pred
+from predicao_clientes.src.database_connect import chuva_pred
 
 funcionarios_normal = 90
 loop = 0
