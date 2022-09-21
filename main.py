@@ -1,4 +1,4 @@
-from dashboard.main import previsao
+from previsao.main import previsao
 from limpeza.arquivos.limpeza_dados import limpeza1
 from limpeza.arquivos.limpeza_previsao import limpeza2
 # from database.main import GeraDatabase
