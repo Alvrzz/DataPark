@@ -68,6 +68,8 @@ A empresa apresenta dificuldades para alocação de equipe em determinados event
 - A partir daqui, toda a base foi tratada para recalcular a visitação de cada dia, considerando o fator chuva (mm). Nos dias com pluviometria próxima de zero, afetando menos, e conforme esse índice aumentou e se aproximou de 30, chegando a zerar a visitação do parque nesse dia.
 - Essa tabela conta ainda com o campo Cidade_id, para que se possa fazer busca de origem do visitante, o campo Cliente_idade, para disponibilizar dados sobre a faixa etária dos visitantes, e também o campo Cliente_CPF, gerado aleatoriamente.
 
+#### Tabela previsão:
+- Previsão do tempo de 8 dias, incluindo data, dia da semana, temperatura máxima, temperatura mínima, milímetros de chuva e precipitação. 
 
 ## Limpeza e Analise
 ### Limpeza do Banco de Dados:
@@ -145,3 +147,14 @@ Atracoes
 -
 atracao_id pk int
 atracao_nome string
+
+Previsao 
+-
+previsao_id int
+previsao_data string
+previsao_dia_da_semana string
+previsao_tempmax string
+previsao_tempmin string
+previsao_mm_preci string
+
+
