@@ -32,7 +32,7 @@ def previsao():
         resultado = {}
         # Extrai a região.
         resultado['region'] = sopa.find("div", attrs={"id": "wob_loc"}).text
-        # Extrai a temperatura agora.
+        # Extrai a temperatura agora. 
         resultado['temp_now'] = sopa.find("span", attrs={"id": "wob_tm"}).text
         # Obtem o dia e a hora agora.
         resultado['dayhour'] = sopa.find("div", attrs={"id": "wob_dts"}).text
