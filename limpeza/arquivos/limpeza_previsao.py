@@ -15,16 +15,17 @@ def limpeza2():
 
     previsao = pd.read_sql_query('SELECT * FROM PREVISAO',con) #comando que será executado
     
-    previsao[['CHUVA','PRECISAO']] = previsao['MM_CHUVA_PRECI'].str.split('-',expand=True)
-    previsao['CHUVA'] = previsao['CHUVA'].str.replace('mm','')
-    previsao['PRECISAO'] = previsao['PRECISAO'].str.replace('%','')
-    previsao_final = previsao[['DATA','DIA_SEMANA','CHUVA','PRECISAO']]
-    previsao_final['PRECISAO'] = previsao_final['PRECISAO'].astype('int32')
-
+    previsao[['CHUVA','PRECISAO']] = previsao['MM_CHUVA_PRECI'].str.split('-',expand=True)# dividindo a coluna pelo "-"
+    previsao['CHUVA'] = previsao['CHUVA'].str.replace('mm','') # apagando o mm
+    previsao['PRECISAO'] = previsao['PRECISAO'].str.replace('%','') # apagando a %
+    previsao_final = previsao[['DATA','DIA_SEMANA','CHUVA','PRECISAO']] # selecionando colunas 
+    previsao_final['PRECISAO'] = previsao_final['PRECISAO'].astype('int32') # alterando o tipo da coluna
+    
+    # comando sql para apagar a tabela caso ela ja exista
     cursor.execute('''
         DROP TABLE IF EXISTS PREVISAO_TRATADA;
     ''')
-
+    # comando sql para gerar as colunas
     cursor.execute('''
         CREATE TABLE PREVISAO_TRATADA(
             PREVISAO_ID INTEGER PRIMARY KEY AUTO_INCREMENT,
@@ -34,7 +35,7 @@ def limpeza2():
     );
     ''')
 
-
+    # inserindo na nuvem
     sql=('INSERT INTO PREVISAO_TRATADA (PREVISAO_DATA,PREVISAO_CHUVA,PREVISAO_PREVISAO) VALUES (%s,%s,%s) ')
     for index, row in previsao_final.iterrows():
         val=(row.DATA,row.CHUVA,row.PRECISAO)    

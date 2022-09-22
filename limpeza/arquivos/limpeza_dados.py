@@ -13,7 +13,7 @@ def limpeza1():
 
 
     con #conetar
-
+    # Armazenando as tabelas em variaveis
     funcionarios = pd.read_sql_query('SELECT * FROM FUNCIONARIOS',con) #comando que será executado
     
     clima = pd.read_sql_query('SELECT * FROM CLIMA',con) #comando que será executado
@@ -21,59 +21,25 @@ def limpeza1():
     clientes = pd.read_sql_query('SELECT * FROM CLIENTES',con) #comando que será executado
 
 
-    # # Tratamento: 
+    # limpeza: 
 
+    clientes = clientes.groupby("CLIENTE_DATA",as_index=False).size() #ordenando por data
+    funcionarios = funcionarios.groupby("FUNCIONARIO_DATA",as_index=False).size() # ordenando por data
+    t_clientes = clientes.rename(columns={'size': 'Clientes'}) #renomeando a coluna
+    t_funcionarios = funcionarios.rename(columns={'size': 'Funcionarios'}) #renomeando a coluna  
+    t_funcionarios = clima.join(t_funcionarios) #inserindo um df em outro
+    tabela_geral = pd.merge(t_clientes, t_funcionarios, left_on="CLIENTE_DATA", right_on="FUNCIONARIO_DATA", how='right') # parte direita de um df
+    tabela_geral = tabela_geral.rename(columns={'CLIMA_CHUVA_MM': 'Chuva_mm'}) #renomeando a coluna
+    tabela_geral = tabela_geral[['FUNCIONARIO_DATA','Clientes','Funcionarios','Chuva_mm']] # selecionando colunas especificas
+    tabela_geral = tabela_geral.rename(columns={'FUNCIONARIO_DATA': 'Data'}) # renomeando a coluna
 
-    clientes = clientes.groupby("CLIENTE_DATA",as_index=False).size()
+    enviar = tabela_geral # armazenando a tabela em outra variavel para caso ocorra um erro a variavel antiga não seja alterada
 
-
-
-
-
-    funcionarios = funcionarios.groupby("FUNCIONARIO_DATA",as_index=False).size()
-
-
-
-
-
-    t_clientes = clientes.rename(columns={'size': 'Clientes'})
-
-
-
-
-    t_funcionarios = funcionarios.rename(columns={'size': 'Funcionarios'})
-
-
-
-    t_funcionarios = clima.join(t_funcionarios)
-
-
-
-
-    tabela_geral = pd.merge(t_clientes, t_funcionarios, left_on="CLIENTE_DATA", right_on="FUNCIONARIO_DATA", how='right')
-
-
-    tabela_geral = tabela_geral.rename(columns={'CLIMA_CHUVA_MM': 'Chuva_mm'})
-
-
-
-    tabela_geral = tabela_geral[['FUNCIONARIO_DATA','Clientes','Funcionarios','Chuva_mm']]
-
-
-
-
-    tabela_geral = tabela_geral.rename(columns={'FUNCIONARIO_DATA': 'Data'})
-
-
-
-
-    enviar = tabela_geral
-
-
+    # comando sql para apagar a tabela caso ela ja exista
     cursor.execute('''
         DROP TABLE IF EXISTS TABELA_GERAL;
     ''')
-
+    # comando sql para criar a tabela e suas colunas 
     cursor.execute('''
         CREATE TABLE TABELA_GERAL(
             TABELA_ID INTEGER PRIMARY KEY AUTO_INCREMENT,
@@ -84,7 +50,7 @@ def limpeza1():
     );
     ''')
 
-
+    # inserindo na nuvem
     sql=('INSERT INTO TABELA_GERAL (TABELA_DATA,TABELA_CLIENTES,TABELA_FUNCIONARIOS,TABELA_CHUVA) VALUES (%s,%s,%s,%s) ')
     for index, row in enviar.iterrows():
         val=(row.Data,row.Clientes,row.Funcionarios,row.Chuva_mm)    
