@@ -91,7 +91,6 @@ Arquivo executavel com a finalidade de importar da nuvem, limpar e exportar os d
 - Utilização do mysql.connector para exportar os dados limpos.
 - Comandos em SQL para criação de uma nova tabela na nuvem (TABELA_GERAL).  
 
-
 ### Limpeza da base de previsão:
 Arquivo executável de limpeza do WebScraping e atualização da tabela na nuvem.
 
