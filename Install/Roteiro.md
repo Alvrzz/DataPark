@@ -29,11 +29,21 @@ Para dados históricos consideramos a construção de um banco de dados ficticio
 - A partir daqui, toda a base foi tratada para recalcular a visitação de cada dia, considerando o fator chuva (mm). Nos dias com pluviometria próxima de zero, afetando menos, e conforme esse índice aumentou e se aproximou de 30, chegando a zerar a visitação do parque nesse dia.
 - Essa tabela conta ainda com o campo  Cliente_idade, para disponibilizar dados sobre a faixa etária dos visitantes, e também o campo Cliente_CPF, gerado aleatoriamente.
 
-### WebScraping
+## WebScraping
 #### Tabela previsão:
-- Previsão do tempo de 8 dias, incluindo data, dia da semana, temperatura máxima, temperatura mínima, milímetros de chuva e precipitação. 
+- O web scrapping foi construído com o objetivo de extrair informações de uma página específica de previsão do tempo. 
+Seu script faz com que pegue informações do clima de 8 dias, sendo temperatura mínima, temperatura máxima, chuva em Milímetros e precipitação. Essas informações são enviadas à um banco de dados para serem analisadas e retirar dados úteis para saber exatamente quantos funcionários o parque deve contratar nos próximos dias. 
 
-### Tratamento e Análise
+## Tratamento e Análise
+#### Limpeza do Banco de Dados:
+- Conexão as tabelas com mysql.connector
+- limpeza das tabelas contendo clientes, funcionários e clima, removendo colunas não complementares. Mesclagem das informações gerando uma nova tabela, criação de nova coluna com a contagem de clientes e outra para funcionários por data e renomeação das tabelas.   
+- Depois de criada a nova tabela foi enviada ao banco de dados.  
 
-### Dashboard
+#### Limpeza WebScraping:  
+- Conexão com a tabela gerada no WebScraping utilizando o mysql.connector.  
+- Removidas colunas não complementares, divisão da coluna CHUVA_PRECI em duas novas colunas com dados contendo a quantia de chuva e chance de chuva, correção nos tipos de dados e alteração nos nomes destas colunas para melhor visualização.
+- Envio da nova tabela tratada para o banco de dados.
 
+#### Dashboards
+- Os dashboards conseguiram evidenciar com êxito a grande diferença de clientes que ocorreu em dias de chuva e dias sem chuva, também foi apresentado como anos que choveram menos tiveram mais clientes, foi perceptivel que mesmo em dias sem nenhum cliente foram alocados a mesma quantia de funcionários.
