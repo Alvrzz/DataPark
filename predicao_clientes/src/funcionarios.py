@@ -1,4 +1,5 @@
 from predicao_clientes.src.database_connect import chuva_pred
+from predicao_clientes.src.clientes import clientes_pred
 
 funcionarios_normal = 90
 loop = 0
@@ -26,6 +27,10 @@ while loop < len(chuva_pred):
         funcionarios_final = funcionarios_normal * 0.9
     elif chuva_a <= 7:
         funcionarios_final = funcionarios_normal
+    if clientes_pred[loop] > 600:
+        funcionarios_final = 90
+    if clientes_pred[loop] == 1200:
+        funcionarios_final = 120
     loop += 1
 
     funcionarios_pred.append(int(funcionarios_final))

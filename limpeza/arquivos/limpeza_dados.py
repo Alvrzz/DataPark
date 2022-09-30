@@ -3,7 +3,12 @@ import pandas as pd
 
 def limpeza1():
     #conectar ao servidor
-    con = mysql.connector.connect(host='3.89.36.150',database='e2122g4',user='e2122g4',password='e2122g4@16@ago')#conexão
+    con = mysql.connector.connect(
+        host = '170.245.15.166',
+        user = 'grupo4foda',
+        password = 'entra2122g4',
+        database = 'entra2122g4'
+        )#conexão
 
     cursor = con.cursor() #cursor
     #conectar ao cursor

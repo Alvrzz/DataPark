@@ -17,7 +17,6 @@ def GeraDatabase():
     atracao = atracao * 5480
 
 
-
     # Variáveis para a contagem e passos dos while
     contagem_clientes = 0
     contagem_clima = 0
@@ -31,10 +30,10 @@ def GeraDatabase():
 
     # Conexão com o database
     cnx = mysql.connector.connect(
-        host = '3.89.36.150',
-        user = 'e2122g4',
-        password = 'e2122g4@16@ago',
-        database = 'e2122g4'
+        host = '170.245.15.166',
+        user = 'grupo4foda',
+        password = 'entra2122g4',
+        database = 'entra2122g4'
         )
 
     cur = cnx.cursor()
