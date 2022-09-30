@@ -40,5 +40,3 @@ def PredicaoClientes():
         print('Adição de 1 registro da PREDIÇÃO completa.')
 
     print('Envio dos dados completo.')
-
-PredicaoClientes()
