@@ -28,9 +28,8 @@ while loop < len(chuva_pred):
     elif chuva_a <= 7:
         funcionarios_final = funcionarios_normal
     if clientes_pred[loop] > 600:
-        funcionarios_final = 90
-    if clientes_pred[loop] == 1200:
-        funcionarios_final = 120
+        x = clientes_pred[loop] - 600
+        funcionarios_final = 30/600 * x + 90
     loop += 1
 
     funcionarios_pred.append(int(funcionarios_final))

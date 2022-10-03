@@ -3,7 +3,6 @@ import datetime
 import timedelta
 from lxml import html
 from bs4 import BeautifulSoup as bs
-from configuracao.local_settings import hostip, usuario, senha, databasename
 import requests
 
 def previsao():
