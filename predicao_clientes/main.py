@@ -1,14 +1,15 @@
 from predicao_clientes.src.clientes import clientes_pred
 from predicao_clientes.src.database_connect import data_pred, chuva_pred
 from predicao_clientes.src.funcionarios import funcionarios_pred
+from configuracoes.local_settings import hostip, usuario, senha, databasename
 import mysql.connector
 
 def PredicaoClientes():
     cnx = mysql.connector.connect(
-        host = '170.245.15.166',
-        user = 'grupo4foda',
-        password = 'entra2122g4',
-        database = 'entra2122g4'
+        host = hostip,
+        user = usuario,
+        password = senha,
+        database = databasename
         )
 
     cur = cnx.cursor()

@@ -3,15 +3,16 @@ import datetime
 import timedelta
 from lxml import html
 from bs4 import BeautifulSoup as bs
+from configuracoes.local_settings import hostip, usuario, senha, databasename
 import requests
 
 def previsao():
     # Connecta ao banco de dados.
     conn = mysql.connector.connect(
-        host = '170.245.15.166',
-        user = 'grupo4foda',
-        password = 'entra2122g4',
-        database = 'entra2122g4'
+        host = hostip,
+        user = usuario,
+        password = senha,
+        database = databasename
         )
     c = conn.cursor()
 

@@ -8,6 +8,7 @@ from database.chuva_clientes.data_total import data_mult
 from database.atracoes.atracoes import atracoes, setor
 from database.funcionarios.data_mult import data_mult_funcionarios
 from database.funcionarios.funcionarios import funcionarios
+from configuracoes.local_settings import hostip, usuario, senha, databasename
 import mysql.connector
 import pandas as pd
 
@@ -30,11 +31,12 @@ def GeraDatabase():
 
     # Conexão com o database
     cnx = mysql.connector.connect(
-        host = '170.245.15.166',
-        user = 'grupo4foda',
-        password = 'entra2122g4',
-        database = 'entra2122g4'
-        )
+        host = hostip,
+        user = usuario,
+        password = senha,
+        database = databasename
+    )
+        
 
     cur = cnx.cursor()
 

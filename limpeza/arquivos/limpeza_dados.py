@@ -1,13 +1,14 @@
 import mysql.connector
 import pandas as pd
+from configuracoes.local_settings import hostip, usuario, senha, databasename
 
 def limpeza1():
     #conectar ao servidor
     con = mysql.connector.connect(
-        host = '170.245.15.166',
-        user = 'grupo4foda',
-        password = 'entra2122g4',
-        database = 'entra2122g4'
+        host = hostip,
+        user = usuario,
+        password = senha,
+        database = databasename
         )#conexão
 
     cursor = con.cursor() #cursor
