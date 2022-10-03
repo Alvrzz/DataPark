@@ -1,3 +1,7 @@
+'''
+Este aplicativo roda o código de gerar previsão do clima e de clientes todo dia as 6 da manhã.
+'''
+
 from apscheduler.schedulers.background import BlockingScheduler
 
 def rodarCoisas():
