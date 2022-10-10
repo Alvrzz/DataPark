@@ -1,11 +1,12 @@
 import mysql.connector
+from configuracoes.local_settings import hostip, usuario, senha, databasename
 
 
 cnx = mysql.connector.connect(
-    host = '170.245.15.166',
-    user = 'grupo4foda',
-    password = 'entra2122g4',
-    database = 'entra2122g4'
+    host = hostip,
+    user = usuario,
+    password = senha,
+    database = databasename
     )
 
 cur = cnx.cursor()

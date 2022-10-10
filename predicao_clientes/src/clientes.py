@@ -18,7 +18,7 @@ while loop < len(chuva_pred):
         feriado = 1
     for i in feriado_check['2022-01-01' : '2022-12-31']:
         feriado_list.append(i.isoformat())
-    if data_pred in feriado_list:
+    if dia_hoje in feriado_list:
         feriado = 1
     if feriado == 1:
         consta_feriado = 'Sim'
@@ -44,7 +44,6 @@ while loop < len(chuva_pred):
         clientes_final = clientes_normal * 0.9
     elif chuva_a <= 7:
         clientes_final = clientes_normal
-
     if feriado == 1:
         clientes_final = clientes_final * 2
     

@@ -9,4 +9,4 @@
     * databasename: Nome da database para fazer a conexão;
     * **(Todas as variáveis devem ser formatadas como *string*)**
 4. Concluindo estes passos é apenas rodar o arquivo "main.py" que se encontra na pasta raiz da aplicação;
-    * Caso for de seu desejo, após rodar o "main.py" você pode rodar o "main_auto.py" que todo o dia as 6 da manhã ele fará a previsão de funcionários e clientes para o parque.
+    * Caso for de seu desejo, após rodar o "main.py" você pode agendar o "main_auto.py" para rodar todo dia, da forma que você preferir. 
