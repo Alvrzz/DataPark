@@ -40,4 +40,4 @@ def PredicaoClientes():
         cnx.commit()
         print('Adição de 1 registro da PREDIÇÃO completa.')
 
-    print('Envio dos dados completo.')
+    print('Envio completo.')
